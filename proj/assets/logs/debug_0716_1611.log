@@ -1,0 +1,2552 @@
+22:37:20.680 - INFO - Video Capture: width=640, height=480, fps=30.0
+22:44:28.021 - INFO - Video Capture: width=640, height=480, fps=30.0
+22:44:29.019 - DEBUG - Video Setup OK
+22:44:29.020 - INFO - Manipulator: link_lengths:(65, 130, 130); actuator_offsets:(71, -21.12, 0)
+22:44:29.028 - DEBUG - Joint_to_Actuator_Matrix:[array([805.        ,  -4.16666667]), array([795.        ,  -4.16666667]), array([745.        ,   4.16666667])]
+22:44:29.029 - INFO - Mission(MissionManager) Ready
+22:44:29.029 - INFO - Mission(视频帧捕获) Ready
+22:44:29.029 - INFO - Mission(待机) Ready
+22:44:29.029 - INFO - Mission(视频帧标记+显示) Ready
+22:44:29.322 - DEBUG - (Joint_Angle_Ctrl)joint:[ 102.47415719 -153.32186226    0.        ],servo:[(1, np.uint16(378)), (2, np.uint16(583)), (3, np.uint16(745))]
+22:44:29.323 - DEBUG - (myManipulator) 开始移动
+22:44:29.824 - DEBUG - (myManipulator) 到达目标点:(190, 0, 5)
+22:44:29.825 - DEBUG - Mission(待机) 准备出发...
+22:46:05.406 - DEBUG - (myManipulator) 执行动作组:scan_qrcode
+22:46:05.710 - DEBUG - (myManipulator) 动作组执行完毕
+22:46:05.758 - DEBUG - (myManipulator) yaw轴开始加速,目标角:-18.0;执行时间:0.075
+22:46:05.759 - DEBUG - (Joint_Angle_Ctrl)joint:[ 102.47415719 -153.32186226  -18.        ],servo:[(3, np.uint16(670))]
+22:46:05.862 - DEBUG - (myManipulator) yaw轴加速完成
+22:46:05.910 - DEBUG - (myManipulator) yaw轴开始匀速运动,目标角:-72.0;执行时间:0.15
+22:46:05.911 - DEBUG - (Joint_Angle_Ctrl)joint:[ 102.47415719 -153.32186226  -72.        ],servo:[(3, np.uint16(445))]
+22:46:06.062 - DEBUG - (myManipulator) yaw轴匀速运动完成
+22:46:06.110 - DEBUG - (myManipulator) yaw轴开始减速到,目标角:-90.0;执行时间:0.075
+22:46:06.111 - DEBUG - (Joint_Angle_Ctrl)joint:[ 102.47415719 -153.32186226  -90.        ],servo:[(3, np.uint16(370))]
+22:46:06.194 - DEBUG - (myManipulator) yaw轴减速完成
+22:46:06.230 - INFO - Mission(待机) End, Duration(s):97.2005934715271
+22:46:06.239 - INFO - Mission(视频帧保存) Ready
+22:46:06.263 - INFO - Mission(启停区出发) Ready
+22:46:06.300 - DEBUG - Mission(启停区出发)开始横走
+22:46:07.930 - DEBUG - Mission(启停区出发) 开始制动
+22:46:08.062 - DEBUG - Mission(启停区出发)制动完成,开始直走
+22:46:09.262 - DEBUG - Mission(启停区出发) 开始直走/制动
+22:46:09.394 - INFO - Mission(启停区出发) End, Duration(s):3.131359815597534
+22:46:09.394 - DEBUG - Mission(启停区出发) 制动完成
+22:46:09.430 - INFO - Mission(扫码) Ready
+22:46:09.462 - DEBUG - Mission(扫码) 开始扫码
+22:51:35.843 - INFO - Mission(扫码) 检测到可识别码
+22:51:35.844 - INFO - Mission(扫码) code_data: 123，213
+22:51:35.875 - INFO - Mission(扫码) 检测到可识别码
+22:51:35.875 - INFO - Mission(扫码) code_data: 123，213
+22:51:35.908 - INFO - Mission(扫码) 检测到可识别码
+22:51:35.908 - INFO - Mission(扫码) code_data: 123，213
+22:51:35.939 - INFO - Mission(扫码) 检测到可识别码
+22:51:35.939 - INFO - Mission(扫码) code_data: 123，213
+22:51:35.976 - INFO - Mission(扫码) 检测到可识别码
+22:51:35.977 - INFO - Mission(扫码) code_data: 123，213
+22:51:36.008 - INFO - Mission(扫码) 检测到可识别码
+22:51:36.008 - INFO - Mission(扫码) code_data: 123，213
+22:51:36.039 - INFO - Mission(扫码) 检测到可识别码
+22:51:36.039 - INFO - Mission(扫码) code_data: 123，213
+22:51:36.076 - INFO - Mission(扫码) 检测到可识别码
+22:51:36.077 - INFO - Mission(扫码) code_data: 123，213
+22:51:36.106 - INFO - Mission(扫码) 检测到可识别码
+22:51:36.106 - INFO - Mission(扫码) code_data: 123，213
+22:51:36.177 - INFO - Mission(扫码) 检测到可识别码
+22:51:36.177 - INFO - Mission(扫码) code_data: 123，213
+22:51:36.207 - INFO - Mission(扫码) 检测到可识别码
+22:51:36.207 - INFO - Mission(扫码) code_data: 123，213
+22:51:36.239 - INFO - Mission(扫码) 检测到可识别码
+22:51:36.239 - INFO - Mission(扫码) code_data: 123，213
+22:51:36.276 - INFO - Mission(扫码) 检测到可识别码
+22:51:36.277 - INFO - Mission(扫码) code_data: 123，213
+22:51:36.310 - INFO - Mission(扫码) 检测到可识别码
+22:51:36.311 - INFO - Mission(扫码) code_data: 123，213
+22:51:36.343 - INFO - Mission(扫码) 检测到可识别码
+22:51:36.343 - INFO - Mission(扫码) code_data: 123，213
+22:51:36.376 - INFO - Mission(扫码) 检测到可识别码
+22:51:36.376 - INFO - Mission(扫码) code_data: 123，213
+22:51:36.407 - INFO - Mission(扫码) 检测到可识别码
+22:51:36.407 - INFO - Mission(扫码) code_data: 123，213
+22:51:36.439 - INFO - Mission(扫码) 检测到可识别码
+22:51:36.439 - INFO - Mission(扫码) code_data: 123，213
+22:51:36.475 - INFO - Mission(扫码) 检测到可识别码
+22:51:36.476 - INFO - Mission(扫码) code_data: 123，213
+22:51:36.506 - INFO - Mission(扫码) 检测到可识别码
+22:51:36.507 - INFO - Mission(扫码) code_data: 123，213
+22:51:36.539 - INFO - Mission(扫码) 检测到可识别码
+22:51:36.539 - INFO - Mission(扫码) code_data: 123，213
+22:51:36.577 - INFO - Mission(扫码) 检测到可识别码
+22:51:36.577 - INFO - Mission(扫码) code_data: 123，213
+22:51:36.607 - INFO - Mission(扫码) 检测到可识别码
+22:51:36.607 - INFO - Mission(扫码) code_data: 123，213
+22:51:36.639 - INFO - Mission(扫码) 检测到可识别码
+22:51:36.639 - INFO - Mission(扫码) code_data: 123，213
+22:51:36.707 - INFO - Mission(扫码) 检测到可识别码
+22:51:36.707 - INFO - Mission(扫码) code_data: 123，213
+22:51:36.739 - INFO - Mission(扫码) 检测到可识别码
+22:51:36.739 - INFO - Mission(扫码) code_data: 123，213
+22:51:36.776 - INFO - Mission(扫码) 检测到可识别码
+22:51:36.776 - INFO - Mission(扫码) code_data: 123，213
+22:51:36.806 - INFO - Mission(扫码) 检测到可识别码
+22:51:36.807 - INFO - Mission(扫码) code_data: 123，213
+22:51:36.839 - INFO - Mission(扫码) 检测到可识别码
+22:51:36.839 - INFO - Mission(扫码) code_data: 123，213
+22:51:36.875 - INFO - Mission(扫码) 检测到可识别码
+22:51:36.875 - INFO - Mission(扫码) code_data: 123，213
+22:51:36.906 - INFO - Mission(扫码) 检测到可识别码
+22:51:36.907 - INFO - Mission(扫码) code_data: 123，213
+22:51:36.940 - INFO - Mission(扫码) 检测到可识别码
+22:51:36.940 - INFO - Mission(扫码) code_data: 123，213
+22:51:36.976 - INFO - Mission(扫码) 检测到可识别码
+22:51:36.977 - INFO - Mission(扫码) code_data: 123，213
+22:51:37.007 - INFO - Mission(扫码) 检测到可识别码
+22:51:37.007 - INFO - Mission(扫码) code_data: 123，213
+22:51:37.039 - INFO - Mission(扫码) 检测到可识别码
+22:51:37.039 - INFO - Mission(扫码) code_data: 123，213
+22:51:37.076 - INFO - Mission(扫码) 检测到可识别码
+22:51:37.077 - INFO - Mission(扫码) code_data: 123，213
+22:51:37.107 - INFO - Mission(扫码) 检测到可识别码
+22:51:37.107 - INFO - Mission(扫码) code_data: 123，213
+22:51:37.139 - INFO - Mission(扫码) 检测到可识别码
+22:51:37.140 - INFO - Mission(扫码) code_data: 123，213
+22:51:37.176 - INFO - Mission(扫码) 检测到可识别码
+22:51:37.177 - INFO - Mission(扫码) code_data: 123，213
+22:51:37.206 - INFO - Mission(扫码) 检测到可识别码
+22:51:37.207 - INFO - Mission(扫码) code_data: 123，213
+22:51:37.238 - INFO - Mission(扫码) 检测到可识别码
+22:51:37.239 - INFO - Mission(扫码) code_data: 123，213
+22:51:37.276 - INFO - Mission(扫码) 检测到可识别码
+22:51:37.277 - INFO - Mission(扫码) code_data: 123，213
+22:51:37.306 - INFO - Mission(扫码) 检测到可识别码
+22:51:37.306 - INFO - Mission(扫码) code_data: 123，213
+22:52:43.138 - INFO - Mission(扫码) 检测到可识别码
+22:52:43.138 - INFO - Mission(扫码) code_data: 123，213
+22:52:43.173 - INFO - Mission(扫码) 检测到可识别码
+22:52:43.173 - INFO - Mission(扫码) code_data: 123，213
+22:52:43.204 - INFO - Mission(扫码) 检测到可识别码
+22:52:43.205 - INFO - Mission(扫码) code_data: 123，213
+22:52:43.302 - INFO - Mission(扫码) 检测到可识别码
+22:52:43.303 - INFO - Mission(扫码) code_data: 123，213
+22:52:43.369 - INFO - Mission(扫码) 检测到可识别码
+22:52:43.370 - INFO - Mission(扫码) code_data: 123，213
+22:52:43.402 - INFO - Mission(扫码) 检测到可识别码
+22:52:43.402 - INFO - Mission(扫码) code_data: 123，213
+22:52:43.470 - INFO - Mission(扫码) 检测到可识别码
+22:52:43.470 - INFO - Mission(扫码) code_data: 123，213
+22:52:43.501 - INFO - Mission(扫码) 检测到可识别码
+22:52:43.502 - INFO - Mission(扫码) code_data: 123，213
+22:52:43.538 - INFO - Mission(扫码) 检测到可识别码
+22:52:43.538 - INFO - Mission(扫码) code_data: 123，213
+22:52:43.574 - INFO - Mission(扫码) 检测到可识别码
+22:52:43.575 - INFO - Mission(扫码) code_data: 123，213
+22:52:43.604 - INFO - Mission(扫码) 检测到可识别码
+22:52:43.604 - INFO - Mission(扫码) code_data: 123，213
+22:52:43.634 - INFO - Mission(扫码) 检测到可识别码
+22:52:43.634 - INFO - Mission(扫码) code_data: 123，213
+22:52:43.671 - INFO - Mission(扫码) 检测到可识别码
+22:52:43.672 - INFO - Mission(扫码) code_data: 123，213
+22:52:43.703 - INFO - Mission(扫码) 检测到可识别码
+22:52:43.704 - INFO - Mission(扫码) code_data: 123，213
+22:52:43.735 - INFO - Mission(扫码) 检测到可识别码
+22:52:43.735 - INFO - Mission(扫码) code_data: 123，213
+22:52:43.771 - INFO - Mission(扫码) 检测到可识别码
+22:52:43.771 - INFO - Mission(扫码) code_data: 123，213
+22:52:43.802 - INFO - Mission(扫码) 检测到可识别码
+22:52:43.802 - INFO - Mission(扫码) code_data: 123，213
+22:52:43.835 - INFO - Mission(扫码) 检测到可识别码
+22:52:43.835 - INFO - Mission(扫码) code_data: 123，213
+22:52:43.871 - INFO - Mission(扫码) 检测到可识别码
+22:52:43.871 - INFO - Mission(扫码) code_data: 123，213
+22:52:43.902 - INFO - Mission(扫码) 检测到可识别码
+22:52:43.903 - INFO - Mission(扫码) code_data: 123，213
+22:52:43.934 - INFO - Mission(扫码) 检测到可识别码
+22:52:43.934 - INFO - Mission(扫码) code_data: 123，213
+22:52:43.971 - INFO - Mission(扫码) 检测到可识别码
+22:52:43.972 - INFO - Mission(扫码) code_data: 123，213
+22:52:44.002 - INFO - Mission(扫码) 检测到可识别码
+22:52:44.003 - INFO - Mission(扫码) code_data: 123，213
+22:52:44.034 - INFO - Mission(扫码) 检测到可识别码
+22:52:44.034 - INFO - Mission(扫码) code_data: 123，213
+22:52:44.070 - INFO - Mission(扫码) 检测到可识别码
+22:52:44.071 - INFO - Mission(扫码) code_data: 123，213
+22:52:44.102 - INFO - Mission(扫码) 检测到可识别码
+22:52:44.102 - INFO - Mission(扫码) code_data: 123，213
+22:52:44.134 - INFO - Mission(扫码) 检测到可识别码
+22:52:44.134 - INFO - Mission(扫码) code_data: 123，213
+22:52:44.171 - INFO - Mission(扫码) 检测到可识别码
+22:52:44.172 - INFO - Mission(扫码) code_data: 123，213
+22:52:44.202 - INFO - Mission(扫码) 检测到可识别码
+22:52:44.202 - INFO - Mission(扫码) code_data: 123，213
+22:52:44.234 - INFO - Mission(扫码) 检测到可识别码
+22:52:44.234 - INFO - Mission(扫码) code_data: 123，213
+22:52:44.271 - INFO - Mission(扫码) 检测到可识别码
+22:52:44.271 - INFO - Mission(扫码) code_data: 123，213
+22:52:44.302 - INFO - Mission(扫码) 检测到可识别码
+22:52:44.302 - INFO - Mission(扫码) code_data: 123，213
+22:52:44.334 - INFO - Mission(扫码) 检测到可识别码
+22:52:44.335 - INFO - Mission(扫码) code_data: 123，213
+22:52:44.370 - INFO - Mission(扫码) 检测到可识别码
+22:52:44.371 - INFO - Mission(扫码) code_data: 123，213
+22:52:44.402 - INFO - Mission(扫码) 检测到可识别码
+22:52:44.402 - INFO - Mission(扫码) code_data: 123，213
+22:52:44.434 - INFO - Mission(扫码) 检测到可识别码
+22:52:44.435 - INFO - Mission(扫码) code_data: 123，213
+22:52:44.470 - INFO - Mission(扫码) 检测到可识别码
+22:52:44.471 - INFO - Mission(扫码) code_data: 123，213
+22:52:44.501 - INFO - Mission(扫码) 检测到可识别码
+22:52:44.501 - INFO - Mission(扫码) code_data: 123，213
+22:52:44.534 - INFO - Mission(扫码) 检测到可识别码
+22:52:44.534 - INFO - Mission(扫码) code_data: 123，213
+22:52:44.572 - INFO - Mission(扫码) 检测到可识别码
+22:52:44.572 - INFO - Mission(扫码) code_data: 123，213
+22:52:44.608 - INFO - Mission(扫码) 检测到可识别码
+22:52:44.608 - INFO - Mission(扫码) code_data: 123，213
+22:52:44.637 - INFO - Mission(扫码) 检测到可识别码
+22:52:44.638 - INFO - Mission(扫码) code_data: 123，213
+22:52:44.669 - INFO - Mission(扫码) 检测到可识别码
+22:52:44.670 - INFO - Mission(扫码) code_data: 123，213
+22:52:44.701 - INFO - Mission(扫码) 检测到可识别码
+22:52:44.701 - INFO - Mission(扫码) code_data: 123，213
+22:52:44.733 - INFO - Mission(扫码) 检测到可识别码
+22:52:44.733 - INFO - Mission(扫码) code_data: 123，213
+22:52:44.769 - INFO - Mission(扫码) 检测到可识别码
+22:52:44.769 - INFO - Mission(扫码) code_data: 123，213
+22:52:44.802 - INFO - Mission(扫码) 检测到可识别码
+22:52:44.802 - INFO - Mission(扫码) code_data: 123，213
+22:52:44.833 - INFO - Mission(扫码) 检测到可识别码
+22:52:44.834 - INFO - Mission(扫码) code_data: 123，213
+22:52:44.870 - INFO - Mission(扫码) 检测到可识别码
+22:52:44.871 - INFO - Mission(扫码) code_data: 123，213
+22:52:44.902 - INFO - Mission(扫码) 检测到可识别码
+22:52:44.902 - INFO - Mission(扫码) code_data: 123，213
+22:52:44.933 - INFO - Mission(扫码) 检测到可识别码
+22:52:44.933 - INFO - Mission(扫码) code_data: 123，213
+22:52:44.970 - INFO - Mission(扫码) 检测到可识别码
+22:52:44.970 - INFO - Mission(扫码) code_data: 123，213
+22:52:45.002 - INFO - Mission(扫码) 检测到可识别码
+22:52:45.002 - INFO - Mission(扫码) code_data: 123，213
+22:52:45.033 - INFO - Mission(扫码) 检测到可识别码
+22:52:45.033 - INFO - Mission(扫码) code_data: 123，213
+22:52:45.070 - INFO - Mission(扫码) 检测到可识别码
+22:52:45.070 - INFO - Mission(扫码) code_data: 123，213
+22:52:45.101 - INFO - Mission(扫码) 检测到可识别码
+22:52:45.101 - INFO - Mission(扫码) code_data: 123，213
+22:52:45.134 - INFO - Mission(扫码) 检测到可识别码
+22:52:45.134 - INFO - Mission(扫码) code_data: 123，213
+22:52:45.170 - INFO - Mission(扫码) 检测到可识别码
+22:52:45.170 - INFO - Mission(扫码) code_data: 123，213
+22:52:45.202 - INFO - Mission(扫码) 检测到可识别码
+22:52:45.202 - INFO - Mission(扫码) code_data: 123，213
+22:52:45.234 - INFO - Mission(扫码) 检测到可识别码
+22:52:45.234 - INFO - Mission(扫码) code_data: 123，213
+22:52:45.270 - INFO - Mission(扫码) 检测到可识别码
+22:52:45.271 - INFO - Mission(扫码) code_data: 123，213
+22:52:45.301 - INFO - Mission(扫码) 检测到可识别码
+22:52:45.302 - INFO - Mission(扫码) code_data: 123，213
+22:52:45.333 - INFO - Mission(扫码) 检测到可识别码
+22:52:45.334 - INFO - Mission(扫码) code_data: 123，213
+22:52:45.371 - INFO - Mission(扫码) 检测到可识别码
+22:52:45.372 - INFO - Mission(扫码) code_data: 123，213
+22:52:45.402 - INFO - Mission(扫码) 检测到可识别码
+22:52:45.402 - INFO - Mission(扫码) code_data: 123，213
+22:52:45.433 - INFO - Mission(扫码) 检测到可识别码
+22:52:45.434 - INFO - Mission(扫码) code_data: 123，213
+22:52:45.470 - INFO - Mission(扫码) 检测到可识别码
+22:52:45.471 - INFO - Mission(扫码) code_data: 123，213
+22:52:45.501 - INFO - Mission(扫码) 检测到可识别码
+22:52:45.502 - INFO - Mission(扫码) code_data: 123，213
+22:52:45.534 - INFO - Mission(扫码) 检测到可识别码
+22:52:45.534 - INFO - Mission(扫码) code_data: 123，213
+22:52:45.571 - INFO - Mission(扫码) 检测到可识别码
+22:52:45.571 - INFO - Mission(扫码) code_data: 123，213
+22:52:45.601 - INFO - Mission(扫码) 检测到可识别码
+22:52:45.602 - INFO - Mission(扫码) code_data: 123，213
+22:52:45.637 - INFO - Mission(扫码) 检测到可识别码
+22:52:45.637 - INFO - Mission(扫码) code_data: 123，213
+22:52:45.669 - INFO - Mission(扫码) 检测到可识别码
+22:52:45.669 - INFO - Mission(扫码) code_data: 123，213
+22:52:45.702 - INFO - Mission(扫码) 检测到可识别码
+22:52:45.702 - INFO - Mission(扫码) code_data: 123，213
+22:52:45.733 - INFO - Mission(扫码) 检测到可识别码
+22:52:45.733 - INFO - Mission(扫码) code_data: 123，213
+22:52:45.770 - INFO - Mission(扫码) 检测到可识别码
+22:52:45.771 - INFO - Mission(扫码) code_data: 123，213
+22:52:45.801 - INFO - Mission(扫码) 检测到可识别码
+22:52:45.802 - INFO - Mission(扫码) code_data: 123，213
+22:52:45.835 - INFO - Mission(扫码) 检测到可识别码
+22:52:45.835 - INFO - Mission(扫码) code_data: 123，213
+22:52:45.870 - INFO - Mission(扫码) 检测到可识别码
+22:52:45.870 - INFO - Mission(扫码) code_data: 123，213
+22:52:45.902 - INFO - Mission(扫码) 检测到可识别码
+22:52:45.903 - INFO - Mission(扫码) code_data: 123，213
+22:52:45.934 - INFO - Mission(扫码) 检测到可识别码
+22:52:45.934 - INFO - Mission(扫码) code_data: 123，213
+22:52:46.002 - INFO - Mission(扫码) 检测到可识别码
+22:52:46.002 - INFO - Mission(扫码) code_data: 123，213
+22:52:46.033 - INFO - Mission(扫码) 检测到可识别码
+22:52:46.034 - INFO - Mission(扫码) code_data: 123，213
+22:52:46.070 - INFO - Mission(扫码) 检测到可识别码
+22:52:46.071 - INFO - Mission(扫码) code_data: 123，213
+22:52:46.101 - INFO - Mission(扫码) 检测到可识别码
+22:52:46.101 - INFO - Mission(扫码) code_data: 123，213
+22:52:46.134 - INFO - Mission(扫码) 检测到可识别码
+22:52:46.134 - INFO - Mission(扫码) code_data: 123，213
+22:52:46.170 - INFO - Mission(扫码) 检测到可识别码
+22:52:46.170 - INFO - Mission(扫码) code_data: 123，213
+22:52:46.202 - INFO - Mission(扫码) 检测到可识别码
+22:52:46.203 - INFO - Mission(扫码) code_data: 123，213
+22:52:46.234 - INFO - Mission(扫码) 检测到可识别码
+22:52:46.234 - INFO - Mission(扫码) code_data: 123，213
+22:52:46.270 - INFO - Mission(扫码) 检测到可识别码
+22:52:46.270 - INFO - Mission(扫码) code_data: 123，213
+22:52:46.302 - INFO - Mission(扫码) 检测到可识别码
+22:52:46.302 - INFO - Mission(扫码) code_data: 123，213
+22:52:46.334 - INFO - Mission(扫码) 检测到可识别码
+22:52:46.334 - INFO - Mission(扫码) code_data: 123，213
+22:52:46.370 - INFO - Mission(扫码) 检测到可识别码
+22:52:46.371 - INFO - Mission(扫码) code_data: 123，213
+22:52:46.402 - INFO - Mission(扫码) 检测到可识别码
+22:52:46.402 - INFO - Mission(扫码) code_data: 123，213
+22:52:46.434 - INFO - Mission(扫码) 检测到可识别码
+22:52:46.434 - INFO - Mission(扫码) code_data: 123，213
+22:52:46.470 - INFO - Mission(扫码) 检测到可识别码
+22:52:46.470 - INFO - Mission(扫码) code_data: 123，213
+22:52:46.501 - INFO - Mission(扫码) 检测到可识别码
+22:52:46.502 - INFO - Mission(扫码) code_data: 123，213
+22:52:46.533 - INFO - Mission(扫码) 检测到可识别码
+22:52:46.534 - INFO - Mission(扫码) code_data: 123，213
+22:52:46.571 - INFO - Mission(扫码) 检测到可识别码
+22:52:46.571 - INFO - Mission(扫码) code_data: 123，213
+22:52:46.602 - INFO - Mission(扫码) 检测到可识别码
+22:52:46.602 - INFO - Mission(扫码) code_data: 123，213
+22:52:46.633 - INFO - Mission(扫码) 检测到可识别码
+22:52:46.634 - INFO - Mission(扫码) code_data: 123，213
+22:52:46.673 - INFO - Mission(扫码) 检测到可识别码
+22:52:46.673 - INFO - Mission(扫码) code_data: 123，213
+22:52:46.705 - INFO - Mission(扫码) 检测到可识别码
+22:52:46.705 - INFO - Mission(扫码) code_data: 123，213
+22:52:46.734 - INFO - Mission(扫码) 检测到可识别码
+22:52:46.734 - INFO - Mission(扫码) code_data: 123，213
+22:52:46.770 - INFO - Mission(扫码) 检测到可识别码
+22:52:46.770 - INFO - Mission(扫码) code_data: 123，213
+22:52:46.802 - INFO - Mission(扫码) 检测到可识别码
+22:52:46.802 - INFO - Mission(扫码) code_data: 123，213
+22:52:46.834 - INFO - Mission(扫码) 检测到可识别码
+22:52:46.835 - INFO - Mission(扫码) code_data: 123，213
+22:52:46.870 - INFO - Mission(扫码) 检测到可识别码
+22:52:46.870 - INFO - Mission(扫码) code_data: 123，213
+22:52:46.901 - INFO - Mission(扫码) 检测到可识别码
+22:52:46.901 - INFO - Mission(扫码) code_data: 123，213
+22:52:46.934 - INFO - Mission(扫码) 检测到可识别码
+22:52:46.934 - INFO - Mission(扫码) code_data: 123，213
+22:52:46.970 - INFO - Mission(扫码) 检测到可识别码
+22:52:46.970 - INFO - Mission(扫码) code_data: 123，213
+22:52:47.002 - INFO - Mission(扫码) 检测到可识别码
+22:52:47.002 - INFO - Mission(扫码) code_data: 123，213
+22:52:47.034 - INFO - Mission(扫码) 检测到可识别码
+22:52:47.034 - INFO - Mission(扫码) code_data: 123，213
+22:52:47.071 - INFO - Mission(扫码) 检测到可识别码
+22:52:47.071 - INFO - Mission(扫码) code_data: 123，213
+22:52:47.101 - INFO - Mission(扫码) 检测到可识别码
+22:52:47.101 - INFO - Mission(扫码) code_data: 123，213
+22:52:47.134 - INFO - Mission(扫码) 检测到可识别码
+22:52:47.134 - INFO - Mission(扫码) code_data: 123，213
+22:52:47.171 - INFO - Mission(扫码) 检测到可识别码
+22:52:47.171 - INFO - Mission(扫码) code_data: 123，213
+22:52:47.202 - INFO - Mission(扫码) 检测到可识别码
+22:52:47.202 - INFO - Mission(扫码) code_data: 123，213
+22:52:47.234 - INFO - Mission(扫码) 检测到可识别码
+22:52:47.234 - INFO - Mission(扫码) code_data: 123，213
+22:52:47.271 - INFO - Mission(扫码) 检测到可识别码
+22:52:47.271 - INFO - Mission(扫码) code_data: 123，213
+22:52:47.302 - INFO - Mission(扫码) 检测到可识别码
+22:52:47.302 - INFO - Mission(扫码) code_data: 123，213
+22:52:47.334 - INFO - Mission(扫码) 检测到可识别码
+22:52:47.334 - INFO - Mission(扫码) code_data: 123，213
+22:52:47.370 - INFO - Mission(扫码) 检测到可识别码
+22:52:47.371 - INFO - Mission(扫码) code_data: 123，213
+22:52:47.403 - INFO - Mission(扫码) 检测到可识别码
+22:52:47.403 - INFO - Mission(扫码) code_data: 123，213
+22:52:47.434 - INFO - Mission(扫码) 检测到可识别码
+22:52:47.434 - INFO - Mission(扫码) code_data: 123，213
+22:52:47.471 - INFO - Mission(扫码) 检测到可识别码
+22:52:47.471 - INFO - Mission(扫码) code_data: 123，213
+22:52:47.501 - INFO - Mission(扫码) 检测到可识别码
+22:52:47.501 - INFO - Mission(扫码) code_data: 123，213
+22:52:47.534 - INFO - Mission(扫码) 检测到可识别码
+22:52:47.534 - INFO - Mission(扫码) code_data: 123，213
+22:52:47.571 - INFO - Mission(扫码) 检测到可识别码
+22:52:47.571 - INFO - Mission(扫码) code_data: 123，213
+22:52:47.601 - INFO - Mission(扫码) 检测到可识别码
+22:52:47.601 - INFO - Mission(扫码) code_data: 123，213
+22:52:47.634 - INFO - Mission(扫码) 检测到可识别码
+22:52:47.634 - INFO - Mission(扫码) code_data: 123，213
+22:52:47.671 - INFO - Mission(扫码) 检测到可识别码
+22:52:47.671 - INFO - Mission(扫码) code_data: 123，213
+22:52:47.701 - INFO - Mission(扫码) 检测到可识别码
+22:52:47.701 - INFO - Mission(扫码) code_data: 123，213
+22:52:47.734 - INFO - Mission(扫码) 检测到可识别码
+22:52:47.734 - INFO - Mission(扫码) code_data: 123，213
+22:52:47.771 - INFO - Mission(扫码) 检测到可识别码
+22:52:47.771 - INFO - Mission(扫码) code_data: 123，213
+22:52:47.801 - INFO - Mission(扫码) 检测到可识别码
+22:52:47.802 - INFO - Mission(扫码) code_data: 123，213
+22:52:47.834 - INFO - Mission(扫码) 检测到可识别码
+22:52:47.834 - INFO - Mission(扫码) code_data: 123，213
+22:52:47.871 - INFO - Mission(扫码) 检测到可识别码
+22:52:47.871 - INFO - Mission(扫码) code_data: 123，213
+22:52:47.901 - INFO - Mission(扫码) 检测到可识别码
+22:52:47.902 - INFO - Mission(扫码) code_data: 123，213
+22:52:47.933 - INFO - Mission(扫码) 检测到可识别码
+22:52:47.934 - INFO - Mission(扫码) code_data: 123，213
+22:52:47.970 - INFO - Mission(扫码) 检测到可识别码
+22:52:47.971 - INFO - Mission(扫码) code_data: 123，213
+22:52:48.002 - INFO - Mission(扫码) 检测到可识别码
+22:52:48.002 - INFO - Mission(扫码) code_data: 123，213
+22:52:48.034 - INFO - Mission(扫码) 检测到可识别码
+22:52:48.034 - INFO - Mission(扫码) code_data: 123，213
+22:52:48.071 - INFO - Mission(扫码) 检测到可识别码
+22:52:48.072 - INFO - Mission(扫码) code_data: 123，213
+22:52:48.101 - INFO - Mission(扫码) 检测到可识别码
+22:52:48.101 - INFO - Mission(扫码) code_data: 123，213
+22:52:48.136 - INFO - Mission(扫码) 检测到可识别码
+22:52:48.137 - INFO - Mission(扫码) code_data: 123，213
+22:52:48.169 - INFO - Mission(扫码) 检测到可识别码
+22:52:48.169 - INFO - Mission(扫码) code_data: 123，213
+22:52:48.202 - INFO - Mission(扫码) 检测到可识别码
+22:52:48.203 - INFO - Mission(扫码) code_data: 123，213
+22:52:48.234 - INFO - Mission(扫码) 检测到可识别码
+22:52:48.234 - INFO - Mission(扫码) code_data: 123，213
+22:52:48.271 - INFO - Mission(扫码) 检测到可识别码
+22:52:48.272 - INFO - Mission(扫码) code_data: 123，213
+22:52:48.302 - INFO - Mission(扫码) 检测到可识别码
+22:52:48.303 - INFO - Mission(扫码) code_data: 123，213
+22:52:48.335 - INFO - Mission(扫码) 检测到可识别码
+22:52:48.335 - INFO - Mission(扫码) code_data: 123，213
+22:52:48.370 - INFO - Mission(扫码) 检测到可识别码
+22:52:48.371 - INFO - Mission(扫码) code_data: 123，213
+22:52:48.402 - INFO - Mission(扫码) 检测到可识别码
+22:52:48.402 - INFO - Mission(扫码) code_data: 123，213
+22:52:48.434 - INFO - Mission(扫码) 检测到可识别码
+22:52:48.434 - INFO - Mission(扫码) code_data: 123，213
+22:52:48.471 - INFO - Mission(扫码) 检测到可识别码
+22:52:48.471 - INFO - Mission(扫码) code_data: 123，213
+22:52:48.501 - INFO - Mission(扫码) 检测到可识别码
+22:52:48.502 - INFO - Mission(扫码) code_data: 123，213
+22:52:48.534 - INFO - Mission(扫码) 检测到可识别码
+22:52:48.534 - INFO - Mission(扫码) code_data: 123，213
+22:52:48.572 - INFO - Mission(扫码) 检测到可识别码
+22:52:48.572 - INFO - Mission(扫码) code_data: 123，213
+22:52:48.602 - INFO - Mission(扫码) 检测到可识别码
+22:52:48.602 - INFO - Mission(扫码) code_data: 123，213
+22:52:48.634 - INFO - Mission(扫码) 检测到可识别码
+22:52:48.634 - INFO - Mission(扫码) code_data: 123，213
+22:52:48.670 - INFO - Mission(扫码) 检测到可识别码
+22:52:48.671 - INFO - Mission(扫码) code_data: 123，213
+22:52:48.702 - INFO - Mission(扫码) 检测到可识别码
+22:52:48.702 - INFO - Mission(扫码) code_data: 123，213
+22:52:48.734 - INFO - Mission(扫码) 检测到可识别码
+22:52:48.734 - INFO - Mission(扫码) code_data: 123，213
+22:52:48.770 - INFO - Mission(扫码) 检测到可识别码
+22:52:48.771 - INFO - Mission(扫码) code_data: 123，213
+22:52:48.801 - INFO - Mission(扫码) 检测到可识别码
+22:52:48.802 - INFO - Mission(扫码) code_data: 123，213
+22:52:48.834 - INFO - Mission(扫码) 检测到可识别码
+22:52:48.834 - INFO - Mission(扫码) code_data: 123，213
+22:52:48.870 - INFO - Mission(扫码) 检测到可识别码
+22:52:48.871 - INFO - Mission(扫码) code_data: 123，213
+22:52:48.902 - INFO - Mission(扫码) 检测到可识别码
+22:52:48.902 - INFO - Mission(扫码) code_data: 123，213
+22:52:48.934 - INFO - Mission(扫码) 检测到可识别码
+22:52:48.934 - INFO - Mission(扫码) code_data: 123，213
+22:52:48.971 - INFO - Mission(扫码) 检测到可识别码
+22:52:48.971 - INFO - Mission(扫码) code_data: 123，213
+22:52:49.002 - INFO - Mission(扫码) 检测到可识别码
+22:52:49.002 - INFO - Mission(扫码) code_data: 123，213
+22:52:49.034 - INFO - Mission(扫码) 检测到可识别码
+22:52:49.034 - INFO - Mission(扫码) code_data: 123，213
+22:52:49.071 - INFO - Mission(扫码) 检测到可识别码
+22:52:49.071 - INFO - Mission(扫码) code_data: 123，213
+22:52:49.101 - INFO - Mission(扫码) 检测到可识别码
+22:52:49.102 - INFO - Mission(扫码) code_data: 123，213
+22:52:49.133 - INFO - Mission(扫码) 检测到可识别码
+22:52:49.134 - INFO - Mission(扫码) code_data: 123，213
+22:52:49.173 - INFO - Mission(扫码) 检测到可识别码
+22:52:49.174 - INFO - Mission(扫码) code_data: 123，213
+22:52:49.207 - INFO - Mission(扫码) 检测到可识别码
+22:52:49.208 - INFO - Mission(扫码) code_data: 123，213
+22:52:49.236 - INFO - Mission(扫码) 检测到可识别码
+22:52:49.236 - INFO - Mission(扫码) code_data: 123，213
+22:52:49.270 - INFO - Mission(扫码) 检测到可识别码
+22:52:49.271 - INFO - Mission(扫码) code_data: 123，213
+22:52:49.302 - INFO - Mission(扫码) 检测到可识别码
+22:52:49.302 - INFO - Mission(扫码) code_data: 123，213
+22:52:49.335 - INFO - Mission(扫码) 检测到可识别码
+22:52:49.335 - INFO - Mission(扫码) code_data: 123，213
+22:52:49.370 - INFO - Mission(扫码) 检测到可识别码
+22:52:49.371 - INFO - Mission(扫码) code_data: 123，213
+22:52:49.402 - INFO - Mission(扫码) 检测到可识别码
+22:52:49.402 - INFO - Mission(扫码) code_data: 123，213
+22:52:49.435 - INFO - Mission(扫码) 检测到可识别码
+22:52:49.436 - INFO - Mission(扫码) code_data: 123，213
+22:52:49.471 - INFO - Mission(扫码) 检测到可识别码
+22:52:49.472 - INFO - Mission(扫码) code_data: 123，213
+22:52:49.502 - INFO - Mission(扫码) 检测到可识别码
+22:52:49.502 - INFO - Mission(扫码) code_data: 123，213
+22:52:49.535 - INFO - Mission(扫码) 检测到可识别码
+22:52:49.535 - INFO - Mission(扫码) code_data: 123，213
+22:52:49.571 - INFO - Mission(扫码) 检测到可识别码
+22:52:49.572 - INFO - Mission(扫码) code_data: 123，213
+22:52:49.601 - INFO - Mission(扫码) 检测到可识别码
+22:52:49.602 - INFO - Mission(扫码) code_data: 123，213
+22:52:49.634 - INFO - Mission(扫码) 检测到可识别码
+22:52:49.634 - INFO - Mission(扫码) code_data: 123，213
+22:52:49.671 - INFO - Mission(扫码) 检测到可识别码
+22:52:49.672 - INFO - Mission(扫码) code_data: 123，213
+22:52:49.703 - INFO - Mission(扫码) 检测到可识别码
+22:52:49.703 - INFO - Mission(扫码) code_data: 123，213
+22:52:49.734 - INFO - Mission(扫码) 检测到可识别码
+22:52:49.734 - INFO - Mission(扫码) code_data: 123，213
+22:52:49.771 - INFO - Mission(扫码) 检测到可识别码
+22:52:49.771 - INFO - Mission(扫码) code_data: 123，213
+22:52:49.803 - INFO - Mission(扫码) 检测到可识别码
+22:52:49.803 - INFO - Mission(扫码) code_data: 123，213
+22:52:49.834 - INFO - Mission(扫码) 检测到可识别码
+22:52:49.834 - INFO - Mission(扫码) code_data: 123，213
+22:52:49.872 - INFO - Mission(扫码) 检测到可识别码
+22:52:49.872 - INFO - Mission(扫码) code_data: 123，213
+22:52:49.903 - INFO - Mission(扫码) 检测到可识别码
+22:52:49.903 - INFO - Mission(扫码) code_data: 123，213
+22:52:49.934 - INFO - Mission(扫码) 检测到可识别码
+22:52:49.934 - INFO - Mission(扫码) code_data: 123，213
+22:52:49.971 - INFO - Mission(扫码) 检测到可识别码
+22:52:49.972 - INFO - Mission(扫码) code_data: 123，213
+22:52:50.002 - INFO - Mission(扫码) 检测到可识别码
+22:52:50.002 - INFO - Mission(扫码) code_data: 123，213
+22:52:50.035 - INFO - Mission(扫码) 检测到可识别码
+22:52:50.035 - INFO - Mission(扫码) code_data: 123，213
+22:52:50.071 - INFO - Mission(扫码) 检测到可识别码
+22:52:50.072 - INFO - Mission(扫码) code_data: 123，213
+22:52:50.102 - INFO - Mission(扫码) 检测到可识别码
+22:52:50.102 - INFO - Mission(扫码) code_data: 123，213
+22:52:50.134 - INFO - Mission(扫码) 检测到可识别码
+22:52:50.134 - INFO - Mission(扫码) code_data: 123，213
+22:52:50.171 - INFO - Mission(扫码) 检测到可识别码
+22:52:50.171 - INFO - Mission(扫码) code_data: 123，213
+22:52:50.202 - INFO - Mission(扫码) 检测到可识别码
+22:52:50.202 - INFO - Mission(扫码) code_data: 123，213
+22:52:50.234 - INFO - Mission(扫码) 检测到可识别码
+22:52:50.235 - INFO - Mission(扫码) code_data: 123，213
+22:52:50.270 - INFO - Mission(扫码) 检测到可识别码
+22:52:50.271 - INFO - Mission(扫码) code_data: 123，213
+22:52:50.303 - INFO - Mission(扫码) 检测到可识别码
+22:52:50.303 - INFO - Mission(扫码) code_data: 123，213
+22:52:50.334 - INFO - Mission(扫码) 检测到可识别码
+22:52:50.335 - INFO - Mission(扫码) code_data: 123，213
+22:52:50.366 - INFO - Mission(扫码) 检测到可识别码
+22:52:50.367 - INFO - Mission(扫码) code_data: 123，213
+22:52:50.402 - INFO - Mission(扫码) 检测到可识别码
+22:52:50.403 - INFO - Mission(扫码) code_data: 123，213
+22:52:50.435 - INFO - Mission(扫码) 检测到可识别码
+22:52:50.435 - INFO - Mission(扫码) code_data: 123，213
+22:52:50.468 - INFO - Mission(扫码) 检测到可识别码
+22:52:50.468 - INFO - Mission(扫码) code_data: 123，213
+22:52:50.502 - INFO - Mission(扫码) 检测到可识别码
+22:52:50.502 - INFO - Mission(扫码) code_data: 123，213
+22:52:50.534 - INFO - Mission(扫码) 检测到可识别码
+22:52:50.534 - INFO - Mission(扫码) code_data: 123，213
+22:52:50.566 - INFO - Mission(扫码) 检测到可识别码
+22:52:50.567 - INFO - Mission(扫码) code_data: 123，213
+22:52:50.603 - INFO - Mission(扫码) 检测到可识别码
+22:52:50.603 - INFO - Mission(扫码) code_data: 123，213
+22:52:50.634 - INFO - Mission(扫码) 检测到可识别码
+22:52:50.634 - INFO - Mission(扫码) code_data: 123，213
+22:52:50.670 - INFO - Mission(扫码) 检测到可识别码
+22:52:50.671 - INFO - Mission(扫码) code_data: 123，213
+22:52:50.703 - INFO - Mission(扫码) 检测到可识别码
+22:52:50.703 - INFO - Mission(扫码) code_data: 123，213
+22:52:50.735 - INFO - Mission(扫码) 检测到可识别码
+22:52:50.736 - INFO - Mission(扫码) code_data: 123，213
+22:52:50.766 - INFO - Mission(扫码) 检测到可识别码
+22:52:50.766 - INFO - Mission(扫码) code_data: 123，213
+22:52:50.804 - INFO - Mission(扫码) 检测到可识别码
+22:52:50.804 - INFO - Mission(扫码) code_data: 123，213
+22:52:50.836 - INFO - Mission(扫码) 检测到可识别码
+22:52:50.836 - INFO - Mission(扫码) code_data: 123，213
+22:52:50.866 - INFO - Mission(扫码) 检测到可识别码
+22:52:50.866 - INFO - Mission(扫码) code_data: 123，213
+22:52:50.904 - INFO - Mission(扫码) 检测到可识别码
+22:52:50.904 - INFO - Mission(扫码) code_data: 123，213
+22:52:50.938 - INFO - Mission(扫码) 检测到可识别码
+22:52:50.939 - INFO - Mission(扫码) code_data: 123，213
+22:52:50.973 - INFO - Mission(扫码) 检测到可识别码
+22:52:50.973 - INFO - Mission(扫码) code_data: 123，213
+22:52:51.008 - INFO - Mission(扫码) 检测到可识别码
+22:52:51.008 - INFO - Mission(扫码) code_data: 123，213
+22:52:51.042 - INFO - Mission(扫码) 检测到可识别码
+22:52:51.042 - INFO - Mission(扫码) code_data: 123，213
+22:52:51.071 - INFO - Mission(扫码) 检测到可识别码
+22:52:51.071 - INFO - Mission(扫码) code_data: 123，213
+22:52:51.102 - INFO - Mission(扫码) 检测到可识别码
+22:52:51.103 - INFO - Mission(扫码) code_data: 123，213
+22:52:51.135 - INFO - Mission(扫码) 检测到可识别码
+22:52:51.136 - INFO - Mission(扫码) code_data: 123，213
+22:52:51.166 - INFO - Mission(扫码) 检测到可识别码
+22:52:51.166 - INFO - Mission(扫码) code_data: 123，213
+22:52:51.201 - INFO - Mission(扫码) 检测到可识别码
+22:52:51.201 - INFO - Mission(扫码) code_data: 123，213
+22:52:51.236 - INFO - Mission(扫码) 检测到可识别码
+22:52:51.237 - INFO - Mission(扫码) code_data: 123，213
+22:52:51.267 - INFO - Mission(扫码) 检测到可识别码
+22:52:51.268 - INFO - Mission(扫码) code_data: 123，213
+22:52:51.303 - INFO - Mission(扫码) 检测到可识别码
+22:52:51.303 - INFO - Mission(扫码) code_data: 123，213
+22:52:51.335 - INFO - Mission(扫码) 检测到可识别码
+22:52:51.335 - INFO - Mission(扫码) code_data: 123，213
+22:52:51.367 - INFO - Mission(扫码) 检测到可识别码
+22:52:51.367 - INFO - Mission(扫码) code_data: 123，213
+22:52:51.403 - INFO - Mission(扫码) 检测到可识别码
+22:52:51.403 - INFO - Mission(扫码) code_data: 123，213
+22:52:51.435 - INFO - Mission(扫码) 检测到可识别码
+22:52:51.436 - INFO - Mission(扫码) code_data: 123，213
+22:52:51.467 - INFO - Mission(扫码) 检测到可识别码
+22:52:51.467 - INFO - Mission(扫码) code_data: 123，213
+22:52:51.503 - INFO - Mission(扫码) 检测到可识别码
+22:52:51.503 - INFO - Mission(扫码) code_data: 123，213
+22:52:51.535 - INFO - Mission(扫码) 检测到可识别码
+22:52:51.536 - INFO - Mission(扫码) code_data: 123，213
+22:52:51.568 - INFO - Mission(扫码) 检测到可识别码
+22:52:51.568 - INFO - Mission(扫码) code_data: 123，213
+22:52:51.604 - INFO - Mission(扫码) 检测到可识别码
+22:52:51.604 - INFO - Mission(扫码) code_data: 123，213
+22:52:51.635 - INFO - Mission(扫码) 检测到可识别码
+22:52:51.635 - INFO - Mission(扫码) code_data: 123，213
+22:52:51.667 - INFO - Mission(扫码) 检测到可识别码
+22:52:51.667 - INFO - Mission(扫码) code_data: 123，213
+22:52:51.707 - INFO - Mission(扫码) 检测到可识别码
+22:52:51.708 - INFO - Mission(扫码) code_data: 123，213
+22:52:51.740 - INFO - Mission(扫码) 检测到可识别码
+22:52:51.741 - INFO - Mission(扫码) code_data: 123，213
+22:52:51.770 - INFO - Mission(扫码) 检测到可识别码
+22:52:51.771 - INFO - Mission(扫码) code_data: 123，213
+22:52:51.802 - INFO - Mission(扫码) 检测到可识别码
+22:52:51.803 - INFO - Mission(扫码) code_data: 123，213
+22:52:51.835 - INFO - Mission(扫码) 检测到可识别码
+22:52:51.836 - INFO - Mission(扫码) code_data: 123，213
+22:52:51.868 - INFO - Mission(扫码) 检测到可识别码
+22:52:51.869 - INFO - Mission(扫码) code_data: 123，213
+22:52:51.902 - INFO - Mission(扫码) 检测到可识别码
+22:52:51.902 - INFO - Mission(扫码) code_data: 123，213
+22:52:51.935 - INFO - Mission(扫码) 检测到可识别码
+22:52:51.935 - INFO - Mission(扫码) code_data: 123，213
+22:52:51.968 - INFO - Mission(扫码) 检测到可识别码
+22:52:51.968 - INFO - Mission(扫码) code_data: 123，213
+22:52:52.003 - INFO - Mission(扫码) 检测到可识别码
+22:52:52.003 - INFO - Mission(扫码) code_data: 123，213
+22:52:52.035 - INFO - Mission(扫码) 检测到可识别码
+22:52:52.035 - INFO - Mission(扫码) code_data: 123，213
+22:52:52.067 - INFO - Mission(扫码) 检测到可识别码
+22:52:52.068 - INFO - Mission(扫码) code_data: 123，213
+22:52:52.103 - INFO - Mission(扫码) 检测到可识别码
+22:52:52.103 - INFO - Mission(扫码) code_data: 123，213
+22:52:52.134 - INFO - Mission(扫码) 检测到可识别码
+22:52:52.134 - INFO - Mission(扫码) code_data: 123，213
+22:52:52.167 - INFO - Mission(扫码) 检测到可识别码
+22:52:52.167 - INFO - Mission(扫码) code_data: 123，213
+22:52:52.203 - INFO - Mission(扫码) 检测到可识别码
+22:52:52.203 - INFO - Mission(扫码) code_data: 123，213
+22:52:52.234 - INFO - Mission(扫码) 检测到可识别码
+22:52:52.234 - INFO - Mission(扫码) code_data: 123，213
+22:52:52.267 - INFO - Mission(扫码) 检测到可识别码
+22:52:52.268 - INFO - Mission(扫码) code_data: 123，213
+22:52:52.302 - INFO - Mission(扫码) 检测到可识别码
+22:52:52.303 - INFO - Mission(扫码) code_data: 123，213
+22:52:52.334 - INFO - Mission(扫码) 检测到可识别码
+22:52:52.335 - INFO - Mission(扫码) code_data: 123，213
+22:52:52.371 - INFO - Mission(扫码) 检测到可识别码
+22:52:52.372 - INFO - Mission(扫码) code_data: 123，213
+22:52:52.411 - INFO - Mission(扫码) 检测到可识别码
+22:52:52.411 - INFO - Mission(扫码) code_data: 123，213
+22:52:52.444 - INFO - Mission(扫码) 检测到可识别码
+22:52:52.444 - INFO - Mission(扫码) code_data: 123，213
+22:52:52.475 - INFO - Mission(扫码) 检测到可识别码
+22:52:52.476 - INFO - Mission(扫码) code_data: 123，213
+22:52:52.510 - INFO - Mission(扫码) 检测到可识别码
+22:52:52.511 - INFO - Mission(扫码) code_data: 123，213
+22:52:52.545 - INFO - Mission(扫码) 检测到可识别码
+22:52:52.546 - INFO - Mission(扫码) code_data: 123，213
+22:52:52.578 - INFO - Mission(扫码) 检测到可识别码
+22:52:52.578 - INFO - Mission(扫码) code_data: 123，213
+22:52:52.608 - INFO - Mission(扫码) 检测到可识别码
+22:52:52.608 - INFO - Mission(扫码) code_data: 123，213
+22:52:52.638 - INFO - Mission(扫码) 检测到可识别码
+22:52:52.638 - INFO - Mission(扫码) code_data: 123，213
+22:52:52.671 - INFO - Mission(扫码) 检测到可识别码
+22:52:52.671 - INFO - Mission(扫码) code_data: 123，213
+22:52:52.701 - INFO - Mission(扫码) 检测到可识别码
+22:52:52.702 - INFO - Mission(扫码) code_data: 123，213
+22:52:52.736 - INFO - Mission(扫码) 检测到可识别码
+22:52:52.737 - INFO - Mission(扫码) code_data: 123，213
+22:52:52.771 - INFO - Mission(扫码) 检测到可识别码
+22:52:52.772 - INFO - Mission(扫码) code_data: 123，213
+22:52:52.803 - INFO - Mission(扫码) 检测到可识别码
+22:52:52.803 - INFO - Mission(扫码) code_data: 123，213
+22:52:52.836 - INFO - Mission(扫码) 检测到可识别码
+22:52:52.836 - INFO - Mission(扫码) code_data: 123，213
+22:52:52.868 - INFO - Mission(扫码) 检测到可识别码
+22:52:52.869 - INFO - Mission(扫码) code_data: 123，213
+22:52:52.903 - INFO - Mission(扫码) 检测到可识别码
+22:52:52.904 - INFO - Mission(扫码) code_data: 123，213
+22:52:52.936 - INFO - Mission(扫码) 检测到可识别码
+22:52:52.936 - INFO - Mission(扫码) code_data: 123，213
+22:52:52.966 - INFO - Mission(扫码) 检测到可识别码
+22:52:52.966 - INFO - Mission(扫码) code_data: 123，213
+22:52:53.003 - INFO - Mission(扫码) 检测到可识别码
+22:52:53.003 - INFO - Mission(扫码) code_data: 123，213
+22:52:53.036 - INFO - Mission(扫码) 检测到可识别码
+22:52:53.036 - INFO - Mission(扫码) code_data: 123，213
+22:52:53.067 - INFO - Mission(扫码) 检测到可识别码
+22:52:53.068 - INFO - Mission(扫码) code_data: 123，213
+22:52:53.102 - INFO - Mission(扫码) 检测到可识别码
+22:52:53.103 - INFO - Mission(扫码) code_data: 123，213
+22:52:53.136 - INFO - Mission(扫码) 检测到可识别码
+22:52:53.136 - INFO - Mission(扫码) code_data: 123，213
+22:52:53.166 - INFO - Mission(扫码) 检测到可识别码
+22:52:53.166 - INFO - Mission(扫码) code_data: 123，213
+22:52:53.204 - INFO - Mission(扫码) 检测到可识别码
+22:52:53.204 - INFO - Mission(扫码) code_data: 123，213
+22:52:53.236 - INFO - Mission(扫码) 检测到可识别码
+22:52:53.236 - INFO - Mission(扫码) code_data: 123，213
+22:52:53.266 - INFO - Mission(扫码) 检测到可识别码
+22:52:53.267 - INFO - Mission(扫码) code_data: 123，213
+22:52:53.303 - INFO - Mission(扫码) 检测到可识别码
+22:52:53.303 - INFO - Mission(扫码) code_data: 123，213
+22:52:53.336 - INFO - Mission(扫码) 检测到可识别码
+22:52:53.336 - INFO - Mission(扫码) code_data: 123，213
+22:52:53.366 - INFO - Mission(扫码) 检测到可识别码
+22:52:53.367 - INFO - Mission(扫码) code_data: 123，213
+22:52:53.402 - INFO - Mission(扫码) 检测到可识别码
+22:52:53.403 - INFO - Mission(扫码) code_data: 123，213
+22:52:53.436 - INFO - Mission(扫码) 检测到可识别码
+22:52:53.436 - INFO - Mission(扫码) code_data: 123，213
+22:52:53.466 - INFO - Mission(扫码) 检测到可识别码
+22:52:53.467 - INFO - Mission(扫码) code_data: 123，213
+22:52:53.503 - INFO - Mission(扫码) 检测到可识别码
+22:52:53.503 - INFO - Mission(扫码) code_data: 123，213
+22:52:53.535 - INFO - Mission(扫码) 检测到可识别码
+22:52:53.536 - INFO - Mission(扫码) code_data: 123，213
+22:52:53.568 - INFO - Mission(扫码) 检测到可识别码
+22:52:53.568 - INFO - Mission(扫码) code_data: 123，213
+22:52:53.604 - INFO - Mission(扫码) 检测到可识别码
+22:52:53.604 - INFO - Mission(扫码) code_data: 123，213
+22:52:53.635 - INFO - Mission(扫码) 检测到可识别码
+22:52:53.636 - INFO - Mission(扫码) code_data: 123，213
+22:52:53.668 - INFO - Mission(扫码) 检测到可识别码
+22:52:53.668 - INFO - Mission(扫码) code_data: 123，213
+22:52:53.703 - INFO - Mission(扫码) 检测到可识别码
+22:52:53.703 - INFO - Mission(扫码) code_data: 123，213
+22:52:53.735 - INFO - Mission(扫码) 检测到可识别码
+22:52:53.736 - INFO - Mission(扫码) code_data: 123，213
+22:52:53.769 - INFO - Mission(扫码) 检测到可识别码
+22:52:53.769 - INFO - Mission(扫码) code_data: 123，213
+22:52:53.805 - INFO - Mission(扫码) 检测到可识别码
+22:52:53.806 - INFO - Mission(扫码) code_data: 123，213
+22:52:53.839 - INFO - Mission(扫码) 检测到可识别码
+22:52:53.839 - INFO - Mission(扫码) code_data: 123，213
+22:52:53.869 - INFO - Mission(扫码) 检测到可识别码
+22:52:53.870 - INFO - Mission(扫码) code_data: 123，213
+22:52:53.903 - INFO - Mission(扫码) 检测到可识别码
+22:52:53.904 - INFO - Mission(扫码) code_data: 123，213
+22:52:53.934 - INFO - Mission(扫码) 检测到可识别码
+22:52:53.935 - INFO - Mission(扫码) code_data: 123，213
+22:52:53.966 - INFO - Mission(扫码) 检测到可识别码
+22:52:53.966 - INFO - Mission(扫码) code_data: 123，213
+22:52:54.001 - INFO - Mission(扫码) 检测到可识别码
+22:52:54.002 - INFO - Mission(扫码) code_data: 123，213
+22:52:54.037 - INFO - Mission(扫码) 检测到可识别码
+22:52:54.038 - INFO - Mission(扫码) code_data: 123，213
+22:52:54.066 - INFO - Mission(扫码) 检测到可识别码
+22:52:54.066 - INFO - Mission(扫码) code_data: 123，213
+22:52:54.104 - INFO - Mission(扫码) 检测到可识别码
+22:52:54.104 - INFO - Mission(扫码) code_data: 123，213
+22:52:54.136 - INFO - Mission(扫码) 检测到可识别码
+22:52:54.137 - INFO - Mission(扫码) code_data: 123，213
+22:52:54.167 - INFO - Mission(扫码) 检测到可识别码
+22:52:54.167 - INFO - Mission(扫码) code_data: 123，213
+22:52:54.204 - INFO - Mission(扫码) 检测到可识别码
+22:52:54.205 - INFO - Mission(扫码) code_data: 123，213
+22:52:54.234 - INFO - Mission(扫码) 检测到可识别码
+22:52:54.235 - INFO - Mission(扫码) code_data: 123，213
+22:52:54.271 - INFO - Mission(扫码) 检测到可识别码
+22:52:54.271 - INFO - Mission(扫码) code_data: 123，213
+22:52:54.307 - INFO - Mission(扫码) 检测到可识别码
+22:52:54.307 - INFO - Mission(扫码) code_data: 123，213
+22:52:54.342 - INFO - Mission(扫码) 检测到可识别码
+22:52:54.342 - INFO - Mission(扫码) code_data: 123，213
+22:52:54.377 - INFO - Mission(扫码) 检测到可识别码
+22:52:54.378 - INFO - Mission(扫码) code_data: 123，213
+22:52:54.408 - INFO - Mission(扫码) 检测到可识别码
+22:52:54.408 - INFO - Mission(扫码) code_data: 123，213
+22:52:54.437 - INFO - Mission(扫码) 检测到可识别码
+22:52:54.438 - INFO - Mission(扫码) code_data: 123，213
+22:52:54.467 - INFO - Mission(扫码) 检测到可识别码
+22:52:54.467 - INFO - Mission(扫码) code_data: 123，213
+22:52:54.504 - INFO - Mission(扫码) 检测到可识别码
+22:52:54.504 - INFO - Mission(扫码) code_data: 123，213
+22:52:54.535 - INFO - Mission(扫码) 检测到可识别码
+22:52:54.536 - INFO - Mission(扫码) code_data: 123，213
+22:52:54.566 - INFO - Mission(扫码) 检测到可识别码
+22:52:54.566 - INFO - Mission(扫码) code_data: 123，213
+22:52:54.604 - INFO - Mission(扫码) 检测到可识别码
+22:52:54.604 - INFO - Mission(扫码) code_data: 123，213
+22:52:54.637 - INFO - Mission(扫码) 检测到可识别码
+22:52:54.637 - INFO - Mission(扫码) code_data: 123，213
+22:52:54.666 - INFO - Mission(扫码) 检测到可识别码
+22:52:54.667 - INFO - Mission(扫码) code_data: 123，213
+22:52:54.705 - INFO - Mission(扫码) 检测到可识别码
+22:52:54.707 - INFO - Mission(扫码) code_data: 123，213
+22:52:54.738 - INFO - Mission(扫码) 检测到可识别码
+22:52:54.738 - INFO - Mission(扫码) code_data: 123，213
+22:52:54.771 - INFO - Mission(扫码) 检测到可识别码
+22:52:54.771 - INFO - Mission(扫码) code_data: 123，213
+22:52:54.803 - INFO - Mission(扫码) 检测到可识别码
+22:52:54.804 - INFO - Mission(扫码) code_data: 123，213
+22:52:54.836 - INFO - Mission(扫码) 检测到可识别码
+22:52:54.837 - INFO - Mission(扫码) code_data: 123，213
+22:52:54.867 - INFO - Mission(扫码) 检测到可识别码
+22:52:54.867 - INFO - Mission(扫码) code_data: 123，213
+22:52:54.904 - INFO - Mission(扫码) 检测到可识别码
+22:52:54.905 - INFO - Mission(扫码) code_data: 123，213
+22:52:54.936 - INFO - Mission(扫码) 检测到可识别码
+22:52:54.936 - INFO - Mission(扫码) code_data: 123，213
+22:52:54.967 - INFO - Mission(扫码) 检测到可识别码
+22:52:54.967 - INFO - Mission(扫码) code_data: 123，213
+22:52:55.005 - INFO - Mission(扫码) 检测到可识别码
+22:52:55.005 - INFO - Mission(扫码) code_data: 123，213
+22:52:55.037 - INFO - Mission(扫码) 检测到可识别码
+22:52:55.038 - INFO - Mission(扫码) code_data: 123，213
+22:52:55.071 - INFO - Mission(扫码) 检测到可识别码
+22:52:55.071 - INFO - Mission(扫码) code_data: 123，213
+22:52:55.104 - INFO - Mission(扫码) 检测到可识别码
+22:52:55.104 - INFO - Mission(扫码) code_data: 123，213
+22:52:55.138 - INFO - Mission(扫码) 检测到可识别码
+22:52:55.138 - INFO - Mission(扫码) code_data: 123，213
+22:52:55.181 - INFO - Mission(扫码) 检测到可识别码
+22:52:55.182 - INFO - Mission(扫码) code_data: 123，213
+22:52:55.225 - INFO - Mission(扫码) 检测到可识别码
+22:52:55.225 - INFO - Mission(扫码) code_data: 123，213
+22:52:55.264 - INFO - Mission(扫码) 检测到可识别码
+22:52:55.265 - INFO - Mission(扫码) code_data: 123，213
+22:52:55.306 - INFO - Mission(扫码) 检测到可识别码
+22:52:55.307 - INFO - Mission(扫码) code_data: 123，213
+22:52:55.355 - INFO - Mission(扫码) 检测到可识别码
+22:52:55.356 - INFO - Mission(扫码) code_data: 123，213
+22:52:55.393 - INFO - Mission(扫码) 检测到可识别码
+22:52:55.394 - INFO - Mission(扫码) code_data: 123，213
+22:52:55.430 - INFO - Mission(扫码) 检测到可识别码
+22:52:55.431 - INFO - Mission(扫码) code_data: 123，213
+22:52:55.470 - INFO - Mission(扫码) 检测到可识别码
+22:52:55.470 - INFO - Mission(扫码) code_data: 123，213
+22:52:55.501 - INFO - Mission(扫码) 检测到可识别码
+22:52:55.501 - INFO - Mission(扫码) code_data: 123，213
+22:52:55.531 - INFO - Mission(扫码) 检测到可识别码
+22:52:55.531 - INFO - Mission(扫码) code_data: 123，213
+22:52:55.562 - INFO - Mission(扫码) 检测到可识别码
+22:52:55.562 - INFO - Mission(扫码) code_data: 123，213
+22:52:55.591 - INFO - Mission(扫码) 检测到可识别码
+22:52:55.591 - INFO - Mission(扫码) code_data: 123，213
+22:52:55.620 - INFO - Mission(扫码) 检测到可识别码
+22:52:55.620 - INFO - Mission(扫码) code_data: 123，213
+22:52:55.646 - INFO - Mission(扫码) 检测到可识别码
+22:52:55.647 - INFO - Mission(扫码) code_data: 123，213
+22:52:55.676 - INFO - Mission(扫码) 检测到可识别码
+22:52:55.676 - INFO - Mission(扫码) code_data: 123，213
+22:52:55.703 - INFO - Mission(扫码) 检测到可识别码
+22:52:55.703 - INFO - Mission(扫码) code_data: 123，213
+22:52:55.732 - INFO - Mission(扫码) 检测到可识别码
+22:52:55.732 - INFO - Mission(扫码) code_data: 123，213
+22:52:55.761 - INFO - Mission(扫码) 检测到可识别码
+22:52:55.762 - INFO - Mission(扫码) code_data: 123，213
+22:52:55.790 - INFO - Mission(扫码) 检测到可识别码
+22:52:55.790 - INFO - Mission(扫码) code_data: 123，213
+22:52:55.821 - INFO - Mission(扫码) 检测到可识别码
+22:52:55.821 - INFO - Mission(扫码) code_data: 123，213
+22:52:55.852 - INFO - Mission(扫码) 检测到可识别码
+22:52:55.852 - INFO - Mission(扫码) code_data: 123，213
+22:52:55.880 - INFO - Mission(扫码) 检测到可识别码
+22:52:55.880 - INFO - Mission(扫码) code_data: 123，213
+22:52:55.910 - INFO - Mission(扫码) 检测到可识别码
+22:52:55.911 - INFO - Mission(扫码) code_data: 123，213
+22:52:55.939 - INFO - Mission(扫码) 检测到可识别码
+22:52:55.939 - INFO - Mission(扫码) code_data: 123，213
+22:52:55.969 - INFO - Mission(扫码) 检测到可识别码
+22:52:55.970 - INFO - Mission(扫码) code_data: 123，213
+22:52:56.003 - INFO - Mission(扫码) 检测到可识别码
+22:52:56.003 - INFO - Mission(扫码) code_data: 123，213
+22:52:56.036 - INFO - Mission(扫码) 检测到可识别码
+22:52:56.036 - INFO - Mission(扫码) code_data: 123，213
+22:52:56.067 - INFO - Mission(扫码) 检测到可识别码
+22:52:56.068 - INFO - Mission(扫码) code_data: 123，213
+22:52:56.103 - INFO - Mission(扫码) 检测到可识别码
+22:52:56.103 - INFO - Mission(扫码) code_data: 123，213
+22:52:56.136 - INFO - Mission(扫码) 检测到可识别码
+22:52:56.136 - INFO - Mission(扫码) code_data: 123，213
+22:52:56.167 - INFO - Mission(扫码) 检测到可识别码
+22:52:56.167 - INFO - Mission(扫码) code_data: 123，213
+22:52:56.203 - INFO - Mission(扫码) 检测到可识别码
+22:52:56.203 - INFO - Mission(扫码) code_data: 123，213
+22:52:56.235 - INFO - Mission(扫码) 检测到可识别码
+22:52:56.235 - INFO - Mission(扫码) code_data: 123，213
+22:52:56.266 - INFO - Mission(扫码) 检测到可识别码
+22:52:56.267 - INFO - Mission(扫码) code_data: 123，213
+22:52:56.303 - INFO - Mission(扫码) 检测到可识别码
+22:52:56.304 - INFO - Mission(扫码) code_data: 123，213
+22:52:56.334 - INFO - Mission(扫码) 检测到可识别码
+22:52:56.334 - INFO - Mission(扫码) code_data: 123，213
+22:52:56.367 - INFO - Mission(扫码) 检测到可识别码
+22:52:56.368 - INFO - Mission(扫码) code_data: 123，213
+22:52:56.405 - INFO - Mission(扫码) 检测到可识别码
+22:52:56.405 - INFO - Mission(扫码) code_data: 123，213
+22:52:56.434 - INFO - Mission(扫码) 检测到可识别码
+22:52:56.435 - INFO - Mission(扫码) code_data: 123，213
+22:52:56.467 - INFO - Mission(扫码) 检测到可识别码
+22:52:56.467 - INFO - Mission(扫码) code_data: 123，213
+22:52:56.503 - INFO - Mission(扫码) 检测到可识别码
+22:52:56.503 - INFO - Mission(扫码) code_data: 123，213
+22:52:56.534 - INFO - Mission(扫码) 检测到可识别码
+22:52:56.534 - INFO - Mission(扫码) code_data: 123，213
+22:52:56.567 - INFO - Mission(扫码) 检测到可识别码
+22:52:56.567 - INFO - Mission(扫码) code_data: 123，213
+22:52:56.603 - INFO - Mission(扫码) 检测到可识别码
+22:52:56.603 - INFO - Mission(扫码) code_data: 123，213
+22:52:56.634 - INFO - Mission(扫码) 检测到可识别码
+22:52:56.635 - INFO - Mission(扫码) code_data: 123，213
+22:52:56.668 - INFO - Mission(扫码) 检测到可识别码
+22:52:56.669 - INFO - Mission(扫码) code_data: 123，213
+22:52:56.703 - INFO - Mission(扫码) 检测到可识别码
+22:52:56.704 - INFO - Mission(扫码) code_data: 123，213
+22:52:56.734 - INFO - Mission(扫码) 检测到可识别码
+22:52:56.734 - INFO - Mission(扫码) code_data: 123，213
+22:52:56.766 - INFO - Mission(扫码) 检测到可识别码
+22:52:56.766 - INFO - Mission(扫码) code_data: 123，213
+22:52:56.804 - INFO - Mission(扫码) 检测到可识别码
+22:52:56.804 - INFO - Mission(扫码) code_data: 123，213
+22:52:56.834 - INFO - Mission(扫码) 检测到可识别码
+22:52:56.834 - INFO - Mission(扫码) code_data: 123，213
+22:52:56.867 - INFO - Mission(扫码) 检测到可识别码
+22:52:56.867 - INFO - Mission(扫码) code_data: 123，213
+22:52:56.903 - INFO - Mission(扫码) 检测到可识别码
+22:52:56.903 - INFO - Mission(扫码) code_data: 123，213
+22:52:56.934 - INFO - Mission(扫码) 检测到可识别码
+22:52:56.934 - INFO - Mission(扫码) code_data: 123，213
+22:52:56.966 - INFO - Mission(扫码) 检测到可识别码
+22:52:56.967 - INFO - Mission(扫码) code_data: 123，213
+22:52:57.003 - INFO - Mission(扫码) 检测到可识别码
+22:52:57.003 - INFO - Mission(扫码) code_data: 123，213
+22:52:57.034 - INFO - Mission(扫码) 检测到可识别码
+22:52:57.035 - INFO - Mission(扫码) code_data: 123，213
+22:52:57.067 - INFO - Mission(扫码) 检测到可识别码
+22:52:57.067 - INFO - Mission(扫码) code_data: 123，213
+22:52:57.104 - INFO - Mission(扫码) 检测到可识别码
+22:52:57.104 - INFO - Mission(扫码) code_data: 123，213
+22:52:57.134 - INFO - Mission(扫码) 检测到可识别码
+22:52:57.134 - INFO - Mission(扫码) code_data: 123，213
+22:52:57.167 - INFO - Mission(扫码) 检测到可识别码
+22:52:57.167 - INFO - Mission(扫码) code_data: 123，213
+22:52:57.203 - INFO - Mission(扫码) 检测到可识别码
+22:52:57.204 - INFO - Mission(扫码) code_data: 123，213
+22:52:57.237 - INFO - Mission(扫码) 检测到可识别码
+22:52:57.237 - INFO - Mission(扫码) code_data: 123，213
+22:52:57.271 - INFO - Mission(扫码) 检测到可识别码
+22:52:57.271 - INFO - Mission(扫码) code_data: 123，213
+22:52:57.306 - INFO - Mission(扫码) 检测到可识别码
+22:52:57.306 - INFO - Mission(扫码) code_data: 123，213
+22:52:57.336 - INFO - Mission(扫码) 检测到可识别码
+22:52:57.336 - INFO - Mission(扫码) code_data: 123，213
+22:52:57.366 - INFO - Mission(扫码) 检测到可识别码
+22:52:57.366 - INFO - Mission(扫码) code_data: 123，213
+22:52:57.403 - INFO - Mission(扫码) 检测到可识别码
+22:52:57.404 - INFO - Mission(扫码) code_data: 123，213
+22:52:57.435 - INFO - Mission(扫码) 检测到可识别码
+22:52:57.435 - INFO - Mission(扫码) code_data: 123，213
+22:52:57.467 - INFO - Mission(扫码) 检测到可识别码
+22:52:57.467 - INFO - Mission(扫码) code_data: 123，213
+22:52:57.504 - INFO - Mission(扫码) 检测到可识别码
+22:52:57.504 - INFO - Mission(扫码) code_data: 123，213
+22:52:57.534 - INFO - Mission(扫码) 检测到可识别码
+22:52:57.535 - INFO - Mission(扫码) code_data: 123，213
+22:52:57.566 - INFO - Mission(扫码) 检测到可识别码
+22:52:57.567 - INFO - Mission(扫码) code_data: 123，213
+22:52:57.604 - INFO - Mission(扫码) 检测到可识别码
+22:52:57.604 - INFO - Mission(扫码) code_data: 123，213
+22:52:57.635 - INFO - Mission(扫码) 检测到可识别码
+22:52:57.636 - INFO - Mission(扫码) code_data: 123，213
+22:52:57.669 - INFO - Mission(扫码) 检测到可识别码
+22:52:57.669 - INFO - Mission(扫码) code_data: 123，213
+22:52:57.703 - INFO - Mission(扫码) 检测到可识别码
+22:52:57.703 - INFO - Mission(扫码) code_data: 123，213
+22:52:57.737 - INFO - Mission(扫码) 检测到可识别码
+22:52:57.737 - INFO - Mission(扫码) code_data: 123，213
+22:52:57.771 - INFO - Mission(扫码) 检测到可识别码
+22:52:57.772 - INFO - Mission(扫码) code_data: 123，213
+22:52:57.806 - INFO - Mission(扫码) 检测到可识别码
+22:52:57.806 - INFO - Mission(扫码) code_data: 123，213
+22:52:57.840 - INFO - Mission(扫码) 检测到可识别码
+22:52:57.841 - INFO - Mission(扫码) code_data: 123，213
+22:52:57.878 - INFO - Mission(扫码) 检测到可识别码
+22:52:57.878 - INFO - Mission(扫码) code_data: 123，213
+22:52:57.924 - INFO - Mission(扫码) 检测到可识别码
+22:52:57.924 - INFO - Mission(扫码) code_data: 123，213
+22:52:57.954 - INFO - Mission(扫码) 检测到可识别码
+22:52:57.955 - INFO - Mission(扫码) code_data: 123，213
+22:52:57.983 - INFO - Mission(扫码) 检测到可识别码
+22:52:57.983 - INFO - Mission(扫码) code_data: 123，213
+22:52:58.014 - INFO - Mission(扫码) 检测到可识别码
+22:52:58.015 - INFO - Mission(扫码) code_data: 123，213
+22:52:58.044 - INFO - Mission(扫码) 检测到可识别码
+22:52:58.044 - INFO - Mission(扫码) code_data: 123，213
+22:52:58.073 - INFO - Mission(扫码) 检测到可识别码
+22:52:58.073 - INFO - Mission(扫码) code_data: 123，213
+22:52:58.103 - INFO - Mission(扫码) 检测到可识别码
+22:52:58.103 - INFO - Mission(扫码) code_data: 123，213
+22:52:58.135 - INFO - Mission(扫码) 检测到可识别码
+22:52:58.135 - INFO - Mission(扫码) code_data: 123，213
+22:52:58.167 - INFO - Mission(扫码) 检测到可识别码
+22:52:58.168 - INFO - Mission(扫码) code_data: 123，213
+22:52:58.202 - INFO - Mission(扫码) 检测到可识别码
+22:52:58.202 - INFO - Mission(扫码) code_data: 123，213
+22:52:58.236 - INFO - Mission(扫码) 检测到可识别码
+22:52:58.236 - INFO - Mission(扫码) code_data: 123，213
+22:52:58.266 - INFO - Mission(扫码) 检测到可识别码
+22:52:58.267 - INFO - Mission(扫码) code_data: 123，213
+22:52:58.304 - INFO - Mission(扫码) 检测到可识别码
+22:52:58.304 - INFO - Mission(扫码) code_data: 123，213
+22:52:58.334 - INFO - Mission(扫码) 检测到可识别码
+22:52:58.335 - INFO - Mission(扫码) code_data: 123，213
+22:52:58.367 - INFO - Mission(扫码) 检测到可识别码
+22:52:58.367 - INFO - Mission(扫码) code_data: 123，213
+22:52:58.398 - INFO - Mission(扫码) 检测到可识别码
+22:52:58.399 - INFO - Mission(扫码) code_data: 123，213
+22:52:58.436 - INFO - Mission(扫码) 检测到可识别码
+22:52:58.437 - INFO - Mission(扫码) code_data: 123，213
+22:52:58.467 - INFO - Mission(扫码) 检测到可识别码
+22:52:58.467 - INFO - Mission(扫码) code_data: 123，213
+22:52:58.498 - INFO - Mission(扫码) 检测到可识别码
+22:52:58.499 - INFO - Mission(扫码) code_data: 123，213
+22:52:58.536 - INFO - Mission(扫码) 检测到可识别码
+22:52:58.537 - INFO - Mission(扫码) code_data: 123，213
+22:52:58.567 - INFO - Mission(扫码) 检测到可识别码
+22:52:58.567 - INFO - Mission(扫码) code_data: 123，213
+22:52:58.599 - INFO - Mission(扫码) 检测到可识别码
+22:52:58.600 - INFO - Mission(扫码) code_data: 123，213
+22:52:58.635 - INFO - Mission(扫码) 检测到可识别码
+22:52:58.635 - INFO - Mission(扫码) code_data: 123，213
+22:52:58.667 - INFO - Mission(扫码) 检测到可识别码
+22:52:58.667 - INFO - Mission(扫码) code_data: 123，213
+22:52:58.700 - INFO - Mission(扫码) 检测到可识别码
+22:52:58.700 - INFO - Mission(扫码) code_data: 123，213
+22:52:58.736 - INFO - Mission(扫码) 检测到可识别码
+22:52:58.737 - INFO - Mission(扫码) code_data: 123，213
+22:52:58.768 - INFO - Mission(扫码) 检测到可识别码
+22:52:58.769 - INFO - Mission(扫码) code_data: 123，213
+22:52:58.803 - INFO - Mission(扫码) 检测到可识别码
+22:52:58.804 - INFO - Mission(扫码) code_data: 123，213
+22:52:58.838 - INFO - Mission(扫码) 检测到可识别码
+22:52:58.839 - INFO - Mission(扫码) code_data: 123，213
+22:52:58.873 - INFO - Mission(扫码) 检测到可识别码
+22:52:58.874 - INFO - Mission(扫码) code_data: 123，213
+22:52:58.908 - INFO - Mission(扫码) 检测到可识别码
+22:52:58.909 - INFO - Mission(扫码) code_data: 123，213
+22:52:58.953 - INFO - Mission(扫码) 检测到可识别码
+22:52:58.953 - INFO - Mission(扫码) code_data: 123，213
+22:52:58.992 - INFO - Mission(扫码) 检测到可识别码
+22:52:58.992 - INFO - Mission(扫码) code_data: 123，213
+22:52:59.029 - INFO - Mission(扫码) 检测到可识别码
+22:52:59.029 - INFO - Mission(扫码) code_data: 123，213
+22:52:59.067 - INFO - Mission(扫码) 检测到可识别码
+22:52:59.067 - INFO - Mission(扫码) code_data: 123，213
+22:52:59.103 - INFO - Mission(扫码) 检测到可识别码
+22:52:59.103 - INFO - Mission(扫码) code_data: 123，213
+22:52:59.138 - INFO - Mission(扫码) 检测到可识别码
+22:52:59.139 - INFO - Mission(扫码) code_data: 123，213
+22:52:59.174 - INFO - Mission(扫码) 检测到可识别码
+22:52:59.174 - INFO - Mission(扫码) code_data: 123，213
+22:52:59.210 - INFO - Mission(扫码) 检测到可识别码
+22:52:59.210 - INFO - Mission(扫码) code_data: 123，213
+22:52:59.246 - INFO - Mission(扫码) 检测到可识别码
+22:52:59.246 - INFO - Mission(扫码) code_data: 123，213
+22:52:59.276 - INFO - Mission(扫码) 检测到可识别码
+22:52:59.277 - INFO - Mission(扫码) code_data: 123，213
+22:52:59.306 - INFO - Mission(扫码) 检测到可识别码
+22:52:59.306 - INFO - Mission(扫码) code_data: 123，213
+22:52:59.337 - INFO - Mission(扫码) 检测到可识别码
+22:52:59.337 - INFO - Mission(扫码) code_data: 123，213
+22:52:59.367 - INFO - Mission(扫码) 检测到可识别码
+22:52:59.368 - INFO - Mission(扫码) code_data: 123，213
+22:52:59.399 - INFO - Mission(扫码) 检测到可识别码
+22:52:59.399 - INFO - Mission(扫码) code_data: 123，213
+22:52:59.428 - INFO - Mission(扫码) 检测到可识别码
+22:52:59.429 - INFO - Mission(扫码) code_data: 123，213
+22:52:59.458 - INFO - Mission(扫码) 检测到可识别码
+22:52:59.459 - INFO - Mission(扫码) code_data: 123，213
+22:52:59.488 - INFO - Mission(扫码) 检测到可识别码
+22:52:59.489 - INFO - Mission(扫码) code_data: 123，213
+22:52:59.526 - INFO - Mission(扫码) 检测到可识别码
+22:52:59.526 - INFO - Mission(扫码) code_data: 123，213
+22:52:59.562 - INFO - Mission(扫码) 检测到可识别码
+22:52:59.562 - INFO - Mission(扫码) code_data: 123，213
+22:52:59.599 - INFO - Mission(扫码) 检测到可识别码
+22:52:59.600 - INFO - Mission(扫码) code_data: 123，213
+22:52:59.631 - INFO - Mission(扫码) 检测到可识别码
+22:52:59.632 - INFO - Mission(扫码) code_data: 123，213
+22:52:59.667 - INFO - Mission(扫码) 检测到可识别码
+22:52:59.667 - INFO - Mission(扫码) code_data: 123，213
+22:52:59.702 - INFO - Mission(扫码) 检测到可识别码
+22:52:59.703 - INFO - Mission(扫码) code_data: 123，213
+22:52:59.738 - INFO - Mission(扫码) 检测到可识别码
+22:52:59.778 - INFO - Mission(扫码) code_data: 123，213
+22:52:59.808 - INFO - Mission(扫码) 检测到可识别码
+22:52:59.808 - INFO - Mission(扫码) code_data: 123，213
+22:52:59.843 - INFO - Mission(扫码) 检测到可识别码
+22:52:59.844 - INFO - Mission(扫码) code_data: 123，213
+22:52:59.874 - INFO - Mission(扫码) 检测到可识别码
+22:52:59.874 - INFO - Mission(扫码) code_data: 123，213
+22:52:59.903 - INFO - Mission(扫码) 检测到可识别码
+22:52:59.903 - INFO - Mission(扫码) code_data: 123，213
+22:52:59.932 - INFO - Mission(扫码) 检测到可识别码
+22:52:59.933 - INFO - Mission(扫码) code_data: 123，213
+22:52:59.963 - INFO - Mission(扫码) 检测到可识别码
+22:52:59.963 - INFO - Mission(扫码) code_data: 123，213
+22:53:00.000 - INFO - Mission(扫码) 检测到可识别码
+22:53:00.001 - INFO - Mission(扫码) code_data: 123，213
+22:53:00.034 - INFO - Mission(扫码) 检测到可识别码
+22:53:00.034 - INFO - Mission(扫码) code_data: 123，213
+22:53:00.066 - INFO - Mission(扫码) 检测到可识别码
+22:53:00.066 - INFO - Mission(扫码) code_data: 123，213
+22:53:00.095 - INFO - Mission(扫码) 检测到可识别码
+22:53:00.095 - INFO - Mission(扫码) code_data: 123，213
+22:53:00.125 - INFO - Mission(扫码) 检测到可识别码
+22:53:00.125 - INFO - Mission(扫码) code_data: 123，213
+22:53:00.154 - INFO - Mission(扫码) 检测到可识别码
+22:53:00.155 - INFO - Mission(扫码) code_data: 123，213
+22:53:00.184 - INFO - Mission(扫码) 检测到可识别码
+22:53:00.184 - INFO - Mission(扫码) code_data: 123，213
+22:53:00.214 - INFO - Mission(扫码) 检测到可识别码
+22:53:00.214 - INFO - Mission(扫码) code_data: 123，213
+22:53:00.244 - INFO - Mission(扫码) 检测到可识别码
+22:53:00.245 - INFO - Mission(扫码) code_data: 123，213
+22:53:00.275 - INFO - Mission(扫码) 检测到可识别码
+22:53:00.275 - INFO - Mission(扫码) code_data: 123，213
+22:53:00.305 - INFO - Mission(扫码) 检测到可识别码
+22:53:00.306 - INFO - Mission(扫码) code_data: 123，213
+22:53:00.336 - INFO - Mission(扫码) 检测到可识别码
+22:53:00.336 - INFO - Mission(扫码) code_data: 123，213
+22:53:00.367 - INFO - Mission(扫码) 检测到可识别码
+22:53:00.367 - INFO - Mission(扫码) code_data: 123，213
+22:53:00.397 - INFO - Mission(扫码) 检测到可识别码
+22:53:00.397 - INFO - Mission(扫码) code_data: 123，213
+22:53:00.427 - INFO - Mission(扫码) 检测到可识别码
+22:53:00.428 - INFO - Mission(扫码) code_data: 123，213
+22:53:00.458 - INFO - Mission(扫码) 检测到可识别码
+22:53:00.458 - INFO - Mission(扫码) code_data: 123，213
+22:53:00.492 - INFO - Mission(扫码) 检测到可识别码
+22:53:00.493 - INFO - Mission(扫码) code_data: 123，213
+22:53:00.531 - INFO - Mission(扫码) 检测到可识别码
+22:53:00.531 - INFO - Mission(扫码) code_data: 123，213
+22:53:00.567 - INFO - Mission(扫码) 检测到可识别码
+22:53:00.567 - INFO - Mission(扫码) code_data: 123，213
+22:53:00.600 - INFO - Mission(扫码) 检测到可识别码
+22:53:00.600 - INFO - Mission(扫码) code_data: 123，213
+22:53:00.631 - INFO - Mission(扫码) 检测到可识别码
+22:53:00.631 - INFO - Mission(扫码) code_data: 123，213
+22:53:00.660 - INFO - Mission(扫码) 检测到可识别码
+22:53:00.660 - INFO - Mission(扫码) code_data: 123，213
+22:53:00.690 - INFO - Mission(扫码) 检测到可识别码
+22:53:00.690 - INFO - Mission(扫码) code_data: 123，213
+22:53:00.720 - INFO - Mission(扫码) 检测到可识别码
+22:53:00.721 - INFO - Mission(扫码) code_data: 123，213
+22:53:00.750 - INFO - Mission(扫码) 检测到可识别码
+22:53:00.751 - INFO - Mission(扫码) code_data: 123，213
+22:53:00.782 - INFO - Mission(扫码) 检测到可识别码
+22:53:00.782 - INFO - Mission(扫码) code_data: 123，213
+22:53:00.812 - INFO - Mission(扫码) 检测到可识别码
+22:53:00.812 - INFO - Mission(扫码) code_data: 123，213
+22:53:00.843 - INFO - Mission(扫码) 检测到可识别码
+22:53:00.843 - INFO - Mission(扫码) code_data: 123，213
+22:53:00.874 - INFO - Mission(扫码) 检测到可识别码
+22:53:00.874 - INFO - Mission(扫码) code_data: 123，213
+22:53:00.904 - INFO - Mission(扫码) 检测到可识别码
+22:53:00.905 - INFO - Mission(扫码) code_data: 123，213
+22:53:00.936 - INFO - Mission(扫码) 检测到可识别码
+22:53:00.936 - INFO - Mission(扫码) code_data: 123，213
+22:53:00.968 - INFO - Mission(扫码) 检测到可识别码
+22:53:00.968 - INFO - Mission(扫码) code_data: 123，213
+22:53:01.000 - INFO - Mission(扫码) 检测到可识别码
+22:53:01.000 - INFO - Mission(扫码) code_data: 123，213
+22:53:01.037 - INFO - Mission(扫码) 检测到可识别码
+22:53:01.037 - INFO - Mission(扫码) code_data: 123，213
+22:53:01.067 - INFO - Mission(扫码) 检测到可识别码
+22:53:01.067 - INFO - Mission(扫码) code_data: 123，213
+22:53:01.100 - INFO - Mission(扫码) 检测到可识别码
+22:53:01.100 - INFO - Mission(扫码) code_data: 123，213
+22:53:01.136 - INFO - Mission(扫码) 检测到可识别码
+22:53:01.137 - INFO - Mission(扫码) code_data: 123，213
+22:53:01.167 - INFO - Mission(扫码) 检测到可识别码
+22:53:01.167 - INFO - Mission(扫码) code_data: 123，213
+22:53:01.199 - INFO - Mission(扫码) 检测到可识别码
+22:53:01.200 - INFO - Mission(扫码) code_data: 123，213
+22:53:01.235 - INFO - Mission(扫码) 检测到可识别码
+22:53:01.236 - INFO - Mission(扫码) code_data: 123，213
+22:53:01.268 - INFO - Mission(扫码) 检测到可识别码
+22:53:01.268 - INFO - Mission(扫码) code_data: 123，213
+22:53:01.300 - INFO - Mission(扫码) 检测到可识别码
+22:53:01.300 - INFO - Mission(扫码) code_data: 123，213
+22:53:01.336 - INFO - Mission(扫码) 检测到可识别码
+22:53:01.337 - INFO - Mission(扫码) code_data: 123，213
+22:53:01.368 - INFO - Mission(扫码) 检测到可识别码
+22:53:01.369 - INFO - Mission(扫码) code_data: 123，213
+22:53:01.404 - INFO - Mission(扫码) 检测到可识别码
+22:53:01.404 - INFO - Mission(扫码) code_data: 123，213
+22:53:01.435 - INFO - Mission(扫码) 检测到可识别码
+22:53:01.435 - INFO - Mission(扫码) code_data: 123，213
+22:53:01.468 - INFO - Mission(扫码) 检测到可识别码
+22:53:01.468 - INFO - Mission(扫码) code_data: 123，213
+22:53:01.500 - INFO - Mission(扫码) 检测到可识别码
+22:53:01.500 - INFO - Mission(扫码) code_data: 123，213
+22:53:01.536 - INFO - Mission(扫码) 检测到可识别码
+22:53:01.537 - INFO - Mission(扫码) code_data: 123，213
+22:53:01.567 - INFO - Mission(扫码) 检测到可识别码
+22:53:01.568 - INFO - Mission(扫码) code_data: 123，213
+22:53:01.599 - INFO - Mission(扫码) 检测到可识别码
+22:53:01.600 - INFO - Mission(扫码) code_data: 123，213
+22:53:01.636 - INFO - Mission(扫码) 检测到可识别码
+22:53:01.637 - INFO - Mission(扫码) code_data: 123，213
+22:53:01.668 - INFO - Mission(扫码) 检测到可识别码
+22:53:01.668 - INFO - Mission(扫码) code_data: 123，213
+22:53:01.700 - INFO - Mission(扫码) 检测到可识别码
+22:53:01.700 - INFO - Mission(扫码) code_data: 123，213
+22:53:01.737 - INFO - Mission(扫码) 检测到可识别码
+22:53:01.737 - INFO - Mission(扫码) code_data: 123，213
+22:53:01.768 - INFO - Mission(扫码) 检测到可识别码
+22:53:01.768 - INFO - Mission(扫码) code_data: 123，213
+22:53:01.800 - INFO - Mission(扫码) 检测到可识别码
+22:53:01.800 - INFO - Mission(扫码) code_data: 123，213
+22:53:01.837 - INFO - Mission(扫码) 检测到可识别码
+22:53:01.837 - INFO - Mission(扫码) code_data: 123，213
+22:53:01.868 - INFO - Mission(扫码) 检测到可识别码
+22:53:01.868 - INFO - Mission(扫码) code_data: 123，213
+22:53:01.899 - INFO - Mission(扫码) 检测到可识别码
+22:53:01.900 - INFO - Mission(扫码) code_data: 123，213
+22:53:01.937 - INFO - Mission(扫码) 检测到可识别码
+22:53:01.937 - INFO - Mission(扫码) code_data: 123，213
+22:53:01.967 - INFO - Mission(扫码) 检测到可识别码
+22:53:01.968 - INFO - Mission(扫码) code_data: 123，213
+22:53:02.000 - INFO - Mission(扫码) 检测到可识别码
+22:53:02.000 - INFO - Mission(扫码) code_data: 123，213
+22:53:02.036 - INFO - Mission(扫码) 检测到可识别码
+22:53:02.037 - INFO - Mission(扫码) code_data: 123，213
+22:53:02.069 - INFO - Mission(扫码) 检测到可识别码
+22:53:02.069 - INFO - Mission(扫码) code_data: 123，213
+22:53:02.099 - INFO - Mission(扫码) 检测到可识别码
+22:53:02.100 - INFO - Mission(扫码) code_data: 123，213
+22:53:02.137 - INFO - Mission(扫码) 检测到可识别码
+22:53:02.138 - INFO - Mission(扫码) code_data: 123，213
+22:53:02.168 - INFO - Mission(扫码) 检测到可识别码
+22:53:02.168 - INFO - Mission(扫码) code_data: 123，213
+22:53:02.201 - INFO - Mission(扫码) 检测到可识别码
+22:53:02.201 - INFO - Mission(扫码) code_data: 123，213
+22:53:02.237 - INFO - Mission(扫码) 检测到可识别码
+22:53:02.237 - INFO - Mission(扫码) code_data: 123，213
+22:53:02.268 - INFO - Mission(扫码) 检测到可识别码
+22:53:02.268 - INFO - Mission(扫码) code_data: 123，213
+22:53:02.304 - INFO - Mission(扫码) 检测到可识别码
+22:53:02.304 - INFO - Mission(扫码) code_data: 123，213
+22:53:02.340 - INFO - Mission(扫码) 检测到可识别码
+22:53:02.340 - INFO - Mission(扫码) code_data: 123，213
+22:53:02.375 - INFO - Mission(扫码) 检测到可识别码
+22:53:02.375 - INFO - Mission(扫码) code_data: 123，213
+22:53:02.406 - INFO - Mission(扫码) 检测到可识别码
+22:53:02.406 - INFO - Mission(扫码) code_data: 123，213
+22:53:02.446 - INFO - Mission(扫码) 检测到可识别码
+22:53:02.446 - INFO - Mission(扫码) code_data: 123，213
+22:53:02.489 - INFO - Mission(扫码) 检测到可识别码
+22:53:02.489 - INFO - Mission(扫码) code_data: 123，213
+22:53:02.526 - INFO - Mission(扫码) 检测到可识别码
+22:53:02.526 - INFO - Mission(扫码) code_data: 123，213
+22:53:02.561 - INFO - Mission(扫码) 检测到可识别码
+22:53:02.562 - INFO - Mission(扫码) code_data: 123，213
+22:53:02.599 - INFO - Mission(扫码) 检测到可识别码
+22:53:02.599 - INFO - Mission(扫码) code_data: 123，213
+22:53:02.631 - INFO - Mission(扫码) 检测到可识别码
+22:53:02.632 - INFO - Mission(扫码) code_data: 123，213
+22:53:02.662 - INFO - Mission(扫码) 检测到可识别码
+22:53:02.663 - INFO - Mission(扫码) code_data: 123，213
+22:53:02.694 - INFO - Mission(扫码) 检测到可识别码
+22:53:02.694 - INFO - Mission(扫码) code_data: 123，213
+22:53:02.724 - INFO - Mission(扫码) 检测到可识别码
+22:53:02.725 - INFO - Mission(扫码) code_data: 123，213
+22:53:02.755 - INFO - Mission(扫码) 检测到可识别码
+22:53:02.755 - INFO - Mission(扫码) code_data: 123，213
+22:53:02.785 - INFO - Mission(扫码) 检测到可识别码
+22:53:02.785 - INFO - Mission(扫码) code_data: 123，213
+22:53:02.815 - INFO - Mission(扫码) 检测到可识别码
+22:53:02.815 - INFO - Mission(扫码) code_data: 123，213
+22:53:02.846 - INFO - Mission(扫码) 检测到可识别码
+22:53:02.846 - INFO - Mission(扫码) code_data: 123，213
+22:53:02.883 - INFO - Mission(扫码) 检测到可识别码
+22:53:02.883 - INFO - Mission(扫码) code_data: 123，213
+22:53:02.919 - INFO - Mission(扫码) 检测到可识别码
+22:53:02.919 - INFO - Mission(扫码) code_data: 123，213
+22:53:02.954 - INFO - Mission(扫码) 检测到可识别码
+22:53:02.954 - INFO - Mission(扫码) code_data: 123，213
+22:53:02.990 - INFO - Mission(扫码) 检测到可识别码
+22:53:02.990 - INFO - Mission(扫码) code_data: 123，213
+22:53:03.027 - INFO - Mission(扫码) 检测到可识别码
+22:53:03.027 - INFO - Mission(扫码) code_data: 123，213
+22:53:03.062 - INFO - Mission(扫码) 检测到可识别码
+22:53:03.062 - INFO - Mission(扫码) code_data: 123，213
+22:53:03.097 - INFO - Mission(扫码) 检测到可识别码
+22:53:03.097 - INFO - Mission(扫码) code_data: 123，213
+22:53:03.133 - INFO - Mission(扫码) 检测到可识别码
+22:53:03.133 - INFO - Mission(扫码) code_data: 123，213
+22:53:03.168 - INFO - Mission(扫码) 检测到可识别码
+22:53:03.168 - INFO - Mission(扫码) code_data: 123，213
+22:53:03.205 - INFO - Mission(扫码) 检测到可识别码
+22:53:03.205 - INFO - Mission(扫码) code_data: 123，213
+22:53:03.240 - INFO - Mission(扫码) 检测到可识别码
+22:53:03.240 - INFO - Mission(扫码) code_data: 123，213
+22:53:03.274 - INFO - Mission(扫码) 检测到可识别码
+22:53:03.274 - INFO - Mission(扫码) code_data: 123，213
+22:53:03.308 - INFO - Mission(扫码) 检测到可识别码
+22:53:03.309 - INFO - Mission(扫码) code_data: 123，213
+22:53:03.338 - INFO - Mission(扫码) 检测到可识别码
+22:53:03.338 - INFO - Mission(扫码) code_data: 123，213
+22:53:03.372 - INFO - Mission(扫码) 检测到可识别码
+22:53:03.373 - INFO - Mission(扫码) code_data: 123，213
+22:53:03.407 - INFO - Mission(扫码) 检测到可识别码
+22:53:03.407 - INFO - Mission(扫码) code_data: 123，213
+22:53:03.443 - INFO - Mission(扫码) 检测到可识别码
+22:53:03.444 - INFO - Mission(扫码) code_data: 123，213
+22:53:03.472 - INFO - Mission(扫码) 检测到可识别码
+22:53:03.473 - INFO - Mission(扫码) code_data: 123，213
+22:53:03.511 - INFO - Mission(扫码) 检测到可识别码
+22:53:03.511 - INFO - Mission(扫码) code_data: 123，213
+22:53:03.545 - INFO - Mission(扫码) 检测到可识别码
+22:53:03.545 - INFO - Mission(扫码) code_data: 123，213
+22:53:03.574 - INFO - Mission(扫码) 检测到可识别码
+22:53:03.574 - INFO - Mission(扫码) code_data: 123，213
+22:53:03.603 - INFO - Mission(扫码) 检测到可识别码
+22:53:03.604 - INFO - Mission(扫码) code_data: 123，213
+22:53:03.632 - INFO - Mission(扫码) 检测到可识别码
+22:53:03.633 - INFO - Mission(扫码) code_data: 123，213
+22:53:03.663 - INFO - Mission(扫码) 检测到可识别码
+22:53:03.663 - INFO - Mission(扫码) code_data: 123，213
+22:53:03.694 - INFO - Mission(扫码) 检测到可识别码
+22:53:03.694 - INFO - Mission(扫码) code_data: 123，213
+22:53:03.723 - INFO - Mission(扫码) 检测到可识别码
+22:53:03.723 - INFO - Mission(扫码) code_data: 123，213
+22:53:03.752 - INFO - Mission(扫码) 检测到可识别码
+22:53:03.752 - INFO - Mission(扫码) code_data: 123，213
+22:53:03.781 - INFO - Mission(扫码) 检测到可识别码
+22:53:03.781 - INFO - Mission(扫码) code_data: 123，213
+22:53:03.817 - INFO - Mission(扫码) 检测到可识别码
+22:53:03.817 - INFO - Mission(扫码) code_data: 123，213
+22:53:03.850 - INFO - Mission(扫码) 检测到可识别码
+22:53:03.850 - INFO - Mission(扫码) code_data: 123，213
+22:53:03.883 - INFO - Mission(扫码) 检测到可识别码
+22:53:03.884 - INFO - Mission(扫码) code_data: 123，213
+22:53:03.919 - INFO - Mission(扫码) 检测到可识别码
+22:53:03.920 - INFO - Mission(扫码) code_data: 123，213
+22:53:03.949 - INFO - Mission(扫码) 检测到可识别码
+22:53:03.949 - INFO - Mission(扫码) code_data: 123，213
+22:53:03.979 - INFO - Mission(扫码) 检测到可识别码
+22:53:03.979 - INFO - Mission(扫码) code_data: 123，213
+22:53:04.011 - INFO - Mission(扫码) 检测到可识别码
+22:53:04.012 - INFO - Mission(扫码) code_data: 123，213
+22:53:04.048 - INFO - Mission(扫码) 检测到可识别码
+22:53:04.048 - INFO - Mission(扫码) code_data: 123，213
+22:53:04.081 - INFO - Mission(扫码) 检测到可识别码
+22:53:04.081 - INFO - Mission(扫码) code_data: 123，213
+22:53:04.115 - INFO - Mission(扫码) 检测到可识别码
+22:53:04.115 - INFO - Mission(扫码) code_data: 123，213
+22:53:04.171 - INFO - Mission(扫码) 检测到可识别码
+22:53:04.172 - INFO - Mission(扫码) code_data: 123，213
+22:53:04.200 - INFO - Mission(扫码) 检测到可识别码
+22:53:04.201 - INFO - Mission(扫码) code_data: 123，213
+22:53:04.237 - INFO - Mission(扫码) 检测到可识别码
+22:53:04.237 - INFO - Mission(扫码) code_data: 123，213
+22:53:04.272 - INFO - Mission(扫码) 检测到可识别码
+22:53:04.272 - INFO - Mission(扫码) code_data: 123，213
+22:53:04.309 - INFO - Mission(扫码) 检测到可识别码
+22:53:04.309 - INFO - Mission(扫码) code_data: 123，213
+22:53:04.345 - INFO - Mission(扫码) 检测到可识别码
+22:53:04.345 - INFO - Mission(扫码) code_data: 123，213
+22:53:04.379 - INFO - Mission(扫码) 检测到可识别码
+22:53:04.380 - INFO - Mission(扫码) code_data: 123，213
+22:53:04.416 - INFO - Mission(扫码) 检测到可识别码
+22:53:04.416 - INFO - Mission(扫码) code_data: 123，213
+22:53:04.451 - INFO - Mission(扫码) 检测到可识别码
+22:53:04.452 - INFO - Mission(扫码) code_data: 123，213
+22:53:04.486 - INFO - Mission(扫码) 检测到可识别码
+22:53:04.486 - INFO - Mission(扫码) code_data: 123，213
+22:53:04.516 - INFO - Mission(扫码) 检测到可识别码
+22:53:04.516 - INFO - Mission(扫码) code_data: 123，213
+22:53:04.545 - INFO - Mission(扫码) 检测到可识别码
+22:53:04.546 - INFO - Mission(扫码) code_data: 123，213
+22:53:04.577 - INFO - Mission(扫码) 检测到可识别码
+22:53:04.577 - INFO - Mission(扫码) code_data: 123，213
+22:53:04.605 - INFO - Mission(扫码) 检测到可识别码
+22:53:04.606 - INFO - Mission(扫码) code_data: 123，213
+22:53:04.636 - INFO - Mission(扫码) 检测到可识别码
+22:53:04.636 - INFO - Mission(扫码) code_data: 123，213
+22:53:04.668 - INFO - Mission(扫码) 检测到可识别码
+22:53:04.668 - INFO - Mission(扫码) code_data: 123，213
+22:53:04.700 - INFO - Mission(扫码) 检测到可识别码
+22:53:04.700 - INFO - Mission(扫码) code_data: 123，213
+22:53:04.736 - INFO - Mission(扫码) 检测到可识别码
+22:53:04.736 - INFO - Mission(扫码) code_data: 123，213
+22:53:04.767 - INFO - Mission(扫码) 检测到可识别码
+22:53:04.767 - INFO - Mission(扫码) code_data: 123，213
+22:53:04.799 - INFO - Mission(扫码) 检测到可识别码
+22:53:04.800 - INFO - Mission(扫码) code_data: 123，213
+22:53:04.836 - INFO - Mission(扫码) 检测到可识别码
+22:53:04.837 - INFO - Mission(扫码) code_data: 123，213
+22:53:04.871 - INFO - Mission(扫码) 检测到可识别码
+22:53:04.871 - INFO - Mission(扫码) code_data: 123，213
+22:53:04.907 - INFO - Mission(扫码) 检测到可识别码
+22:53:04.907 - INFO - Mission(扫码) code_data: 123，213
+22:53:04.945 - INFO - Mission(扫码) 检测到可识别码
+22:53:04.945 - INFO - Mission(扫码) code_data: 123，213
+22:53:04.985 - INFO - Mission(扫码) 检测到可识别码
+22:53:04.985 - INFO - Mission(扫码) code_data: 123，213
+22:53:05.025 - INFO - Mission(扫码) 检测到可识别码
+22:53:05.025 - INFO - Mission(扫码) code_data: 123，213
+22:53:05.053 - INFO - Mission(扫码) 检测到可识别码
+22:53:05.054 - INFO - Mission(扫码) code_data: 123，213
+22:53:05.081 - INFO - Mission(扫码) 检测到可识别码
+22:53:05.081 - INFO - Mission(扫码) code_data: 123，213
+22:53:05.111 - INFO - Mission(扫码) 检测到可识别码
+22:53:05.112 - INFO - Mission(扫码) code_data: 123，213
+22:53:05.141 - INFO - Mission(扫码) 检测到可识别码
+22:53:05.142 - INFO - Mission(扫码) code_data: 123，213
+22:53:05.171 - INFO - Mission(扫码) 检测到可识别码
+22:53:05.172 - INFO - Mission(扫码) code_data: 123，213
+22:53:05.203 - INFO - Mission(扫码) 检测到可识别码
+22:53:05.203 - INFO - Mission(扫码) code_data: 123，213
+22:53:05.236 - INFO - Mission(扫码) 检测到可识别码
+22:53:05.237 - INFO - Mission(扫码) code_data: 123，213
+22:53:05.273 - INFO - Mission(扫码) 检测到可识别码
+22:53:05.273 - INFO - Mission(扫码) code_data: 123，213
+22:53:05.310 - INFO - Mission(扫码) 检测到可识别码
+22:53:05.310 - INFO - Mission(扫码) code_data: 123，213
+22:53:05.345 - INFO - Mission(扫码) 检测到可识别码
+22:53:05.345 - INFO - Mission(扫码) code_data: 123，213
+22:53:05.382 - INFO - Mission(扫码) 检测到可识别码
+22:53:05.383 - INFO - Mission(扫码) code_data: 123，213
+22:53:05.411 - INFO - Mission(扫码) 检测到可识别码
+22:53:05.412 - INFO - Mission(扫码) code_data: 123，213
+22:53:05.441 - INFO - Mission(扫码) 检测到可识别码
+22:53:05.442 - INFO - Mission(扫码) code_data: 123，213
+22:53:05.471 - INFO - Mission(扫码) 检测到可识别码
+22:53:05.472 - INFO - Mission(扫码) code_data: 123，213
+22:53:05.502 - INFO - Mission(扫码) 检测到可识别码
+22:53:05.502 - INFO - Mission(扫码) code_data: 123，213
+22:53:05.536 - INFO - Mission(扫码) 检测到可识别码
+22:53:05.536 - INFO - Mission(扫码) code_data: 123，213
+22:53:05.567 - INFO - Mission(扫码) 检测到可识别码
+22:53:05.567 - INFO - Mission(扫码) code_data: 123，213
+22:53:05.600 - INFO - Mission(扫码) 检测到可识别码
+22:53:05.600 - INFO - Mission(扫码) code_data: 123，213
+22:53:05.636 - INFO - Mission(扫码) 检测到可识别码
+22:53:05.637 - INFO - Mission(扫码) code_data: 123，213
+22:53:05.670 - INFO - Mission(扫码) 检测到可识别码
+22:53:05.671 - INFO - Mission(扫码) code_data: 123，213
+22:53:05.699 - INFO - Mission(扫码) 检测到可识别码
+22:53:05.700 - INFO - Mission(扫码) code_data: 123，213
+22:53:05.736 - INFO - Mission(扫码) 检测到可识别码
+22:53:05.736 - INFO - Mission(扫码) code_data: 123，213
+22:53:05.800 - INFO - Mission(扫码) 检测到可识别码
+22:53:05.801 - INFO - Mission(扫码) code_data: 123，213
+22:53:05.836 - INFO - Mission(扫码) 检测到可识别码
+22:53:05.836 - INFO - Mission(扫码) code_data: 123，213
+22:53:05.868 - INFO - Mission(扫码) 检测到可识别码
+22:53:05.868 - INFO - Mission(扫码) code_data: 123，213
+22:53:05.898 - INFO - Mission(扫码) 检测到可识别码
+22:53:05.899 - INFO - Mission(扫码) code_data: 123，213
+22:53:05.937 - INFO - Mission(扫码) 检测到可识别码
+22:53:05.937 - INFO - Mission(扫码) code_data: 123，213
+22:53:05.968 - INFO - Mission(扫码) 检测到可识别码
+22:53:05.968 - INFO - Mission(扫码) code_data: 123，213
+22:53:06.005 - INFO - Mission(扫码) 检测到可识别码
+22:53:06.006 - INFO - Mission(扫码) code_data: 123，213
+22:53:06.042 - INFO - Mission(扫码) 检测到可识别码
+22:53:06.043 - INFO - Mission(扫码) code_data: 123，213
+22:53:06.078 - INFO - Mission(扫码) 检测到可识别码
+22:53:06.079 - INFO - Mission(扫码) code_data: 123，213
+22:53:06.114 - INFO - Mission(扫码) 检测到可识别码
+22:53:06.114 - INFO - Mission(扫码) code_data: 123，213
+22:53:06.144 - INFO - Mission(扫码) 检测到可识别码
+22:53:06.144 - INFO - Mission(扫码) code_data: 123，213
+22:53:06.176 - INFO - Mission(扫码) 检测到可识别码
+22:53:06.176 - INFO - Mission(扫码) code_data: 123，213
+22:53:06.209 - INFO - Mission(扫码) 检测到可识别码
+22:53:06.210 - INFO - Mission(扫码) code_data: 123，213
+22:53:06.239 - INFO - Mission(扫码) 检测到可识别码
+22:53:06.240 - INFO - Mission(扫码) code_data: 123，213
+22:53:06.271 - INFO - Mission(扫码) 检测到可识别码
+22:53:06.271 - INFO - Mission(扫码) code_data: 123，213
+22:53:06.307 - INFO - Mission(扫码) 检测到可识别码
+22:53:06.308 - INFO - Mission(扫码) code_data: 123，213
+22:53:06.342 - INFO - Mission(扫码) 检测到可识别码
+22:53:06.343 - INFO - Mission(扫码) code_data: 123，213
+22:53:06.377 - INFO - Mission(扫码) 检测到可识别码
+22:53:06.378 - INFO - Mission(扫码) code_data: 123，213
+22:53:06.415 - INFO - Mission(扫码) 检测到可识别码
+22:53:06.415 - INFO - Mission(扫码) code_data: 123，213
+22:53:06.455 - INFO - Mission(扫码) 检测到可识别码
+22:53:06.455 - INFO - Mission(扫码) code_data: 123，213
+22:53:06.514 - INFO - Mission(扫码) 检测到可识别码
+22:53:06.514 - INFO - Mission(扫码) code_data: 123，213
+22:53:06.571 - INFO - Mission(扫码) 检测到可识别码
+22:53:06.572 - INFO - Mission(扫码) code_data: 123，213
+22:53:06.603 - INFO - Mission(扫码) 检测到可识别码
+22:53:06.603 - INFO - Mission(扫码) code_data: 123，213
+22:53:06.638 - INFO - Mission(扫码) 检测到可识别码
+22:53:06.638 - INFO - Mission(扫码) code_data: 123，213
+22:53:06.676 - INFO - Mission(扫码) 检测到可识别码
+22:53:06.677 - INFO - Mission(扫码) code_data: 123，213
+22:53:06.709 - INFO - Mission(扫码) 检测到可识别码
+22:53:06.709 - INFO - Mission(扫码) code_data: 123，213
+22:53:06.746 - INFO - Mission(扫码) 检测到可识别码
+22:53:06.746 - INFO - Mission(扫码) code_data: 123，213
+22:53:06.781 - INFO - Mission(扫码) 检测到可识别码
+22:53:06.781 - INFO - Mission(扫码) code_data: 123，213
+22:53:06.848 - INFO - Mission(扫码) 检测到可识别码
+22:53:06.849 - INFO - Mission(扫码) code_data: 123，213
+22:53:06.883 - INFO - Mission(扫码) 检测到可识别码
+22:53:06.883 - INFO - Mission(扫码) code_data: 123，213
+22:53:06.942 - INFO - Mission(扫码) 检测到可识别码
+22:53:06.942 - INFO - Mission(扫码) code_data: 123，213
+22:53:06.971 - INFO - Mission(扫码) 检测到可识别码
+22:53:06.972 - INFO - Mission(扫码) code_data: 123，213
+22:53:07.001 - INFO - Mission(扫码) 检测到可识别码
+22:53:07.001 - INFO - Mission(扫码) code_data: 123，213
+22:53:07.036 - INFO - Mission(扫码) 检测到可识别码
+22:53:07.037 - INFO - Mission(扫码) code_data: 123，213
+22:53:07.071 - INFO - Mission(扫码) 检测到可识别码
+22:53:07.071 - INFO - Mission(扫码) code_data: 123，213
+22:53:07.108 - INFO - Mission(扫码) 检测到可识别码
+22:53:07.108 - INFO - Mission(扫码) code_data: 123，213
+22:53:07.137 - INFO - Mission(扫码) 检测到可识别码
+22:53:07.137 - INFO - Mission(扫码) code_data: 123，213
+22:53:07.169 - INFO - Mission(扫码) 检测到可识别码
+22:53:07.170 - INFO - Mission(扫码) code_data: 123，213
+22:53:07.199 - INFO - Mission(扫码) 检测到可识别码
+22:53:07.200 - INFO - Mission(扫码) code_data: 123，213
+22:53:07.232 - INFO - Mission(扫码) 检测到可识别码
+22:53:07.232 - INFO - Mission(扫码) code_data: 123，213
+22:53:07.270 - INFO - Mission(扫码) 检测到可识别码
+22:53:07.270 - INFO - Mission(扫码) code_data: 123，213
+22:53:07.300 - INFO - Mission(扫码) 检测到可识别码
+22:53:07.300 - INFO - Mission(扫码) code_data: 123，213
+22:53:07.332 - INFO - Mission(扫码) 检测到可识别码
+22:53:07.332 - INFO - Mission(扫码) code_data: 123，213
+22:53:07.399 - INFO - Mission(扫码) 检测到可识别码
+22:53:07.399 - INFO - Mission(扫码) code_data: 123，213
+22:53:07.434 - INFO - Mission(扫码) 检测到可识别码
+22:53:07.434 - INFO - Mission(扫码) code_data: 123，213
+22:53:07.477 - INFO - Mission(扫码) 检测到可识别码
+22:53:07.477 - INFO - Mission(扫码) code_data: 123，213
+22:53:07.511 - INFO - Mission(扫码) 检测到可识别码
+22:53:07.512 - INFO - Mission(扫码) code_data: 123，213
+22:53:07.546 - INFO - Mission(扫码) 检测到可识别码
+22:53:07.546 - INFO - Mission(扫码) code_data: 123，213
+22:53:07.575 - INFO - Mission(扫码) 检测到可识别码
+22:53:07.576 - INFO - Mission(扫码) code_data: 123，213
+22:53:07.604 - INFO - Mission(扫码) 检测到可识别码
+22:53:07.604 - INFO - Mission(扫码) code_data: 123，213
+22:53:07.637 - INFO - Mission(扫码) 检测到可识别码
+22:53:07.637 - INFO - Mission(扫码) code_data: 123，213
+22:53:07.671 - INFO - Mission(扫码) 检测到可识别码
+22:53:07.671 - INFO - Mission(扫码) code_data: 123，213
+22:53:07.705 - INFO - Mission(扫码) 检测到可识别码
+22:53:07.706 - INFO - Mission(扫码) code_data: 123，213
+22:53:07.742 - INFO - Mission(扫码) 检测到可识别码
+22:53:07.742 - INFO - Mission(扫码) code_data: 123，213
+22:53:07.775 - INFO - Mission(扫码) 检测到可识别码
+22:53:07.776 - INFO - Mission(扫码) code_data: 123，213
+22:53:07.809 - INFO - Mission(扫码) 检测到可识别码
+22:53:07.809 - INFO - Mission(扫码) code_data: 123，213
+22:53:07.842 - INFO - Mission(扫码) 检测到可识别码
+22:53:07.843 - INFO - Mission(扫码) code_data: 123，213
+22:53:07.876 - INFO - Mission(扫码) 检测到可识别码
+22:53:07.876 - INFO - Mission(扫码) code_data: 123，213
+22:53:07.911 - INFO - Mission(扫码) 检测到可识别码
+22:53:07.911 - INFO - Mission(扫码) code_data: 123，213
+22:53:07.945 - INFO - Mission(扫码) 检测到可识别码
+22:53:07.945 - INFO - Mission(扫码) code_data: 123，213
+22:53:07.979 - INFO - Mission(扫码) 检测到可识别码
+22:53:07.979 - INFO - Mission(扫码) code_data: 123，213
+22:53:08.013 - INFO - Mission(扫码) 检测到可识别码
+22:53:08.013 - INFO - Mission(扫码) code_data: 123，213
+22:53:08.047 - INFO - Mission(扫码) 检测到可识别码
+22:53:08.048 - INFO - Mission(扫码) code_data: 123，213
+22:53:08.080 - INFO - Mission(扫码) 检测到可识别码
+22:53:08.080 - INFO - Mission(扫码) code_data: 123，213
+22:53:08.114 - INFO - Mission(扫码) 检测到可识别码
+22:53:08.114 - INFO - Mission(扫码) code_data: 123，213
+22:53:08.148 - INFO - Mission(扫码) 检测到可识别码
+22:53:08.148 - INFO - Mission(扫码) code_data: 123，213
+22:53:08.183 - INFO - Mission(扫码) 检测到可识别码
+22:53:08.183 - INFO - Mission(扫码) code_data: 123，213
+22:53:08.212 - INFO - Mission(扫码) 检测到可识别码
+22:53:08.212 - INFO - Mission(扫码) code_data: 123，213
+22:53:08.246 - INFO - Mission(扫码) 检测到可识别码
+22:53:08.246 - INFO - Mission(扫码) code_data: 123，213
+22:53:08.280 - INFO - Mission(扫码) 检测到可识别码
+22:53:08.280 - INFO - Mission(扫码) code_data: 123，213
+22:53:08.315 - INFO - Mission(扫码) 检测到可识别码
+22:53:08.315 - INFO - Mission(扫码) code_data: 123，213
+22:53:08.350 - INFO - Mission(扫码) 检测到可识别码
+22:53:08.350 - INFO - Mission(扫码) code_data: 123，213
+22:53:08.384 - INFO - Mission(扫码) 检测到可识别码
+22:53:08.384 - INFO - Mission(扫码) code_data: 123，213
+22:53:08.418 - INFO - Mission(扫码) 检测到可识别码
+22:53:08.418 - INFO - Mission(扫码) code_data: 123，213
+22:53:08.453 - INFO - Mission(扫码) 检测到可识别码
+22:53:08.453 - INFO - Mission(扫码) code_data: 123，213
+22:53:08.490 - INFO - Mission(扫码) 检测到可识别码
+22:53:08.491 - INFO - Mission(扫码) code_data: 123，213
+22:53:08.531 - INFO - Mission(扫码) 检测到可识别码
+22:53:08.531 - INFO - Mission(扫码) code_data: 123，213
+22:53:08.559 - INFO - Mission(扫码) 检测到可识别码
+22:53:08.560 - INFO - Mission(扫码) code_data: 123，213
+22:53:08.593 - INFO - Mission(扫码) 检测到可识别码
+22:53:08.593 - INFO - Mission(扫码) code_data: 123，213
+22:53:08.622 - INFO - Mission(扫码) 检测到可识别码
+22:53:08.622 - INFO - Mission(扫码) code_data: 123，213
+22:53:08.656 - INFO - Mission(扫码) 检测到可识别码
+22:53:08.656 - INFO - Mission(扫码) code_data: 123，213
+22:53:08.691 - INFO - Mission(扫码) 检测到可识别码
+22:53:08.692 - INFO - Mission(扫码) code_data: 123，213
+22:53:08.725 - INFO - Mission(扫码) 检测到可识别码
+22:53:08.726 - INFO - Mission(扫码) code_data: 123，213
+22:53:08.757 - INFO - Mission(扫码) 检测到可识别码
+22:53:08.757 - INFO - Mission(扫码) code_data: 123，213
+22:53:08.786 - INFO - Mission(扫码) 检测到可识别码
+22:53:08.786 - INFO - Mission(扫码) code_data: 123，213
+22:53:08.815 - INFO - Mission(扫码) 检测到可识别码
+22:53:08.815 - INFO - Mission(扫码) code_data: 123，213
+22:53:08.844 - INFO - Mission(扫码) 检测到可识别码
+22:53:08.844 - INFO - Mission(扫码) code_data: 123，213
+22:53:08.872 - INFO - Mission(扫码) 检测到可识别码
+22:53:08.872 - INFO - Mission(扫码) code_data: 123，213
+22:53:08.900 - INFO - Mission(扫码) 检测到可识别码
+22:53:08.900 - INFO - Mission(扫码) code_data: 123，213
+22:53:08.933 - INFO - Mission(扫码) 检测到可识别码
+22:53:08.933 - INFO - Mission(扫码) code_data: 123，213
+22:53:08.969 - INFO - Mission(扫码) 检测到可识别码
+22:53:08.970 - INFO - Mission(扫码) code_data: 123，213
+22:53:09.000 - INFO - Mission(扫码) 检测到可识别码
+22:53:09.000 - INFO - Mission(扫码) code_data: 123，213
+22:53:09.032 - INFO - Mission(扫码) 检测到可识别码
+22:53:09.032 - INFO - Mission(扫码) code_data: 123，213
+22:53:09.068 - INFO - Mission(扫码) 检测到可识别码
+22:53:09.069 - INFO - Mission(扫码) code_data: 123，213
+22:53:09.100 - INFO - Mission(扫码) 检测到可识别码
+22:53:09.101 - INFO - Mission(扫码) code_data: 123，213
+22:53:09.132 - INFO - Mission(扫码) 检测到可识别码
+22:53:09.132 - INFO - Mission(扫码) code_data: 123，213
+22:53:09.169 - INFO - Mission(扫码) 检测到可识别码
+22:53:09.170 - INFO - Mission(扫码) code_data: 123，213
+22:53:09.200 - INFO - Mission(扫码) 检测到可识别码
+22:53:09.200 - INFO - Mission(扫码) code_data: 123，213
+22:53:09.231 - INFO - Mission(扫码) 检测到可识别码
+22:53:09.232 - INFO - Mission(扫码) code_data: 123，213
+22:53:09.269 - INFO - Mission(扫码) 检测到可识别码
+22:53:09.270 - INFO - Mission(扫码) code_data: 123，213
+22:53:09.300 - INFO - Mission(扫码) 检测到可识别码
+22:53:09.300 - INFO - Mission(扫码) code_data: 123，213
+22:53:09.332 - INFO - Mission(扫码) 检测到可识别码
+22:53:09.332 - INFO - Mission(扫码) code_data: 123，213
+22:53:09.369 - INFO - Mission(扫码) 检测到可识别码
+22:53:09.369 - INFO - Mission(扫码) code_data: 123，213
+22:53:09.402 - INFO - Mission(扫码) 检测到可识别码
+22:53:09.403 - INFO - Mission(扫码) code_data: 123，213
+22:53:09.435 - INFO - Mission(扫码) 检测到可识别码
+22:53:09.436 - INFO - Mission(扫码) code_data: 123，213
+22:53:09.468 - INFO - Mission(扫码) 检测到可识别码
+22:53:09.468 - INFO - Mission(扫码) code_data: 123，213
+22:53:09.503 - INFO - Mission(扫码) 检测到可识别码
+22:53:09.503 - INFO - Mission(扫码) code_data: 123，213
+22:53:09.542 - INFO - Mission(扫码) 检测到可识别码
+22:53:09.543 - INFO - Mission(扫码) code_data: 123，213
+22:53:09.582 - INFO - Mission(扫码) 检测到可识别码
+22:53:09.583 - INFO - Mission(扫码) code_data: 123，213
+22:53:09.616 - INFO - Mission(扫码) 检测到可识别码
+22:53:09.616 - INFO - Mission(扫码) code_data: 123，213
+22:53:09.645 - INFO - Mission(扫码) 检测到可识别码
+22:53:09.645 - INFO - Mission(扫码) code_data: 123，213
+22:53:09.673 - INFO - Mission(扫码) 检测到可识别码
+22:53:09.673 - INFO - Mission(扫码) code_data: 123，213
+22:53:09.702 - INFO - Mission(扫码) 检测到可识别码
+22:53:09.702 - INFO - Mission(扫码) code_data: 123，213
+22:53:09.735 - INFO - Mission(扫码) 检测到可识别码
+22:53:09.736 - INFO - Mission(扫码) code_data: 123，213
+22:53:09.769 - INFO - Mission(扫码) 检测到可识别码
+22:53:09.773 - INFO - Mission(扫码) code_data: 123，213
+22:53:09.808 - INFO - Mission(扫码) 检测到可识别码
+22:53:09.808 - INFO - Mission(扫码) code_data: 123，213
+22:53:09.842 - INFO - Mission(扫码) 检测到可识别码
+22:53:09.842 - INFO - Mission(扫码) code_data: 123，213
+22:53:09.875 - INFO - Mission(扫码) 检测到可识别码
+22:53:09.875 - INFO - Mission(扫码) code_data: 123，213
+22:53:09.904 - INFO - Mission(扫码) 检测到可识别码
+22:53:09.904 - INFO - Mission(扫码) code_data: 123，213
+22:53:09.939 - INFO - Mission(扫码) 检测到可识别码
+22:53:09.939 - INFO - Mission(扫码) code_data: 123，213
+22:53:09.974 - INFO - Mission(扫码) 检测到可识别码
+22:53:09.975 - INFO - Mission(扫码) code_data: 123，213
+22:53:10.009 - INFO - Mission(扫码) 检测到可识别码
+22:53:10.009 - INFO - Mission(扫码) code_data: 123，213
+22:53:10.043 - INFO - Mission(扫码) 检测到可识别码
+22:53:10.044 - INFO - Mission(扫码) code_data: 123，213
+22:53:10.077 - INFO - Mission(扫码) 检测到可识别码
+22:53:10.078 - INFO - Mission(扫码) code_data: 123，213
+22:53:10.112 - INFO - Mission(扫码) 检测到可识别码
+22:53:10.112 - INFO - Mission(扫码) code_data: 123，213
+22:53:10.145 - INFO - Mission(扫码) 检测到可识别码
+22:53:10.146 - INFO - Mission(扫码) code_data: 123，213
+22:53:10.174 - INFO - Mission(扫码) 检测到可识别码
+22:53:10.175 - INFO - Mission(扫码) code_data: 123，213
+22:53:10.203 - INFO - Mission(扫码) 检测到可识别码
+22:53:10.204 - INFO - Mission(扫码) code_data: 123，213
+22:53:10.232 - INFO - Mission(扫码) 检测到可识别码
+22:53:10.232 - INFO - Mission(扫码) code_data: 123，213
+22:53:10.269 - INFO - Mission(扫码) 检测到可识别码
+22:53:10.269 - INFO - Mission(扫码) code_data: 123，213
+22:53:10.300 - INFO - Mission(扫码) 检测到可识别码
+22:53:10.300 - INFO - Mission(扫码) code_data: 123，213
+22:53:10.333 - INFO - Mission(扫码) 检测到可识别码
+22:53:10.333 - INFO - Mission(扫码) code_data: 123，213
+22:53:10.368 - INFO - Mission(扫码) 检测到可识别码
+22:53:10.368 - INFO - Mission(扫码) code_data: 123，213
+22:53:10.401 - INFO - Mission(扫码) 检测到可识别码
+22:53:10.401 - INFO - Mission(扫码) code_data: 123，213
+22:53:10.432 - INFO - Mission(扫码) 检测到可识别码
+22:53:10.432 - INFO - Mission(扫码) code_data: 123，213
+22:53:10.470 - INFO - Mission(扫码) 检测到可识别码
+22:53:10.470 - INFO - Mission(扫码) code_data: 123，213
+22:53:10.500 - INFO - Mission(扫码) 检测到可识别码
+22:53:10.500 - INFO - Mission(扫码) code_data: 123，213
+22:53:10.533 - INFO - Mission(扫码) 检测到可识别码
+22:53:10.533 - INFO - Mission(扫码) code_data: 123，213
+22:53:10.570 - INFO - Mission(扫码) 检测到可识别码
+22:53:10.570 - INFO - Mission(扫码) code_data: 123，213
+22:53:10.605 - INFO - Mission(扫码) 检测到可识别码
+22:53:10.605 - INFO - Mission(扫码) code_data: 123，213
+22:53:10.636 - INFO - Mission(扫码) 检测到可识别码
+22:53:10.636 - INFO - Mission(扫码) code_data: 123，213
+22:53:10.668 - INFO - Mission(扫码) 检测到可识别码
+22:53:10.668 - INFO - Mission(扫码) code_data: 123，213
+22:53:10.700 - INFO - Mission(扫码) 检测到可识别码
+22:53:10.700 - INFO - Mission(扫码) code_data: 123，213
+22:53:10.734 - INFO - Mission(扫码) 检测到可识别码
+22:53:10.734 - INFO - Mission(扫码) code_data: 123，213
+22:53:10.769 - INFO - Mission(扫码) 检测到可识别码
+22:53:10.770 - INFO - Mission(扫码) code_data: 123，213
+22:53:10.800 - INFO - Mission(扫码) 检测到可识别码
+22:53:10.801 - INFO - Mission(扫码) code_data: 123，213
+22:53:10.834 - INFO - Mission(扫码) 检测到可识别码
+22:53:10.834 - INFO - Mission(扫码) code_data: 123，213
+22:53:10.869 - INFO - Mission(扫码) 检测到可识别码
+22:53:10.869 - INFO - Mission(扫码) code_data: 123，213
+22:53:10.903 - INFO - Mission(扫码) 检测到可识别码
+22:53:10.904 - INFO - Mission(扫码) code_data: 123，213
+22:53:10.938 - INFO - Mission(扫码) 检测到可识别码
+22:53:10.938 - INFO - Mission(扫码) code_data: 123，213
+22:53:10.968 - INFO - Mission(扫码) 检测到可识别码
+22:53:10.968 - INFO - Mission(扫码) code_data: 123，213
+22:53:11.000 - INFO - Mission(扫码) 检测到可识别码
+22:53:11.001 - INFO - Mission(扫码) code_data: 123，213
+22:53:11.070 - INFO - Mission(扫码) 检测到可识别码
+22:53:11.070 - INFO - Mission(扫码) code_data: 123，213
+22:53:11.100 - INFO - Mission(扫码) 检测到可识别码
+22:53:11.100 - INFO - Mission(扫码) code_data: 123，213
+22:53:11.133 - INFO - Mission(扫码) 检测到可识别码
+22:53:11.133 - INFO - Mission(扫码) code_data: 123，213
+22:53:11.169 - INFO - Mission(扫码) 检测到可识别码
+22:53:11.170 - INFO - Mission(扫码) code_data: 123，213
+22:53:11.200 - INFO - Mission(扫码) 检测到可识别码
+22:53:11.200 - INFO - Mission(扫码) code_data: 123，213
+22:53:11.233 - INFO - Mission(扫码) 检测到可识别码
+22:53:11.233 - INFO - Mission(扫码) code_data: 123，213
+22:53:11.270 - INFO - Mission(扫码) 检测到可识别码
+22:53:11.270 - INFO - Mission(扫码) code_data: 123，213
+22:53:11.300 - INFO - Mission(扫码) 检测到可识别码
+22:53:11.300 - INFO - Mission(扫码) code_data: 123，213
+22:53:11.334 - INFO - Mission(扫码) 检测到可识别码
+22:53:11.334 - INFO - Mission(扫码) code_data: 123，213
+22:53:11.368 - INFO - Mission(扫码) 检测到可识别码
+22:53:11.368 - INFO - Mission(扫码) code_data: 123，213
+22:53:11.403 - INFO - Mission(扫码) 检测到可识别码
+22:53:11.403 - INFO - Mission(扫码) code_data: 123，213
+22:53:11.437 - INFO - Mission(扫码) 检测到可识别码
+22:53:11.437 - INFO - Mission(扫码) code_data: 123，213
+22:53:11.469 - INFO - Mission(扫码) 检测到可识别码
+22:53:11.469 - INFO - Mission(扫码) code_data: 123，213
+22:53:11.500 - INFO - Mission(扫码) 检测到可识别码
+22:53:11.500 - INFO - Mission(扫码) code_data: 123，213
+22:53:11.533 - INFO - Mission(扫码) 检测到可识别码
+22:53:11.533 - INFO - Mission(扫码) code_data: 123，213
+22:53:11.570 - INFO - Mission(扫码) 检测到可识别码
+22:53:11.570 - INFO - Mission(扫码) code_data: 123，213
+22:53:11.600 - INFO - Mission(扫码) 检测到可识别码
+22:53:11.600 - INFO - Mission(扫码) code_data: 123，213
+22:53:11.635 - INFO - Mission(扫码) 检测到可识别码
+22:53:11.635 - INFO - Mission(扫码) code_data: 123，213
+22:53:11.668 - INFO - Mission(扫码) 检测到可识别码
+22:53:11.668 - INFO - Mission(扫码) code_data: 123，213
+22:53:11.700 - INFO - Mission(扫码) 检测到可识别码
+22:53:11.701 - INFO - Mission(扫码) code_data: 123，213
+22:53:11.733 - INFO - Mission(扫码) 检测到可识别码
+22:53:11.734 - INFO - Mission(扫码) code_data: 123，213
+22:53:11.769 - INFO - Mission(扫码) 检测到可识别码
+22:53:11.769 - INFO - Mission(扫码) code_data: 123，213
+22:53:11.800 - INFO - Mission(扫码) 检测到可识别码
+22:53:11.801 - INFO - Mission(扫码) code_data: 123，213
+22:53:11.832 - INFO - Mission(扫码) 检测到可识别码
+22:53:11.832 - INFO - Mission(扫码) code_data: 123，213
+22:53:11.869 - INFO - Mission(扫码) 检测到可识别码
+22:53:11.869 - INFO - Mission(扫码) code_data: 123，213
+22:53:11.900 - INFO - Mission(扫码) 检测到可识别码
+22:53:11.900 - INFO - Mission(扫码) code_data: 123，213
+22:53:11.933 - INFO - Mission(扫码) 检测到可识别码
+22:53:11.933 - INFO - Mission(扫码) code_data: 123，213
+22:53:11.969 - INFO - Mission(扫码) 检测到可识别码
+22:53:11.970 - INFO - Mission(扫码) code_data: 123，213
+22:53:12.000 - INFO - Mission(扫码) 检测到可识别码
+22:53:12.000 - INFO - Mission(扫码) code_data: 123，213
+22:53:12.033 - INFO - Mission(扫码) 检测到可识别码
+22:53:12.033 - INFO - Mission(扫码) code_data: 123，213
+22:53:12.070 - INFO - Mission(扫码) 检测到可识别码
+22:53:12.070 - INFO - Mission(扫码) code_data: 123，213
+22:53:12.101 - INFO - Mission(扫码) 检测到可识别码
+22:53:12.101 - INFO - Mission(扫码) code_data: 123，213
+22:53:12.170 - INFO - Mission(扫码) 检测到可识别码
+22:53:12.170 - INFO - Mission(扫码) code_data: 123，213
+22:53:12.199 - INFO - Mission(扫码) 检测到可识别码
+22:53:12.200 - INFO - Mission(扫码) code_data: 123，213
+22:53:12.232 - INFO - Mission(扫码) 检测到可识别码
+22:53:12.232 - INFO - Mission(扫码) code_data: 123，213
+22:53:12.269 - INFO - Mission(扫码) 检测到可识别码
+22:53:12.269 - INFO - Mission(扫码) code_data: 123，213
+22:53:12.300 - INFO - Mission(扫码) 检测到可识别码
+22:53:12.300 - INFO - Mission(扫码) code_data: 123，213
+22:53:12.333 - INFO - Mission(扫码) 检测到可识别码
+22:53:12.333 - INFO - Mission(扫码) code_data: 123，213
+22:53:12.370 - INFO - Mission(扫码) 检测到可识别码
+22:53:12.370 - INFO - Mission(扫码) code_data: 123，213
+22:53:12.400 - INFO - Mission(扫码) 检测到可识别码
+22:53:12.400 - INFO - Mission(扫码) code_data: 123，213
+22:53:12.433 - INFO - Mission(扫码) 检测到可识别码
+22:53:12.434 - INFO - Mission(扫码) code_data: 123，213
+22:53:12.469 - INFO - Mission(扫码) 检测到可识别码
+22:53:12.470 - INFO - Mission(扫码) code_data: 123，213
+22:53:12.501 - INFO - Mission(扫码) 检测到可识别码
+22:53:12.501 - INFO - Mission(扫码) code_data: 123，213
+22:53:12.535 - INFO - Mission(扫码) 检测到可识别码
+22:53:12.535 - INFO - Mission(扫码) code_data: 123，213
+22:53:12.569 - INFO - Mission(扫码) 检测到可识别码
+22:53:12.569 - INFO - Mission(扫码) code_data: 123，213
+22:53:12.602 - INFO - Mission(扫码) 检测到可识别码
+22:53:12.603 - INFO - Mission(扫码) code_data: 123，213
+22:53:12.636 - INFO - Mission(扫码) 检测到可识别码
+22:53:12.637 - INFO - Mission(扫码) code_data: 123，213
+22:53:12.672 - INFO - Mission(扫码) 检测到可识别码
+22:53:12.673 - INFO - Mission(扫码) code_data: 123，213
+22:53:12.714 - INFO - Mission(扫码) 检测到可识别码
+22:53:12.714 - INFO - Mission(扫码) code_data: 123，213
+22:53:12.748 - INFO - Mission(扫码) 检测到可识别码
+22:53:12.749 - INFO - Mission(扫码) code_data: 123，213
+22:53:12.783 - INFO - Mission(扫码) 检测到可识别码
+22:53:12.783 - INFO - Mission(扫码) code_data: 123，213
+22:53:12.812 - INFO - Mission(扫码) 检测到可识别码
+22:53:12.812 - INFO - Mission(扫码) code_data: 123，213
+22:53:12.841 - INFO - Mission(扫码) 检测到可识别码
+22:53:12.842 - INFO - Mission(扫码) code_data: 123，213
+22:53:12.869 - INFO - Mission(扫码) 检测到可识别码
+22:53:12.870 - INFO - Mission(扫码) code_data: 123，213
+22:53:12.900 - INFO - Mission(扫码) 检测到可识别码
+22:53:12.900 - INFO - Mission(扫码) code_data: 123，213
+22:53:12.932 - INFO - Mission(扫码) 检测到可识别码
+22:53:12.932 - INFO - Mission(扫码) code_data: 123，213
+22:53:12.971 - INFO - Mission(扫码) 检测到可识别码
+22:53:12.971 - INFO - Mission(扫码) code_data: 123，213
+22:53:13.000 - INFO - Mission(扫码) 检测到可识别码
+22:53:13.000 - INFO - Mission(扫码) code_data: 123，213
+22:53:13.033 - INFO - Mission(扫码) 检测到可识别码
+22:53:13.033 - INFO - Mission(扫码) code_data: 123，213
+22:53:13.070 - INFO - Mission(扫码) 检测到可识别码
+22:53:13.070 - INFO - Mission(扫码) code_data: 123，213
+22:53:13.100 - INFO - Mission(扫码) 检测到可识别码
+22:53:13.100 - INFO - Mission(扫码) code_data: 123，213
+22:53:13.132 - INFO - Mission(扫码) 检测到可识别码
+22:53:13.132 - INFO - Mission(扫码) code_data: 123，213
+22:53:13.170 - INFO - Mission(扫码) 检测到可识别码
+22:53:13.170 - INFO - Mission(扫码) code_data: 123，213
+22:53:13.207 - INFO - Mission(扫码) 检测到可识别码
+22:53:13.207 - INFO - Mission(扫码) code_data: 123，213
+22:53:13.242 - INFO - Mission(扫码) 检测到可识别码
+22:53:13.243 - INFO - Mission(扫码) code_data: 123，213
+22:53:13.277 - INFO - Mission(扫码) 检测到可识别码
+22:53:13.277 - INFO - Mission(扫码) code_data: 123，213
+22:53:13.311 - INFO - Mission(扫码) 检测到可识别码
+22:53:13.311 - INFO - Mission(扫码) code_data: 123，213
+22:53:13.345 - INFO - Mission(扫码) 检测到可识别码
+22:53:13.345 - INFO - Mission(扫码) code_data: 123，213
+22:53:13.375 - INFO - Mission(扫码) 检测到可识别码
+22:53:13.375 - INFO - Mission(扫码) code_data: 123，213
+22:53:13.405 - INFO - Mission(扫码) 检测到可识别码
+22:53:13.405 - INFO - Mission(扫码) code_data: 123，213
+22:53:13.435 - INFO - Mission(扫码) 检测到可识别码
+22:53:13.435 - INFO - Mission(扫码) code_data: 123，213
+22:53:13.469 - INFO - Mission(扫码) 检测到可识别码
+22:53:13.469 - INFO - Mission(扫码) code_data: 123，213
+22:53:13.500 - INFO - Mission(扫码) 检测到可识别码
+22:53:13.500 - INFO - Mission(扫码) code_data: 123，213
+22:53:13.532 - INFO - Mission(扫码) 检测到可识别码
+22:53:13.533 - INFO - Mission(扫码) code_data: 123，213
+22:53:13.569 - INFO - Mission(扫码) 检测到可识别码
+22:53:13.569 - INFO - Mission(扫码) code_data: 123，213
+22:53:13.600 - INFO - Mission(扫码) 检测到可识别码
+22:53:13.600 - INFO - Mission(扫码) code_data: 123，213
+22:53:13.633 - INFO - Mission(扫码) 检测到可识别码
+22:53:13.633 - INFO - Mission(扫码) code_data: 123，213
+22:53:13.670 - INFO - Mission(扫码) 检测到可识别码
+22:53:13.670 - INFO - Mission(扫码) code_data: 123，213
+22:53:13.700 - INFO - Mission(扫码) 检测到可识别码
+22:53:13.700 - INFO - Mission(扫码) code_data: 123，213
+22:53:13.733 - INFO - Mission(扫码) 检测到可识别码
+22:53:13.733 - INFO - Mission(扫码) code_data: 123，213
+22:53:13.771 - INFO - Mission(扫码) 检测到可识别码
+22:53:13.772 - INFO - Mission(扫码) code_data: 123，213
+22:53:13.808 - INFO - Mission(扫码) 检测到可识别码
+22:53:13.809 - INFO - Mission(扫码) code_data: 123，213
+22:53:13.840 - INFO - Mission(扫码) 检测到可识别码
+22:53:13.840 - INFO - Mission(扫码) code_data: 123，213
+22:53:13.868 - INFO - Mission(扫码) 检测到可识别码
+22:53:13.869 - INFO - Mission(扫码) code_data: 123，213
+22:53:13.900 - INFO - Mission(扫码) 检测到可识别码
+22:53:13.900 - INFO - Mission(扫码) code_data: 123，213
+22:53:13.933 - INFO - Mission(扫码) 检测到可识别码
+22:53:13.933 - INFO - Mission(扫码) code_data: 123，213
+22:53:13.970 - INFO - Mission(扫码) 检测到可识别码
+22:53:13.971 - INFO - Mission(扫码) code_data: 123，213
+22:53:14.002 - INFO - Mission(扫码) 检测到可识别码
+22:53:14.003 - INFO - Mission(扫码) code_data: 123，213
+22:53:14.040 - INFO - Mission(扫码) 检测到可识别码
+22:53:14.040 - INFO - Mission(扫码) code_data: 123，213
+22:53:14.074 - INFO - Mission(扫码) 检测到可识别码
+22:53:14.075 - INFO - Mission(扫码) code_data: 123，213
+22:53:14.110 - INFO - Mission(扫码) 检测到可识别码
+22:53:14.110 - INFO - Mission(扫码) code_data: 123，213
+22:53:14.145 - INFO - Mission(扫码) 检测到可识别码
+22:53:14.145 - INFO - Mission(扫码) code_data: 123，213
+22:53:14.182 - INFO - Mission(扫码) 检测到可识别码
+22:53:14.182 - INFO - Mission(扫码) code_data: 123，213
+22:53:14.214 - INFO - Mission(扫码) 检测到可识别码
+22:53:14.214 - INFO - Mission(扫码) code_data: 123，213
+22:53:14.245 - INFO - Mission(扫码) 检测到可识别码
+22:53:14.245 - INFO - Mission(扫码) code_data: 123，213
+22:53:14.275 - INFO - Mission(扫码) 检测到可识别码
+22:53:14.276 - INFO - Mission(扫码) code_data: 123，213
+22:53:14.305 - INFO - Mission(扫码) 检测到可识别码
+22:53:14.305 - INFO - Mission(扫码) code_data: 123，213
+22:53:14.335 - INFO - Mission(扫码) 检测到可识别码
+22:53:14.335 - INFO - Mission(扫码) code_data: 123，213
+22:53:14.367 - INFO - Mission(扫码) 检测到可识别码
+22:53:14.367 - INFO - Mission(扫码) code_data: 123，213
+22:53:14.402 - INFO - Mission(扫码) 检测到可识别码
+22:53:14.402 - INFO - Mission(扫码) code_data: 123，213
+22:53:14.434 - INFO - Mission(扫码) 检测到可识别码
+22:53:14.434 - INFO - Mission(扫码) code_data: 123，213
+22:53:14.466 - INFO - Mission(扫码) 检测到可识别码
+22:53:14.466 - INFO - Mission(扫码) code_data: 123，213
+22:53:14.501 - INFO - Mission(扫码) 检测到可识别码
+22:53:14.501 - INFO - Mission(扫码) code_data: 123，213
+22:53:14.533 - INFO - Mission(扫码) 检测到可识别码
+22:53:14.533 - INFO - Mission(扫码) code_data: 123，213
+22:53:14.566 - INFO - Mission(扫码) 检测到可识别码
+22:53:14.567 - INFO - Mission(扫码) code_data: 123，213
+22:53:14.602 - INFO - Mission(扫码) 检测到可识别码
+22:53:14.603 - INFO - Mission(扫码) code_data: 123，213
+22:53:14.634 - INFO - Mission(扫码) 检测到可识别码
+22:53:14.634 - INFO - Mission(扫码) code_data: 123，213
+22:53:14.666 - INFO - Mission(扫码) 检测到可识别码
+22:53:14.666 - INFO - Mission(扫码) code_data: 123，213
+22:53:14.702 - INFO - Mission(扫码) 检测到可识别码
+22:53:14.702 - INFO - Mission(扫码) code_data: 123，213
+22:53:14.734 - INFO - Mission(扫码) 检测到可识别码
+22:53:14.734 - INFO - Mission(扫码) code_data: 123，213
+22:53:14.767 - INFO - Mission(扫码) 检测到可识别码
+22:53:14.768 - INFO - Mission(扫码) code_data: 123，213
+22:53:14.802 - INFO - Mission(扫码) 检测到可识别码
+22:53:14.802 - INFO - Mission(扫码) code_data: 123，213
+22:53:14.834 - INFO - Mission(扫码) 检测到可识别码
+22:53:14.834 - INFO - Mission(扫码) code_data: 123，213
+22:53:14.870 - INFO - Mission(扫码) 检测到可识别码
+22:53:14.870 - INFO - Mission(扫码) code_data: 123，213
+22:53:14.904 - INFO - Mission(扫码) 检测到可识别码
+22:53:14.904 - INFO - Mission(扫码) code_data: 123，213
+22:53:14.937 - INFO - Mission(扫码) 检测到可识别码
+22:53:14.938 - INFO - Mission(扫码) code_data: 123，213
+22:53:14.967 - INFO - Mission(扫码) 检测到可识别码
+22:53:14.967 - INFO - Mission(扫码) code_data: 123，213
+22:53:15.000 - INFO - Mission(扫码) 检测到可识别码
+22:53:15.000 - INFO - Mission(扫码) code_data: 123，213
+22:53:15.034 - INFO - Mission(扫码) 检测到可识别码
+22:53:15.034 - INFO - Mission(扫码) code_data: 123，213
+22:53:15.066 - INFO - Mission(扫码) 检测到可识别码
+22:53:15.066 - INFO - Mission(扫码) code_data: 123，213
+22:53:15.102 - INFO - Mission(扫码) 检测到可识别码
+22:53:15.102 - INFO - Mission(扫码) code_data: 123，213
+22:53:15.133 - INFO - Mission(扫码) 检测到可识别码
+22:53:15.134 - INFO - Mission(扫码) code_data: 123，213
+22:53:15.167 - INFO - Mission(扫码) 检测到可识别码
+22:53:15.167 - INFO - Mission(扫码) code_data: 123，213
+22:53:15.201 - INFO - Mission(扫码) 检测到可识别码
+22:53:15.201 - INFO - Mission(扫码) code_data: 123，213
+22:53:15.234 - INFO - Mission(扫码) 检测到可识别码
+22:53:15.234 - INFO - Mission(扫码) code_data: 123，213
+22:53:15.264 - INFO - Mission(扫码) 检测到可识别码
+22:53:15.265 - INFO - Mission(扫码) code_data: 123，213
+22:53:15.303 - INFO - Mission(扫码) 检测到可识别码
+22:53:15.303 - INFO - Mission(扫码) code_data: 123，213
+22:53:15.333 - INFO - Mission(扫码) 检测到可识别码
+22:53:15.333 - INFO - Mission(扫码) code_data: 123，213
+22:53:15.365 - INFO - Mission(扫码) 检测到可识别码
+22:53:15.365 - INFO - Mission(扫码) code_data: 123，213
+22:53:15.404 - INFO - Mission(扫码) 检测到可识别码
+22:53:15.404 - INFO - Mission(扫码) code_data: 123，213
+22:53:15.436 - INFO - Mission(扫码) 检测到可识别码
+22:53:15.437 - INFO - Mission(扫码) code_data: 123，213
+22:53:15.466 - INFO - Mission(扫码) 检测到可识别码
+22:53:15.466 - INFO - Mission(扫码) code_data: 123，213
+22:53:15.502 - INFO - Mission(扫码) 检测到可识别码
+22:53:15.503 - INFO - Mission(扫码) code_data: 123，213
+22:53:15.534 - INFO - Mission(扫码) 检测到可识别码
+22:53:15.534 - INFO - Mission(扫码) code_data: 123，213
+22:53:15.566 - INFO - Mission(扫码) 检测到可识别码
+22:53:15.566 - INFO - Mission(扫码) code_data: 123，213
+22:53:15.603 - INFO - Mission(扫码) 检测到可识别码
+22:53:15.603 - INFO - Mission(扫码) code_data: 123，213
+22:53:15.632 - INFO - Mission(扫码) 检测到可识别码
+22:53:15.633 - INFO - Mission(扫码) code_data: 123，213
+22:53:15.664 - INFO - Mission(扫码) 检测到可识别码
+22:53:15.665 - INFO - Mission(扫码) code_data: 123，213
+22:53:15.704 - INFO - Mission(扫码) 检测到可识别码
+22:53:15.704 - INFO - Mission(扫码) code_data: 123，213
+22:53:15.733 - INFO - Mission(扫码) 检测到可识别码
+22:53:15.733 - INFO - Mission(扫码) code_data: 123，213
+22:53:15.765 - INFO - Mission(扫码) 检测到可识别码
+22:53:15.765 - INFO - Mission(扫码) code_data: 123，213
+22:53:15.805 - INFO - Mission(扫码) 检测到可识别码
+22:53:15.805 - INFO - Mission(扫码) code_data: 123，213
+22:53:15.837 - INFO - Mission(扫码) 检测到可识别码
+22:53:15.837 - INFO - Mission(扫码) code_data: 123，213
+22:53:15.865 - INFO - Mission(扫码) 检测到可识别码
+22:53:15.866 - INFO - Mission(扫码) code_data: 123，213
+22:53:15.903 - INFO - Mission(扫码) 检测到可识别码
+22:53:15.903 - INFO - Mission(扫码) code_data: 123，213
+22:53:15.945 - INFO - Mission(扫码) 检测到可识别码
+22:53:15.946 - INFO - Mission(扫码) code_data: 123，213
+22:53:15.974 - INFO - Mission(扫码) 检测到可识别码
+22:53:15.974 - INFO - Mission(扫码) code_data: 123，213
+22:53:16.004 - INFO - Mission(扫码) 检测到可识别码
+22:53:16.005 - INFO - Mission(扫码) code_data: 123，213
+22:53:16.035 - INFO - Mission(扫码) 检测到可识别码
+22:53:16.036 - INFO - Mission(扫码) code_data: 123，213
+22:53:16.065 - INFO - Mission(扫码) 检测到可识别码
+22:53:16.066 - INFO - Mission(扫码) code_data: 123，213
+22:53:16.104 - INFO - Mission(扫码) 检测到可识别码
+22:53:16.104 - INFO - Mission(扫码) code_data: 123，213
+22:53:16.138 - INFO - Mission(扫码) 检测到可识别码
+22:53:16.138 - INFO - Mission(扫码) code_data: 123，213
+22:53:16.175 - INFO - Mission(扫码) 检测到可识别码
+22:53:16.175 - INFO - Mission(扫码) code_data: 123，213
+22:53:16.213 - INFO - Mission(扫码) 检测到可识别码
+22:53:16.215 - INFO - Mission(扫码) code_data: 123，213
+22:53:16.256 - INFO - Mission(扫码) 检测到可识别码
+22:53:16.256 - INFO - Mission(扫码) code_data: 123，213
+22:53:16.289 - INFO - Mission(扫码) 检测到可识别码
+22:53:16.289 - INFO - Mission(扫码) code_data: 123，213
+22:53:16.322 - INFO - Mission(扫码) 检测到可识别码
+22:53:16.322 - INFO - Mission(扫码) code_data: 123，213
+22:53:16.353 - INFO - Mission(扫码) 检测到可识别码
+22:53:16.354 - INFO - Mission(扫码) code_data: 123，213
+22:53:16.383 - INFO - Mission(扫码) 检测到可识别码
+22:53:16.383 - INFO - Mission(扫码) code_data: 123，213
+22:53:16.416 - INFO - Mission(扫码) 检测到可识别码
+22:53:16.417 - INFO - Mission(扫码) code_data: 123，213
+22:53:16.448 - INFO - Mission(扫码) 检测到可识别码
+22:53:16.448 - INFO - Mission(扫码) code_data: 123，213
+22:53:16.479 - INFO - Mission(扫码) 检测到可识别码
+22:53:16.479 - INFO - Mission(扫码) code_data: 123，213
+22:53:16.510 - INFO - Mission(扫码) 检测到可识别码
+22:53:16.510 - INFO - Mission(扫码) code_data: 123，213
+22:53:16.538 - INFO - Mission(扫码) 检测到可识别码
+22:53:16.538 - INFO - Mission(扫码) code_data: 123，213
+22:53:16.567 - INFO - Mission(扫码) 检测到可识别码
+22:53:16.567 - INFO - Mission(扫码) code_data: 123，213
+22:53:16.602 - INFO - Mission(扫码) 检测到可识别码
+22:53:16.603 - INFO - Mission(扫码) code_data: 123，213
+22:53:16.633 - INFO - Mission(扫码) 检测到可识别码
+22:53:16.633 - INFO - Mission(扫码) code_data: 123，213
+22:53:16.665 - INFO - Mission(扫码) 检测到可识别码
+22:53:16.665 - INFO - Mission(扫码) code_data: 123，213
+22:53:16.700 - INFO - Mission(扫码) 检测到可识别码
+22:53:16.700 - INFO - Mission(扫码) code_data: 123，213
+22:53:16.734 - INFO - Mission(扫码) 检测到可识别码
+22:53:16.735 - INFO - Mission(扫码) code_data: 123，213
+22:53:16.769 - INFO - Mission(扫码) 检测到可识别码
+22:53:16.770 - INFO - Mission(扫码) code_data: 123，213
+22:53:16.805 - INFO - Mission(扫码) 检测到可识别码
+22:53:16.805 - INFO - Mission(扫码) code_data: 123，213
+22:53:16.835 - INFO - Mission(扫码) 检测到可识别码
+22:53:16.836 - INFO - Mission(扫码) code_data: 123，213
+22:53:16.864 - INFO - Mission(扫码) 检测到可识别码
+22:53:16.865 - INFO - Mission(扫码) code_data: 123，213
+22:53:16.905 - INFO - Mission(扫码) 检测到可识别码
+22:53:16.905 - INFO - Mission(扫码) code_data: 123，213
+22:53:16.936 - INFO - Mission(扫码) 检测到可识别码
+22:53:16.936 - INFO - Mission(扫码) code_data: 123，213
+22:53:16.965 - INFO - Mission(扫码) 检测到可识别码
+22:53:16.965 - INFO - Mission(扫码) code_data: 123，213
+22:53:17.003 - INFO - Mission(扫码) 检测到可识别码
+22:53:17.004 - INFO - Mission(扫码) code_data: 123，213
+22:53:17.041 - INFO - Mission(扫码) 检测到可识别码
+22:53:17.042 - INFO - Mission(扫码) code_data: 123，213
+22:53:17.070 - INFO - Mission(扫码) 检测到可识别码
+22:53:17.071 - INFO - Mission(扫码) code_data: 123，213
+22:53:17.102 - INFO - Mission(扫码) 检测到可识别码
+22:53:17.102 - INFO - Mission(扫码) code_data: 123，213
+22:53:17.132 - INFO - Mission(扫码) 检测到可识别码
+22:53:17.133 - INFO - Mission(扫码) code_data: 123，213
+22:53:17.165 - INFO - Mission(扫码) 检测到可识别码
+22:53:17.165 - INFO - Mission(扫码) code_data: 123，213
+22:53:17.201 - INFO - Mission(扫码) 检测到可识别码
+22:53:17.202 - INFO - Mission(扫码) code_data: 123，213
+22:53:17.234 - INFO - Mission(扫码) 检测到可识别码
+22:53:17.234 - INFO - Mission(扫码) code_data: 123，213
+22:53:17.265 - INFO - Mission(扫码) 检测到可识别码
+22:53:17.265 - INFO - Mission(扫码) code_data: 123，213
+22:53:17.303 - INFO - Mission(扫码) 检测到可识别码
+22:53:17.303 - INFO - Mission(扫码) code_data: 123，213
+22:53:17.332 - INFO - Mission(扫码) 检测到可识别码
+22:53:17.333 - INFO - Mission(扫码) code_data: 123，213
+22:53:17.365 - INFO - Mission(扫码) 检测到可识别码
+22:53:17.365 - INFO - Mission(扫码) code_data: 123，213
+22:53:17.402 - INFO - Mission(扫码) 检测到可识别码
+22:53:17.402 - INFO - Mission(扫码) code_data: 123，213
+22:53:17.432 - INFO - Mission(扫码) 检测到可识别码
+22:53:17.433 - INFO - Mission(扫码) code_data: 123，213
+22:53:17.465 - INFO - Mission(扫码) 检测到可识别码
+22:53:17.466 - INFO - Mission(扫码) code_data: 123，213
+22:53:17.502 - INFO - Mission(扫码) 检测到可识别码
+22:53:17.502 - INFO - Mission(扫码) code_data: 123，213
+22:53:17.532 - INFO - Mission(扫码) 检测到可识别码
+22:53:17.533 - INFO - Mission(扫码) code_data: 123，213
+22:53:17.566 - INFO - Mission(扫码) 检测到可识别码
+22:53:17.566 - INFO - Mission(扫码) code_data: 123，213
+22:53:17.600 - INFO - Mission(扫码) 检测到可识别码
+22:53:17.601 - INFO - Mission(扫码) code_data: 123，213
+22:53:17.633 - INFO - Mission(扫码) 检测到可识别码
+22:53:17.633 - INFO - Mission(扫码) code_data: 123，213
+22:53:17.733 - INFO - Mission(扫码) 检测到可识别码
+22:53:17.733 - INFO - Mission(扫码) code_data: 123，213
+22:53:17.765 - INFO - Mission(扫码) 检测到可识别码
+22:53:17.766 - INFO - Mission(扫码) code_data: 123，213
+22:53:17.802 - INFO - Mission(扫码) 检测到可识别码
+22:53:17.802 - INFO - Mission(扫码) code_data: 123，213
+22:53:17.832 - INFO - Mission(扫码) 检测到可识别码
+22:53:17.833 - INFO - Mission(扫码) code_data: 123，213
+22:53:17.865 - INFO - Mission(扫码) 检测到可识别码
+22:53:17.865 - INFO - Mission(扫码) code_data: 123，213
+22:53:17.901 - INFO - Mission(扫码) 检测到可识别码
+22:53:17.902 - INFO - Mission(扫码) code_data: 123，213
+22:53:17.965 - INFO - Mission(扫码) 检测到可识别码
+22:53:17.965 - INFO - Mission(扫码) code_data: 123，213
+22:53:18.000 - INFO - Mission(扫码) 检测到可识别码
+22:53:18.000 - INFO - Mission(扫码) code_data: 123，213
+22:53:18.033 - INFO - Mission(扫码) 检测到可识别码
+22:53:18.033 - INFO - Mission(扫码) code_data: 123，213
+22:53:18.065 - INFO - Mission(扫码) 检测到可识别码
+22:53:18.065 - INFO - Mission(扫码) code_data: 123，213
+22:53:18.102 - INFO - Mission(扫码) 检测到可识别码
+22:53:18.102 - INFO - Mission(扫码) code_data: 123，213
+22:53:18.133 - INFO - Mission(扫码) 检测到可识别码
+22:53:18.133 - INFO - Mission(扫码) code_data: 123，213
+22:53:18.203 - INFO - Mission(扫码) 检测到可识别码
+22:53:18.203 - INFO - Mission(扫码) code_data: 123，213
+22:53:18.232 - INFO - Mission(扫码) 检测到可识别码
+22:53:18.233 - INFO - Mission(扫码) code_data: 123，213
+22:53:18.265 - INFO - Mission(扫码) 检测到可识别码
+22:53:18.265 - INFO - Mission(扫码) code_data: 123，213
+22:53:18.301 - INFO - Mission(扫码) 检测到可识别码
+22:53:18.301 - INFO - Mission(扫码) code_data: 123，213
+22:53:18.367 - INFO - Mission(扫码) 检测到可识别码
+22:53:18.367 - INFO - Mission(扫码) code_data: 123，213
+22:53:18.401 - INFO - Mission(扫码) 检测到可识别码
+22:53:18.402 - INFO - Mission(扫码) code_data: 123，213
+22:53:18.434 - INFO - Mission(扫码) 检测到可识别码
+22:53:18.435 - INFO - Mission(扫码) code_data: 123，213
+22:53:18.464 - INFO - Mission(扫码) 检测到可识别码
+22:53:18.464 - INFO - Mission(扫码) code_data: 123，213
+22:53:18.504 - INFO - Mission(扫码) 检测到可识别码
+22:53:18.504 - INFO - Mission(扫码) code_data: 123，213
+22:53:18.534 - INFO - Mission(扫码) 检测到可识别码
+22:53:18.534 - INFO - Mission(扫码) code_data: 123，213
+22:53:18.565 - INFO - Mission(扫码) 检测到可识别码
+22:53:18.565 - INFO - Mission(扫码) code_data: 123，213
+22:53:18.602 - INFO - Mission(扫码) 检测到可识别码
+22:53:18.602 - INFO - Mission(扫码) code_data: 123，213
+22:53:18.634 - INFO - Mission(扫码) 检测到可识别码
+22:53:18.634 - INFO - Mission(扫码) code_data: 123，213
+22:53:18.666 - INFO - Mission(扫码) 检测到可识别码
+22:53:18.666 - INFO - Mission(扫码) code_data: 123，213
+22:53:18.702 - INFO - Mission(扫码) 检测到可识别码
+22:53:18.702 - INFO - Mission(扫码) code_data: 123，213
+22:53:18.733 - INFO - Mission(扫码) 检测到可识别码
+22:53:18.734 - INFO - Mission(扫码) code_data: 123，213
+22:53:18.766 - INFO - Mission(扫码) 检测到可识别码
+22:53:18.767 - INFO - Mission(扫码) code_data: 123，213
+22:53:18.802 - INFO - Mission(扫码) 检测到可识别码
+22:53:18.802 - INFO - Mission(扫码) code_data: 123，213
+22:53:18.833 - INFO - Mission(扫码) 检测到可识别码
+22:53:18.833 - INFO - Mission(扫码) code_data: 123，213
+22:53:18.902 - INFO - Mission(扫码) 检测到可识别码
+22:53:18.902 - INFO - Mission(扫码) code_data: 123，213
+22:53:18.967 - INFO - Mission(扫码) 检测到可识别码
+22:53:18.967 - INFO - Mission(扫码) code_data: 123，213
+22:53:19.002 - INFO - Mission(扫码) 检测到可识别码
+22:53:19.002 - INFO - Mission(扫码) code_data: 123，213
+22:53:19.033 - INFO - Mission(扫码) 检测到可识别码
+22:53:19.034 - INFO - Mission(扫码) code_data: 123，213
+22:55:55.438 - INFO - Mission(扫码) 检测到可识别码
+22:55:55.438 - INFO - Mission(扫码) code_data: 123+231
+22:55:55.438 - INFO - Mission(扫码) 装载任务码: [[np.uint8(1), np.uint8(2), np.uint8(3)], [np.uint8(2), np.uint8(3), np.uint8(1)]]
+22:55:55.451 - INFO - Mission(扫码) End, Duration(s):586.0212073326111
+22:55:55.465 - INFO - Mission(扫码->原料) Ready
+22:55:55.496 - DEBUG - Mission(扫码->原料) 开始直走
+22:55:56.664 - DEBUG - Mission(扫码->原料) 开始制动
+22:55:57.696 - DEBUG - Mission(扫码->原料) 制动等待完成
+22:55:57.732 - INFO - Mission(扫码->原料) End, Duration(s):2.2671139240264893
+22:55:57.764 - INFO - Mission(原料区纠正) Ready
+22:55:57.796 - DEBUG - Mission(原料区纠正) 开始惯性角度校准,目标角度:0
+22:55:58.333 - DEBUG - Mission(原料区纠正) 角度校准结束
+22:55:58.333 - DEBUG - Mission(原料区纠正) 开始原料区位置纠正
+22:55:58.365 - DEBUG - (Joint_Angle_Ctrl)joint:[ 92.64389773 -92.23472207 -90.        ],servo:[(1, np.uint16(419)), (2, np.uint16(797)), (3, np.uint16(370))]
+22:55:58.365 - DEBUG - (myManipulator) 开始移动
+22:55:58.497 - DEBUG - (myManipulator) 到达目标点:(0, -260, 109.66999999999999)
+22:55:58.497 - DEBUG - Mission(原料区纠正) 机械臂就位
+22:55:58.532 - DEBUG - Mission(原料区纠正) 开始等待
+22:55:59.032 - DEBUG - Mission(原料区纠正) 等待结束,开始监视
+22:55:59.104 - DEBUG - Mission(原料区纠正) 确认目标消失,开始纠正
+22:56:38.669 - DEBUG - Mission(原料区纠正),circle_params,463.5,209.5,143.5,-30.5
+22:56:53.551 - DEBUG - Mission(原料区纠正),circle_params,244.5,261.5,-75.5,21.5
+22:56:53.593 - DEBUG - Mission(原料区纠正),circle_params,474.5,169.5,-75.5,21.5
+22:56:53.711 - DEBUG - Mission(原料区纠正),circle_params,477.5,189.5,157.5,-50.5
+22:56:53.836 - DEBUG - Mission(原料区纠正),circle_params,455.5,199.5,135.5,-40.5
+22:56:53.879 - DEBUG - Mission(原料区纠正),circle_params,457.5,207.5,135.5,-40.5
+22:57:14.077 - DEBUG - Mission(原料区纠正),circle_params,342.5,169.5,22.5,-70.5
+22:57:14.546 - DEBUG - Mission(原料区纠正),circle_params,344.5,171.5,24.5,-68.5
+22:57:14.580 - DEBUG - Mission(原料区纠正),circle_params,344.5,172.5,24.5,-68.5
+22:57:14.613 - DEBUG - Mission(原料区纠正),circle_params,345.5,172.5,24.5,-68.5
+22:57:16.142 - DEBUG - Mission(原料区纠正),circle_params,331.5,175.5,11.5,-64.5
+22:57:16.211 - DEBUG - Mission(原料区纠正),circle_params,321.5,186.5,100.0,100.0
+22:57:16.243 - DEBUG - Mission(原料区纠正),circle_params,316.5,188.5,-3.5,-51.5
+22:57:16.244 - INFO - Mission(原料区纠正) 目标静止,开始行动
+22:57:16.277 - DEBUG - Mission(原料区纠正) 横向纠正完毕
+22:57:16.278 - DEBUG - Mission(原料区纠正),delta_y,6.5,vy,0
+22:57:16.410 - DEBUG - Mission(原料区纠正),delta_x,21.5,vx,20
+22:57:16.543 - DEBUG - Mission(原料区纠正) 纵向纠正完毕
+22:57:16.544 - DEBUG - Mission(原料区纠正),delta_x,12.5,vx,0
+22:57:16.559 - INFO - Mission(原料区纠正) End, Duration(s):78.79511904716492
+22:57:16.559 - INFO - Mission(原料区纠正) 开始扫描物块1
+22:57:16.588 - INFO - Mission(原料区夹取) Ready
+22:57:16.657 - DEBUG - Mission(原料区夹取),circle_params,283.5,231.5,-36.5,-8.5
+22:57:16.693 - DEBUG - Mission(原料区夹取),circle_params,280.5,230.5,-36.5,-8.5
+22:57:16.728 - DEBUG - Mission(原料区夹取),circle_params,281.5,238.5,-36.5,-8.5
+22:57:16.762 - DEBUG - Mission(原料区夹取),circle_params,269.5,237.5,-14.0,6.0
+22:57:16.798 - DEBUG - Mission(原料区夹取),circle_params,279.5,249.5,-14.0,6.0
+22:57:16.846 - DEBUG - Mission(原料区夹取),circle_params,275.5,244.5,-14.0,6.0
+22:57:16.888 - DEBUG - Mission(原料区夹取),circle_params,269.5,241.5,0.0,4.0
+22:57:16.889 - INFO - Mission(原料区夹取) 目标静止,开始行动
+22:57:16.903 - DEBUG - (Joint_Angle_Ctrl)joint:[  78.30980373 -141.98021436  -90.        ],servo:[(1, np.uint16(479)), (2, np.uint16(530)), (3, np.uint16(370))]
+22:57:16.903 - DEBUG - (myManipulator) 开始移动
+22:57:17.024 - DEBUG - (myManipulator) 到达目标点:(0, -220, -10.330000000000013)
+22:57:17.025 - DEBUG - Mission(原料区夹取) 准备前进夹取
+22:57:17.056 - DEBUG - Kinematics_3RAtype: joint_angles:[np.float64(78.30980373138468), np.float64(-141.98021435570251), np.float64(-90.0)]
+22:57:17.057 - DEBUG - Kinematics_3RAtype: p4:[ 71.   -21.12   0.  ]
+22:57:17.057 - DEBUG - Kinematics_3RAtype: l0:65,l1:130,l2:130
+22:57:17.057 - DEBUG - Kinematics_3RAtype: p1:[149.    10.79   0.  ]
+22:57:17.058 - DEBUG - Kinematics_3RAtype: p1+p4:[220.   -10.33   0.  ]
+22:57:17.058 - DEBUG - Kinematics_3RAtype: x1:219.99999999999994,y1:-10.330000000000037,z1:0.0
+22:57:17.058 - DEBUG - Kinematics_3RAtype: p0:[ 1.34711148e-14 -2.20000000e+02 -1.03300000e+01]
+22:57:17.059 - DEBUG - (myManipulator) 开始直线运动,当前点:[ 1.34711148e-14 -2.20000000e+02 -1.03300000e+01],参数:[80.00000000000006, array([-1.68388935e-16, -1.00000000e+00,  3.10862447e-16]), 20.0, 0.05]
+22:57:17.088 - DEBUG - (myManipulator) 正在直线运动,当前点:[ 1.01033361e-14 -2.40000000e+02 -1.03300000e+01],已移动距离:20.0
+22:57:17.089 - DEBUG - (Joint_Angle_Ctrl)joint:[  72.21077531 -132.57506051  -90.        ],servo:[(1, np.uint16(504)), (2, np.uint16(543)), (3, np.uint16(370))]
+22:57:17.188 - DEBUG - (myManipulator) 正在直线运动,当前点:[ 6.7355574e-15 -2.6000000e+02 -1.0330000e+01],已移动距离:40.0
+22:57:17.189 - DEBUG - (Joint_Angle_Ctrl)joint:[  66.37095076 -122.79564087  -90.        ],servo:[(1, np.uint16(528)), (2, np.uint16(560)), (3, np.uint16(370))]
+22:57:17.288 - DEBUG - (myManipulator) 正在直线运动,当前点:[ 3.3677787e-15 -2.8000000e+02 -1.0330000e+01],已移动距离:60.0
+22:57:17.289 - DEBUG - (Joint_Angle_Ctrl)joint:[  60.54701009 -112.5236268   -90.        ],servo:[(1, np.uint16(553)), (2, np.uint16(578)), (3, np.uint16(370))]
+22:57:17.389 - DEBUG - (myManipulator) 正在直线运动,当前点:[ 9.46633086e-30 -3.00000000e+02 -1.03300000e+01],已移动距离:80.0
+22:57:17.390 - DEBUG - (Joint_Angle_Ctrl)joint:[  54.55655398 -101.58467206  -90.        ],servo:[(1, np.uint16(578)), (2, np.uint16(599)), (3, np.uint16(370))]
+22:57:17.488 - DEBUG - (myManipulator) 直线运动完成,到达目标点:(0, -300, -10.330000000000013)
+22:57:17.489 - DEBUG - (Joint_Angle_Ctrl)joint:[  54.55655398 -101.58467206  -90.        ],servo:[(1, np.uint16(578)), (2, np.uint16(599)), (3, np.uint16(370))]
+22:57:17.489 - DEBUG - Mission(原料区夹取) 到达夹取位置
+22:57:17.588 - DEBUG - (myManipulator) 夹爪闭合
+22:57:17.656 - DEBUG - Mission(原料区夹取) 机械臂夹取
+22:57:17.688 - DEBUG - (myManipulator) 执行动作组:hold_stuff
+22:57:17.920 - DEBUG - (myManipulator) 动作组执行完毕
+22:57:17.920 - DEBUG - Mission(原料区夹取) 提起物块
+22:57:17.957 - DEBUG - (myManipulator) yaw轴开始加速,目标角:-76.59972673467398;执行时间:0.075
+22:57:17.958 - DEBUG - (Joint_Angle_Ctrl)joint:[  54.55655398 -101.58467206  -76.59972673],servo:[(3, np.uint16(426))]
+22:57:18.057 - DEBUG - (myManipulator) yaw轴加速完成
+22:57:18.088 - DEBUG - (myManipulator) yaw轴开始匀速运动,目标角:-36.39890693869592;执行时间:0.15
+22:57:18.089 - DEBUG - (Joint_Angle_Ctrl)joint:[  54.55655398 -101.58467206  -36.39890694],servo:[(3, np.uint16(593))]
+22:57:18.258 - DEBUG - (myManipulator) yaw轴匀速运动完成
+22:57:18.288 - DEBUG - (myManipulator) yaw轴开始减速到,目标角:-22.998633673369902;执行时间:0.075
+22:57:18.289 - DEBUG - (Joint_Angle_Ctrl)joint:[  54.55655398 -101.58467206  -22.99863367],servo:[(3, np.uint16(649))]
+22:57:18.389 - DEBUG - (myManipulator) yaw轴减速完成
+22:57:18.389 - DEBUG - Mission(原料区夹取) 已朝向物料盘
+22:57:18.420 - DEBUG - (Joint_Angle_Ctrl)joint:[ 146.02956966 -154.66516517  -23.25382498],servo:[(1, np.uint16(197)), (2, np.uint16(759)), (3, np.uint16(648))]
+22:57:18.421 - DEBUG - (myManipulator) 开始移动
+22:57:18.588 - DEBUG - (myManipulator) 到达目标点:(np.float64(141.7361764150161), np.float64(-66.85868774481736), 32)
+22:57:18.588 - DEBUG - Mission(原料区夹取) 到达物料盘附近
+22:57:18.620 - DEBUG - Kinematics_3RAtype: joint_angles:[np.float64(146.02956965553867), np.float64(-154.66516516500815), np.float64(-25.25382497898177)]
+22:57:18.621 - DEBUG - Kinematics_3RAtype: p4:[ 71.   -21.12   0.  ]
+22:57:18.621 - DEBUG - Kinematics_3RAtype: l0:65,l1:130,l2:130
+22:57:18.621 - DEBUG - Kinematics_3RAtype: p1:[85.71384059 53.12        0.        ]
+22:57:18.621 - DEBUG - Kinematics_3RAtype: p1+p4:[156.71384059  32.           0.        ]
+22:57:18.621 - DEBUG - Kinematics_3RAtype: x1:156.713840587574,y1:31.999999999999968,z1:0.0
+22:57:18.622 - DEBUG - Kinematics_3RAtype: p0:[141.73617642 -66.85868774  32.        ]
+22:57:18.622 - DEBUG - (myManipulator) 开始直线运动,当前点:[141.73617642 -66.85868774  32.        ],参数:[40.31128874149273, array([ 0.45670292, -0.19384604, -0.86824314]), 12.5, 0.05]
+22:57:18.657 - DEBUG - (myManipulator) 正在直线运动,当前点:[147.44496296 -69.2817632   21.14696072],已移动距离:12.5
+22:57:18.658 - DEBUG - (Joint_Angle_Ctrl)joint:[ 136.40401242 -157.77703501  -23.1679959 ],servo:[(1, np.uint16(237)), (2, np.uint16(706)), (3, np.uint16(648))]
+22:57:18.757 - DEBUG - (myManipulator) 正在直线运动,当前点:[153.1537495  -71.70483865  10.29392145],已移动距离:25.0
+22:57:18.758 - DEBUG - (Joint_Angle_Ctrl)joint:[ 123.38566531 -159.78005081  -23.08845756],servo:[(1, np.uint16(291)), (2, np.uint16(643)), (3, np.uint16(649))]
+22:57:18.857 - DEBUG - (myManipulator) 正在直线运动,当前点:[158.86253605 -74.12791411  -0.55911783],已移动距离:37.5
+22:57:18.858 - DEBUG - (Joint_Angle_Ctrl)joint:[ 107.79047864 -160.35322594  -23.01454306],servo:[(1, np.uint16(356)), (2, np.uint16(576)), (3, np.uint16(649))]
+22:57:18.956 - DEBUG - (myManipulator) 直线运动完成,到达目标点:(160.14645983334032, -74.67287128866741, -3)
+22:57:18.957 - DEBUG - (Joint_Angle_Ctrl)joint:[ 104.13257405 -160.26715298  -22.99863367],servo:[(1, np.uint16(371)), (2, np.uint16(561)), (3, np.uint16(649))]
+22:57:18.957 - DEBUG - Mission(原料区夹取) 放入物料盘
+22:57:19.056 - DEBUG - (myManipulator) 夹爪张开
+22:57:19.120 - DEBUG - Mission(原料区夹取) 物块已释放
+22:57:19.188 - DEBUG - (myManipulator) 执行动作组:hold_stuff
+22:57:19.389 - DEBUG - (myManipulator) 动作组执行完毕
+22:57:19.389 - DEBUG - Mission(原料区夹取) 姿态收缩
+22:57:19.421 - DEBUG - (myManipulator) yaw轴开始加速,目标角:-36.39890693869592;执行时间:0.075
+22:57:19.422 - DEBUG - (Joint_Angle_Ctrl)joint:[ 104.13257405 -160.26715298  -36.39890694],servo:[(3, np.uint16(593))]
+22:57:19.520 - DEBUG - (myManipulator) yaw轴加速完成
+22:57:19.556 - DEBUG - (myManipulator) yaw轴开始匀速运动,目标角:-76.59972673467398;执行时间:0.15
+22:57:19.557 - DEBUG - (Joint_Angle_Ctrl)joint:[ 104.13257405 -160.26715298  -76.59972673],servo:[(3, np.uint16(426))]
+22:57:19.720 - DEBUG - (myManipulator) yaw轴匀速运动完成
+22:57:19.756 - DEBUG - (myManipulator) yaw轴开始减速到,目标角:-90.0;执行时间:0.075
+22:57:19.757 - DEBUG - (Joint_Angle_Ctrl)joint:[ 104.13257405 -160.26715298  -90.        ],servo:[(3, np.uint16(370))]
+22:57:19.856 - DEBUG - (myManipulator) yaw轴减速完成
+22:57:19.856 - DEBUG - Mission(原料区夹取) 已朝向原料盘
+22:57:19.890 - DEBUG - (Joint_Angle_Ctrl)joint:[ 92.64389773 -92.23472207 -90.        ],servo:[(1, np.uint16(419)), (2, np.uint16(797)), (3, np.uint16(370))]
+22:57:19.890 - DEBUG - (myManipulator) 开始移动
+22:57:20.020 - DEBUG - (myManipulator) 到达目标点:(0, -260, 109.66999999999999)
+22:57:20.020 - INFO - Mission(原料区夹取) 机械臂就位,开始扫描物块2
+23:13:42.201 - INFO - Video Capture: width=640, height=480, fps=30.0
+23:13:43.333 - DEBUG - Video Setup OK
+23:13:43.334 - INFO - Manipulator: link_lengths:(65, 130, 130); actuator_offsets:(71, -21.12, 0)
+23:13:43.343 - DEBUG - Joint_to_Actuator_Matrix:[array([805.        ,  -4.16666667]), array([795.        ,  -4.16666667]), array([745.        ,   4.16666667])]
+23:13:43.344 - INFO - Mission(MissionManager) Ready
+23:13:43.344 - INFO - Mission(视频帧捕获) Ready
+23:13:43.344 - INFO - Mission(待机) Ready
+23:13:43.344 - INFO - Mission(视频帧标记+显示) Ready
+23:13:43.644 - DEBUG - (Joint_Angle_Ctrl)joint:[ 102.47415719 -153.32186226    0.        ],servo:[(1, np.uint16(378)), (2, np.uint16(583)), (3, np.uint16(745))]
+23:13:43.644 - DEBUG - (myManipulator) 开始移动
+23:13:44.175 - DEBUG - (myManipulator) 到达目标点:(190, 0, 5)
+23:13:44.175 - DEBUG - Mission(待机) 准备出发...
+23:14:09.654 - DEBUG - (myManipulator) 执行动作组:scan_qrcode
+23:14:09.986 - DEBUG - (myManipulator) 动作组执行完毕
+23:14:10.019 - DEBUG - (myManipulator) yaw轴开始加速,目标角:-18.0;执行时间:0.075
+23:14:10.019 - DEBUG - (Joint_Angle_Ctrl)joint:[ 102.47415719 -153.32186226  -18.        ],servo:[(3, np.uint16(670))]
+23:14:10.119 - DEBUG - (myManipulator) yaw轴加速完成
+23:14:10.155 - DEBUG - (myManipulator) yaw轴开始匀速运动,目标角:-72.0;执行时间:0.15
+23:14:10.156 - DEBUG - (Joint_Angle_Ctrl)joint:[ 102.47415719 -153.32186226  -72.        ],servo:[(3, np.uint16(445))]
+23:14:10.319 - DEBUG - (myManipulator) yaw轴匀速运动完成
+23:14:10.355 - DEBUG - (myManipulator) yaw轴开始减速到,目标角:-90.0;执行时间:0.075
+23:14:10.355 - DEBUG - (Joint_Angle_Ctrl)joint:[ 102.47415719 -153.32186226  -90.        ],servo:[(3, np.uint16(370))]
+23:14:10.455 - DEBUG - (myManipulator) yaw轴减速完成
+23:14:10.487 - INFO - Mission(待机) End, Duration(s):27.14263153076172
+23:14:10.496 - INFO - Mission(视频帧保存) Ready
+23:14:10.519 - INFO - Mission(启停区出发) Ready
+23:14:10.559 - DEBUG - Mission(启停区出发)开始横走
+23:14:12.188 - DEBUG - Mission(启停区出发) 开始制动
+23:14:12.320 - DEBUG - Mission(启停区出发)制动完成,开始直走
+23:14:13.524 - DEBUG - Mission(启停区出发) 开始直走/制动
+23:14:13.672 - INFO - Mission(启停区出发) End, Duration(s):3.153012275695801
+23:14:13.672 - DEBUG - Mission(启停区出发) 制动完成
+23:14:13.725 - INFO - Mission(扫码) Ready
+23:14:13.777 - DEBUG - Mission(扫码) 开始扫码
+23:14:34.646 - INFO - Mission(扫码) 检测到可识别码
+23:14:34.647 - INFO - Mission(扫码) code_data: 123+231
+23:14:34.647 - INFO - Mission(扫码) 装载任务码: [[np.uint8(1), np.uint8(2), np.uint8(3)], [np.uint8(2), np.uint8(3), np.uint8(1)]]
+23:14:34.662 - INFO - Mission(扫码) End, Duration(s):20.937009572982788
+23:14:34.688 - INFO - Mission(扫码->原料) Ready
+23:14:34.720 - DEBUG - Mission(扫码->原料) 开始直走
+23:14:35.888 - DEBUG - Mission(扫码->原料) 开始制动
+23:14:36.888 - DEBUG - Mission(扫码->原料) 制动等待完成
+23:14:36.920 - INFO - Mission(扫码->原料) End, Duration(s):2.23237681388855
+23:14:36.956 - INFO - Mission(原料区纠正) Ready
+23:14:36.988 - DEBUG - Mission(原料区纠正) 开始惯性角度校准,目标角度:0
+23:14:37.520 - DEBUG - Mission(原料区纠正) 角度校准结束
+23:14:37.521 - DEBUG - Mission(原料区纠正) 开始原料区位置纠正
+23:14:37.557 - DEBUG - (Joint_Angle_Ctrl)joint:[ 92.64389773 -92.23472207 -90.        ],servo:[(1, np.uint16(419)), (2, np.uint16(797)), (3, np.uint16(370))]
+23:14:37.557 - DEBUG - (myManipulator) 开始移动
+23:14:37.688 - DEBUG - (myManipulator) 到达目标点:(0, -260, 109.66999999999999)
+23:14:37.689 - DEBUG - Mission(原料区纠正) 机械臂就位
+23:14:37.722 - DEBUG - Mission(原料区纠正) 开始等待
+23:14:38.221 - DEBUG - Mission(原料区纠正) 等待结束,开始监视
+23:14:38.301 - DEBUG - Mission(原料区纠正) 确认目标消失,开始纠正
+23:14:41.590 - DEBUG - Mission(原料区纠正),circle_params,471.5,228.5,151.5,-11.5
+23:14:41.678 - DEBUG - Mission(原料区纠正),circle_params,464.5,224.5,100.0,100.0
+23:14:46.610 - DEBUG - Mission(原料区纠正),circle_params,357.5,108.5,37.5,-131.5
+23:14:46.693 - DEBUG - Mission(原料区纠正),circle_params,368.5,129.5,100.0,100.0
+23:14:46.785 - DEBUG - Mission(原料区纠正),circle_params,372.5,141.5,52.5,-98.5
+23:14:46.832 - DEBUG - Mission(原料区纠正),circle_params,374.5,148.5,52.5,-98.5
+23:14:46.880 - DEBUG - Mission(原料区纠正),circle_params,377.5,159.5,52.5,-98.5
+23:14:46.927 - DEBUG - Mission(原料区纠正),circle_params,374.5,160.5,2.0,19.0
+23:14:46.928 - INFO - Mission(原料区纠正) 目标静止,开始行动
+23:14:46.979 - DEBUG - Mission(原料区纠正),delta_y,-57.5,vy,-20
+23:14:47.116 - DEBUG - Mission(原料区纠正),delta_y,-50.5,vy,-20
+23:14:47.241 - WARNING - Mission(原料区纠正) 未检测到目标对象
+23:14:47.371 - DEBUG - Mission(原料区纠正),delta_y,-35.5,vy,-20
+23:14:47.500 - DEBUG - Mission(原料区纠正),delta_y,-29.5,vy,-20
+23:14:47.629 - DEBUG - Mission(原料区纠正),delta_y,-28.5,vy,-20
+23:14:47.757 - DEBUG - Mission(原料区纠正),delta_y,-30.5,vy,-20
+23:14:47.886 - DEBUG - Mission(原料区纠正),delta_y,-34.5,vy,-20
+23:14:48.014 - DEBUG - Mission(原料区纠正),delta_y,-35.5,vy,-20
+23:14:48.143 - DEBUG - Mission(原料区纠正),delta_y,-31.5,vy,-20
+23:14:48.268 - DEBUG - Mission(原料区纠正),delta_y,-29.5,vy,-20
+23:14:48.393 - DEBUG - Mission(原料区纠正),delta_y,-27.5,vy,-20
+23:14:48.519 - DEBUG - Mission(原料区纠正),delta_y,-28.5,vy,-20
+23:14:48.640 - WARNING - Mission(原料区纠正) 未检测到目标对象
+23:14:48.766 - DEBUG - Mission(原料区纠正),delta_y,-31.5,vy,-20
+23:14:48.893 - WARNING - Mission(原料区纠正) 未检测到目标对象
+23:14:49.015 - DEBUG - Mission(原料区纠正),delta_y,-35.5,vy,-20
+23:14:49.138 - DEBUG - Mission(原料区纠正),delta_y,-21.5,vy,-20
+23:14:49.267 - DEBUG - Mission(原料区纠正),delta_y,-31.5,vy,-20
+23:14:49.385 - WARNING - Mission(原料区纠正) 未检测到目标对象
+23:14:49.511 - DEBUG - Mission(原料区纠正),delta_y,-31.5,vy,-20
+23:14:49.639 - DEBUG - Mission(原料区纠正),delta_y,-29.5,vy,-20
+23:14:49.769 - DEBUG - Mission(原料区纠正),delta_y,-25.5,vy,-20
+23:14:49.896 - DEBUG - Mission(原料区纠正),delta_y,-33.5,vy,-20
+23:14:50.024 - DEBUG - Mission(原料区纠正),delta_y,-33.5,vy,-20
+23:14:50.148 - DEBUG - Mission(原料区纠正),delta_y,-33.5,vy,-20
+23:14:50.267 - DEBUG - Mission(原料区纠正),delta_y,-33.5,vy,-20
+23:14:50.390 - DEBUG - Mission(原料区纠正),delta_y,-38.5,vy,-20
+23:14:50.510 - DEBUG - Mission(原料区纠正),delta_y,-36.5,vy,-20
+23:14:50.630 - DEBUG - Mission(原料区纠正),delta_y,-34.5,vy,-20
+23:14:50.756 - DEBUG - Mission(原料区纠正),delta_y,-33.5,vy,-20
+23:14:50.879 - DEBUG - Mission(原料区纠正),delta_y,-34.5,vy,-20
+23:14:51.005 - DEBUG - Mission(原料区纠正),delta_y,-35.5,vy,-20
+23:14:51.131 - DEBUG - Mission(原料区纠正),delta_y,-31.5,vy,-20
+23:14:51.256 - DEBUG - Mission(原料区纠正) 横向纠正完毕
+23:14:51.256 - DEBUG - Mission(原料区纠正),delta_y,-18.5,vy,0
+23:14:51.382 - WARNING - Mission(原料区纠正) 未检测到目标对象
+23:14:51.507 - DEBUG - Mission(原料区纠正),delta_x,21.5,vx,20
+23:14:51.632 - DEBUG - Mission(原料区纠正) 纵向纠正完毕
+23:14:51.632 - DEBUG - Mission(原料区纠正),delta_x,17.5,vx,0
+23:14:51.648 - INFO - Mission(原料区纠正) End, Duration(s):14.691467046737671
+23:14:51.648 - INFO - Mission(原料区纠正) 开始扫描物块1
+23:14:51.665 - INFO - Mission(原料区夹取) Ready
+23:14:51.723 - DEBUG - Mission(原料区夹取),circle_params,344.5,218.5,24.5,-21.5
+23:14:51.769 - DEBUG - Mission(原料区夹取),circle_params,346.5,216.5,24.5,-21.5
+23:14:51.816 - DEBUG - Mission(原料区夹取),circle_params,347.5,216.5,24.5,-21.5
+23:14:51.863 - DEBUG - Mission(原料区夹取),circle_params,346.5,214.5,2.0,-4.0
+23:14:51.864 - INFO - Mission(原料区夹取) 目标静止,开始行动
+23:14:51.885 - DEBUG - (Joint_Angle_Ctrl)joint:[  78.30980373 -141.98021436  -90.        ],servo:[(1, np.uint16(479)), (2, np.uint16(530)), (3, np.uint16(370))]
+23:14:51.885 - DEBUG - (myManipulator) 开始移动
+23:14:51.989 - DEBUG - (myManipulator) 到达目标点:(0, -220, -10.330000000000013)
+23:14:51.990 - DEBUG - Mission(原料区夹取) 准备前进夹取
+23:14:52.022 - DEBUG - Kinematics_3RAtype: joint_angles:[np.float64(78.30980373138468), np.float64(-141.98021435570251), np.float64(-90.0)]
+23:14:52.022 - DEBUG - Kinematics_3RAtype: p4:[ 71.   -21.12   0.  ]
+23:14:52.023 - DEBUG - Kinematics_3RAtype: l0:65,l1:130,l2:130
+23:14:52.023 - DEBUG - Kinematics_3RAtype: p1:[149.    10.79   0.  ]
+23:14:52.023 - DEBUG - Kinematics_3RAtype: p1+p4:[220.   -10.33   0.  ]
+23:14:52.023 - DEBUG - Kinematics_3RAtype: x1:219.99999999999994,y1:-10.330000000000037,z1:0.0
+23:14:52.024 - DEBUG - Kinematics_3RAtype: p0:[ 1.34711148e-14 -2.20000000e+02 -1.03300000e+01]
+23:14:52.024 - DEBUG - (myManipulator) 开始直线运动,当前点:[ 1.34711148e-14 -2.20000000e+02 -1.03300000e+01],参数:[80.00000000000006, array([-1.68388935e-16, -1.00000000e+00,  3.10862447e-16]), 20.0, 0.05]
+23:14:52.058 - DEBUG - (myManipulator) 正在直线运动,当前点:[ 1.01033361e-14 -2.40000000e+02 -1.03300000e+01],已移动距离:20.0
+23:14:52.059 - DEBUG - (Joint_Angle_Ctrl)joint:[  72.21077531 -132.57506051  -90.        ],servo:[(1, np.uint16(504)), (2, np.uint16(543)), (3, np.uint16(370))]
+23:14:52.158 - DEBUG - (myManipulator) 正在直线运动,当前点:[ 6.7355574e-15 -2.6000000e+02 -1.0330000e+01],已移动距离:40.0
+23:14:52.159 - DEBUG - (Joint_Angle_Ctrl)joint:[  66.37095076 -122.79564087  -90.        ],servo:[(1, np.uint16(528)), (2, np.uint16(560)), (3, np.uint16(370))]
+23:14:52.258 - DEBUG - (myManipulator) 正在直线运动,当前点:[ 3.3677787e-15 -2.8000000e+02 -1.0330000e+01],已移动距离:60.0
+23:14:52.259 - DEBUG - (Joint_Angle_Ctrl)joint:[  60.54701009 -112.5236268   -90.        ],servo:[(1, np.uint16(553)), (2, np.uint16(578)), (3, np.uint16(370))]
+23:14:52.358 - DEBUG - (myManipulator) 正在直线运动,当前点:[ 9.46633086e-30 -3.00000000e+02 -1.03300000e+01],已移动距离:80.0
+23:14:52.359 - DEBUG - (Joint_Angle_Ctrl)joint:[  54.55655398 -101.58467206  -90.        ],servo:[(1, np.uint16(578)), (2, np.uint16(599)), (3, np.uint16(370))]
+23:14:52.457 - DEBUG - (myManipulator) 直线运动完成,到达目标点:(0, -300, -10.330000000000013)
+23:14:52.458 - DEBUG - (Joint_Angle_Ctrl)joint:[  54.55655398 -101.58467206  -90.        ],servo:[(1, np.uint16(578)), (2, np.uint16(599)), (3, np.uint16(370))]
+23:14:52.459 - DEBUG - Mission(原料区夹取) 到达夹取位置
+23:14:52.557 - DEBUG - (myManipulator) 夹爪闭合
+23:14:52.621 - DEBUG - Mission(原料区夹取) 机械臂夹取
+23:14:52.658 - DEBUG - (myManipulator) 执行动作组:hold_stuff
+23:14:52.890 - DEBUG - (myManipulator) 动作组执行完毕
+23:14:52.890 - DEBUG - Mission(原料区夹取) 提起物块
+23:14:52.922 - DEBUG - (myManipulator) yaw轴开始加速,目标角:-76.59972673467398;执行时间:0.075
+23:14:52.923 - DEBUG - (Joint_Angle_Ctrl)joint:[  54.55655398 -101.58467206  -76.59972673],servo:[(3, np.uint16(426))]
+23:14:53.022 - DEBUG - (myManipulator) yaw轴加速完成
+23:14:53.058 - DEBUG - (myManipulator) yaw轴开始匀速运动,目标角:-36.39890693869592;执行时间:0.15
+23:14:53.059 - DEBUG - (Joint_Angle_Ctrl)joint:[  54.55655398 -101.58467206  -36.39890694],servo:[(3, np.uint16(593))]
+23:14:53.222 - DEBUG - (myManipulator) yaw轴匀速运动完成
+23:14:53.258 - DEBUG - (myManipulator) yaw轴开始减速到,目标角:-22.998633673369902;执行时间:0.075
+23:14:53.259 - DEBUG - (Joint_Angle_Ctrl)joint:[  54.55655398 -101.58467206  -22.99863367],servo:[(3, np.uint16(649))]
+23:14:53.358 - DEBUG - (myManipulator) yaw轴减速完成
+23:14:53.358 - DEBUG - Mission(原料区夹取) 已朝向物料盘
+23:14:53.390 - DEBUG - (Joint_Angle_Ctrl)joint:[ 146.02956966 -154.66516517  -23.25382498],servo:[(1, np.uint16(197)), (2, np.uint16(759)), (3, np.uint16(648))]
+23:14:53.391 - DEBUG - (myManipulator) 开始移动
+23:14:53.558 - DEBUG - (myManipulator) 到达目标点:(np.float64(141.7361764150161), np.float64(-66.85868774481736), 32)
+23:14:53.558 - DEBUG - Mission(原料区夹取) 到达物料盘附近
+23:14:53.590 - DEBUG - Kinematics_3RAtype: joint_angles:[np.float64(146.02956965553867), np.float64(-154.66516516500815), np.float64(-25.25382497898177)]
+23:14:53.590 - DEBUG - Kinematics_3RAtype: p4:[ 71.   -21.12   0.  ]
+23:14:53.591 - DEBUG - Kinematics_3RAtype: l0:65,l1:130,l2:130
+23:14:53.591 - DEBUG - Kinematics_3RAtype: p1:[85.71384059 53.12        0.        ]
+23:14:53.591 - DEBUG - Kinematics_3RAtype: p1+p4:[156.71384059  32.           0.        ]
+23:14:53.591 - DEBUG - Kinematics_3RAtype: x1:156.713840587574,y1:31.999999999999968,z1:0.0
+23:14:53.591 - DEBUG - Kinematics_3RAtype: p0:[141.73617642 -66.85868774  32.        ]
+23:14:53.592 - DEBUG - (myManipulator) 开始直线运动,当前点:[141.73617642 -66.85868774  32.        ],参数:[40.31128874149273, array([ 0.45670292, -0.19384604, -0.86824314]), 12.5, 0.05]
+23:14:53.622 - DEBUG - (myManipulator) 正在直线运动,当前点:[147.44496296 -69.2817632   21.14696072],已移动距离:12.5
+23:14:53.623 - DEBUG - (Joint_Angle_Ctrl)joint:[ 136.40401242 -157.77703501  -23.1679959 ],servo:[(1, np.uint16(237)), (2, np.uint16(706)), (3, np.uint16(648))]
+23:14:53.722 - DEBUG - (myManipulator) 正在直线运动,当前点:[153.1537495  -71.70483865  10.29392145],已移动距离:25.0
+23:14:53.723 - DEBUG - (Joint_Angle_Ctrl)joint:[ 123.38566531 -159.78005081  -23.08845756],servo:[(1, np.uint16(291)), (2, np.uint16(643)), (3, np.uint16(649))]
+23:14:53.822 - DEBUG - (myManipulator) 正在直线运动,当前点:[158.86253605 -74.12791411  -0.55911783],已移动距离:37.5
+23:14:53.823 - DEBUG - (Joint_Angle_Ctrl)joint:[ 107.79047864 -160.35322594  -23.01454306],servo:[(1, np.uint16(356)), (2, np.uint16(576)), (3, np.uint16(649))]
+23:14:53.922 - DEBUG - (myManipulator) 直线运动完成,到达目标点:(160.14645983334032, -74.67287128866741, -3)
+23:14:53.923 - DEBUG - (Joint_Angle_Ctrl)joint:[ 104.13257405 -160.26715298  -22.99863367],servo:[(1, np.uint16(371)), (2, np.uint16(561)), (3, np.uint16(649))]
+23:14:53.923 - DEBUG - Mission(原料区夹取) 放入物料盘
+23:14:54.022 - DEBUG - (myManipulator) 夹爪张开
+23:14:54.090 - DEBUG - Mission(原料区夹取) 物块已释放
+23:14:54.158 - DEBUG - (myManipulator) 执行动作组:hold_stuff
+23:14:54.390 - DEBUG - (myManipulator) 动作组执行完毕
+23:14:54.390 - DEBUG - Mission(原料区夹取) 姿态收缩
+23:14:54.422 - DEBUG - (myManipulator) yaw轴开始加速,目标角:-36.39890693869592;执行时间:0.075
+23:14:54.423 - DEBUG - (Joint_Angle_Ctrl)joint:[ 104.13257405 -160.26715298  -36.39890694],servo:[(3, np.uint16(593))]
+23:14:54.522 - DEBUG - (myManipulator) yaw轴加速完成
+23:14:54.558 - DEBUG - (myManipulator) yaw轴开始匀速运动,目标角:-76.59972673467398;执行时间:0.15
+23:14:54.559 - DEBUG - (Joint_Angle_Ctrl)joint:[ 104.13257405 -160.26715298  -76.59972673],servo:[(3, np.uint16(426))]
+23:14:54.722 - DEBUG - (myManipulator) yaw轴匀速运动完成
+23:14:54.758 - DEBUG - (myManipulator) yaw轴开始减速到,目标角:-90.0;执行时间:0.075
+23:14:54.759 - DEBUG - (Joint_Angle_Ctrl)joint:[ 104.13257405 -160.26715298  -90.        ],servo:[(3, np.uint16(370))]
+23:14:54.858 - DEBUG - (myManipulator) yaw轴减速完成
+23:14:54.858 - DEBUG - Mission(原料区夹取) 已朝向原料盘
+23:14:54.891 - DEBUG - (Joint_Angle_Ctrl)joint:[ 92.64389773 -92.23472207 -90.        ],servo:[(1, np.uint16(419)), (2, np.uint16(797)), (3, np.uint16(370))]
+23:14:54.891 - DEBUG - (myManipulator) 开始移动
+23:14:55.022 - DEBUG - (myManipulator) 到达目标点:(0, -260, 109.66999999999999)
+23:14:55.022 - INFO - Mission(原料区夹取) 机械臂就位,开始扫描物块2
