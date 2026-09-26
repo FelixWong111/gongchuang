@@ -8,6 +8,7 @@ import signal
 import subprocess
 import sys
 import atexit
+import shutil
 from datetime import datetime
 from logging.handlers import RotatingFileHandler
 from pathlib import Path
@@ -97,6 +98,10 @@ def Finish_Run(status, logger=None, error=None):
         if error is not None:
             _manifest["error"] = repr(error)
         _Write_Manifest()
+    if logger is not None:
+        for handler in logger.handlers[:]:
+            logger.removeHandler(handler)
+            handler.close()
 
 
 def Install_Runtime_Handlers(logger, run_code):
@@ -150,15 +155,40 @@ def Logger_Setup(mission_code="Logistic_Handling",
         backupCount=LOG_BACKUPS,
         encoding="utf-8",
     )
-    file_handler.setLevel(level_file)
+    # Keep the primary log compact; all DEBUG records remain in .debug.log.
+    file_handler.setLevel(max(level_file, logging.INFO))
     file_handler.setFormatter(formatter)
     logger.addHandler(file_handler)
+
+    debug_file_handler = RotatingFileHandler(
+        LOG_DIR / "{}.debug.log".format(mission_code),
+        maxBytes=MAX_LOG_BYTES,
+        backupCount=LOG_BACKUPS,
+        encoding="utf-8",
+    )
+    debug_file_handler.setLevel(logging.DEBUG)
+    debug_file_handler.setFormatter(formatter)
+    logger.addHandler(debug_file_handler)
 
     console_handler = logging.StreamHandler()
     console_handler.setLevel(level_console)
     console_handler.setFormatter(formatter)
     logger.addHandler(console_handler)
     return logger
+
+
+def Check_Disk_Space(path=None, minimum_free_mb=512, logger=None):
+    """Return whether enough storage remains for video and diagnostic files."""
+    target = path or LOG_DIR
+    usage = shutil.disk_usage(target)
+    free_mb = usage.free / (1024 * 1024)
+    if logger is not None:
+        logger.info("DISK free_mb=%.1f total_mb=%.1f", free_mb,
+                    usage.total / (1024 * 1024))
+        if free_mb < minimum_free_mb:
+            logger.error("DISK_LOW free_mb=%.1f threshold_mb=%s", free_mb,
+                         minimum_free_mb)
+    return free_mb >= minimum_free_mb
 
 
 def Install_Exception_Hook(logger):
