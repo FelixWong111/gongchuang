@@ -4,13 +4,13 @@ import time
 import math
 import numpy as np
 from enum import Enum
-import logging
 import traceback
 from logging import Logger,DEBUG,INFO,WARNING,ERROR,CRITICAL
 from cv2 import VideoCapture, VideoWriter
 import cv2 as cv
 from subsystems.Computer_Vision import Video_Stream
 import mission.Math_Tools as MT
+from mission.Run_Logging import Logger_Setup as _Logger_Setup
 # import sys
 # import subprocess
 
@@ -20,45 +20,8 @@ import mission.Math_Tools as MT
 
 def Logger_Setup(mission_code:str="Logistic_Handling",
                  level_list:List[int]=[DEBUG,INFO,DEBUG])->Logger:
-
-    '''
-    * 初始化公用日志记录器
-    @param mission_code: 任务代码,决定文件名
-    @param level_list: 日志级别列表,规定logger,file_handler,console_handler的日志级别\n
-        * 可选值:[DEBUG, INFO, WARNING, ERROR, CRITICAL]\n
-        * 参数顺序:[level_logger, level_file_handler, level_console_handler]\n
-        * 默认值:[logging.DEBUG, logging.DEBUG, logging.INFO]\n
-    @returns: Logger对象
-    '''
-
-    level_logger,level_file_handler,level_console_handler=level_list
-
-    # 创建一个日志记录器
-    logger = logging.getLogger('public_logger')
-    logger.setLevel(level_logger)
-
-    # 创建文件处理器
-    file_handler = logging.FileHandler("proj/assets/logs/{}.log".format(mission_code))
-    file_handler.setLevel(level_file_handler)
-
-    # 创建终端处理器
-    console_handler = logging.StreamHandler()
-    console_handler.setLevel(level_console_handler)
-
-    # 创建格式化器
-    # 如需显示日期,datefmt可使用'%Y-%m-%d %H:%M:%S'
-    formatter = logging.Formatter('%(asctime)s.%(msecs)03d - %(levelname)s - %(message)s', 
-                                  datefmt='%H:%M:%S')
-
-    # 设置格式化器
-    file_handler.setFormatter(formatter)
-    console_handler.setFormatter(formatter)
-
-    # 添加处理器
-    logger.addHandler(file_handler)
-    logger.addHandler(console_handler)
-
-    return logger
+    """Initialize the shared run log (kept for existing callers)."""
+    return _Logger_Setup(mission_code, level_list)
 
 
 class myObject:
