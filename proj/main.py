@@ -1,10 +1,12 @@
 from logging import DEBUG
-from mission.Run_Logging import New_Run_Code, Logger_Setup, Install_Exception_Hook
+from mission.Run_Logging import (New_Run_Code, Logger_Setup, Create_Manifest,
+                                 Install_Runtime_Handlers, Add_Cleanup, Finish_Run)
 
 # Initialize logging before imports that open hardware devices.
 Mission_Code = New_Run_Code()
 Public_Logger = Logger_Setup(Mission_Code, [DEBUG, DEBUG, DEBUG])
-Install_Exception_Hook(Public_Logger)
+Create_Manifest(Mission_Code, "proj/assets/videos_temp/{}.avi".format(Mission_Code))
+Install_Runtime_Handlers(Public_Logger, Mission_Code)
 Public_Logger.info("Run started: %s", Mission_Code)
 
 import cv2 as cv
@@ -23,6 +25,8 @@ from mission.Setup import MissionManager, MissionDef, MissionDef_t
 from mission.Setup import myObject
 from mission.Setup import Correction_PosDef as CP
 from mission import Mission_Function as MF
+
+MF.agv.Set_Logger(Public_Logger)
 
 #####################################################################################
 
@@ -152,6 +156,9 @@ MF.use_gyro_flag=True
 
 # 初始化视频流
 myVideo=Video_Setup(Mission_Code,Public_Logger)
+if(myVideo is not None):
+    Add_Cleanup(myVideo.Release_VideoWriter)
+    Add_Cleanup(myVideo.Release_VideoCapture)
 
 # 视频帧捕获任务定义
 Frame_Capture=MissionDef("视频帧捕获",MF.Frame_Capture_Func,None,True)
@@ -256,11 +263,20 @@ def main():
                                              [MF.Frame_Capture_Trigger,
                                               MF.Frame_Mark_Save_Trigger],3)
     end_flag=False
-    while(True):
-        end_flag=mission_manager.Run()
-        if(end_flag==True):
-            Public_Logger.info("End of All Missions")
-            break
+    try:
+        while(True):
+            end_flag=mission_manager.Run()
+            if(end_flag==True):
+                status = "mission_error" if mission_manager.Error_Flag else "success"
+                Finish_Run(status, Public_Logger)
+                break
+    except KeyboardInterrupt:
+        Finish_Run("keyboard_interrupt", Public_Logger)
+        raise
+    except Exception as error:
+        Public_Logger.exception("Main loop failed")
+        Finish_Run("main_loop_exception", Public_Logger, error)
+        raise
 
 
 if(__name__=="__main__"):
