@@ -19,6 +19,7 @@ for path in \
     "proj/assets/logs/${RUN_CODE}.log" \
     "proj/assets/logs/${RUN_CODE}.log.1" \
     "proj/assets/logs/${RUN_CODE}.log.2" \
+    "proj/assets/logs/${RUN_CODE}.json" \
     "proj/assets/videos_temp/${RUN_CODE}.avi"; do
     if [ -f "$path" ]; then
         FILES+=("$path")
