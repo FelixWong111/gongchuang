@@ -118,6 +118,7 @@ Logistic_Robot2025/
 - 每次启动会自动生成唯一的运行代号，例如 `run_20250926_123456_123456_1234`。
 - 文本日志保存到 `proj/assets/logs/<运行代号>.log`，视频保存到
   `proj/assets/videos_temp/<运行代号>.avi`。
+- 高频 DEBUG 记录单独保存到 `<运行代号>.debug.log`，普通日志保留 INFO 及以上内容。
 - 同目录会生成 `<运行代号>.json`，记录运行状态、设备信息、Python 版本、Git 提交号以及对应的日志和录像路径。
 - 日志中会记录任务状态切换（`STAGE`）和底盘控制指令（`AGV_CMD`）。
 - 运行结束会记录 `RUN_END`；正常结束、任务异常、未捕获异常、键盘中断和系统信号会区分状态。
@@ -129,4 +130,10 @@ Logistic_Robot2025/
   bash wizards/export_run.sh <运行代号>
   ```
 
-  导出的压缩包默认保存到 `proj/assets/exports/`。
+  导出的压缩包默认保存到 `proj/assets/exports/`，并生成同名 `.sha256` 校验文件。
+- 导出包附带系统版本、Python 版本和磁盘空间信息；程序启动时也会记录剩余磁盘空间。
+- 不连接硬件即可检查诊断模块：
+
+  ```bash
+  PYTHONPATH=proj python3 wizards/check_diagnostics.py
+  ```
