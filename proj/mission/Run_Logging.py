@@ -2,7 +2,12 @@
 
 import logging
 import os
+import json
+import platform
+import signal
+import subprocess
 import sys
+import atexit
 from datetime import datetime
 from logging.handlers import RotatingFileHandler
 from pathlib import Path
@@ -11,11 +16,116 @@ from pathlib import Path
 LOG_DIR = Path(__file__).resolve().parents[1] / "assets" / "logs"
 MAX_LOG_BYTES = 5 * 1024 * 1024
 LOG_BACKUPS = 2
+_cleanup_callbacks = []
+_run_finished = False
+_run_code = None
+_run_logger = None
+_manifest = {}
 
 
 def New_Run_Code():
     """Use the same unique code for this run's log and video."""
     return "run_{}_{}".format(datetime.now().strftime("%Y%m%d_%H%M%S_%f"), os.getpid())
+
+
+def _git_commit():
+    try:
+        return subprocess.check_output(
+            ["git", "rev-parse", "HEAD"], stderr=subprocess.DEVNULL,
+            text=True, cwd=Path(__file__).resolve().parents[2],
+        ).strip()
+    except Exception:
+        return None
+
+
+def Create_Manifest(run_code, video_path=None):
+    """Create a small machine-readable record tying artifacts to one run."""
+    global _run_code, _manifest
+    _run_code = run_code
+    _manifest = {
+        "run_code": run_code,
+        "pid": os.getpid(),
+        "start_time": datetime.now().astimezone().isoformat(),
+        "host": platform.node(),
+        "platform": platform.platform(),
+        "python": sys.version,
+        "git_commit": _git_commit(),
+        "log_file": str(LOG_DIR / (run_code + ".log")),
+        "video_file": video_path,
+        "status": "running",
+    }
+    _Write_Manifest()
+    return _manifest
+
+
+def _Write_Manifest():
+    if not _manifest or not _run_code:
+        return
+    manifest_path = LOG_DIR / (_run_code + ".json")
+    try:
+        manifest_path.write_text(
+            json.dumps(_manifest, ensure_ascii=False, indent=2), encoding="utf-8"
+        )
+    except Exception:
+        if _run_logger:
+            _run_logger.exception("Failed to write run manifest")
+
+
+def Add_Cleanup(callback):
+    """Register a best-effort cleanup callback for normal and failed exits."""
+    if callback is not None:
+        _cleanup_callbacks.append(callback)
+
+
+def Finish_Run(status, logger=None, error=None):
+    """Close registered resources and persist the final run status once."""
+    global _run_finished
+    if _run_finished:
+        return
+    _run_finished = True
+    if logger is not None:
+        logger.info("RUN_END status=%s", status)
+    for callback in reversed(_cleanup_callbacks):
+        try:
+            callback()
+        except Exception:
+            if logger is not None:
+                logger.exception("Cleanup callback failed")
+    if _manifest:
+        _manifest["status"] = status
+        _manifest["end_time"] = datetime.now().astimezone().isoformat()
+        if error is not None:
+            _manifest["error"] = repr(error)
+        _Write_Manifest()
+
+
+def Install_Runtime_Handlers(logger, run_code):
+    """Install exception, signal, and interpreter-exit handlers."""
+    global _run_logger
+    _run_logger = logger
+
+    def log_unhandled(exc_type, exc_value, exc_traceback):
+        if _run_finished:
+            sys.__excepthook__(exc_type, exc_value, exc_traceback)
+            return
+        if issubclass(exc_type, KeyboardInterrupt):
+            logger.warning("RUN_END status=keyboard_interrupt")
+            Finish_Run("keyboard_interrupt", logger, exc_value)
+            return
+        logger.critical("Uncaught exception", exc_info=(exc_type, exc_value, exc_traceback))
+        Finish_Run("uncaught_exception", logger, exc_value)
+
+    def handle_signal(signum, _frame):
+        logger.warning("Received signal %s", signum)
+        Finish_Run("signal_{}".format(signum), logger)
+        raise SystemExit(128 + signum)
+
+    sys.excepthook = log_unhandled
+    for signal_name in ("SIGINT", "SIGTERM"):
+        signal_value = getattr(signal, signal_name, None)
+        if signal_value is not None:
+            signal.signal(signal_value, handle_signal)
+    atexit.register(lambda: Finish_Run("process_exit", logger))
 
 
 def Logger_Setup(mission_code="Logistic_Handling",
@@ -52,14 +162,5 @@ def Logger_Setup(mission_code="Logistic_Handling",
 
 
 def Install_Exception_Hook(logger):
-    """Record uncaught startup and main-loop exceptions in the run log."""
-    def log_unhandled(exc_type, exc_value, exc_traceback):
-        if issubclass(exc_type, KeyboardInterrupt):
-            sys.__excepthook__(exc_type, exc_value, exc_traceback)
-            return
-        logger.critical(
-            "Uncaught exception",
-            exc_info=(exc_type, exc_value, exc_traceback),
-        )
-
-    sys.excepthook = log_unhandled
+    """Backward-compatible wrapper for callers using the old API."""
+    Install_Runtime_Handlers(logger, _run_code or "unknown")
