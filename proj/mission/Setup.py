@@ -269,6 +269,7 @@ class MissionDef():
 
         # 任务结束标志
         self.End_Flag = False
+        self.Error_Flag = False
 
         # 任务开始时间
         self.Start_Time = None
@@ -305,10 +306,14 @@ class MissionDef():
         self.Logger = mission_logger
 
     def Change_Stage(self,stage:np.uint8=None):
+        old_stage = int(self.Stage_Flag)
         if(stage==None):
             self.Stage_Flag=np.uint8(self.Stage_Flag+1)
         else:
             self.Stage_Flag = np.uint8(stage)
+        if(self.Logger!=None and old_stage != int(self.Stage_Flag)):
+            self.Logger.debug("STAGE mission=%s from=%s to=%s", self.Name,
+                              old_stage, int(self.Stage_Flag))
 
     def Output(self,output_str:str,output_level:int=DEBUG):
         '''
@@ -330,6 +335,7 @@ class MissionDef():
         """
         self.Change_Stage(0)
         self.End_Flag = False
+        self.Error_Flag = False
         self.Start_Time=time.time()
         if(self.Verbose_Flag==True):
             self.Output("Mission({}) Ready".format(self.Name),INFO)
@@ -372,7 +378,9 @@ class MissionDef():
         # 若捕获异常,结束任务并输出错误信息,返回None,外部接收后应跳转至error_handler
         except Exception as e:
             tb=traceback.format_exc()
-            self.Output("Mission({}) Run Error\n{}".format(self.Name,tb),ERROR)
+            self.Error_Flag = True
+            self.Output("MISSION_ERROR mission={} stage={}\n{}".format(
+                self.Name, int(self.Stage_Flag), tb), ERROR)
             # self.End(False)
             return None
         
@@ -428,6 +436,7 @@ class MissionManager(MissionDef):
 
         self.Permanent_Mission_LIst=[]
         self.Trigger_Func_List=[]
+        self.Error_Flag = False
 
     def Set_Permanent_Mission(self,mission_list:List[Union[MissionDef,MissionDef_t]]=[],
                                   trigger_func_list:List[Callable[...,Any]]=[],
@@ -456,6 +465,8 @@ class MissionManager(MissionDef):
 
     # 子任务错误处理
     def Error_Handler(self,mission_code:np.uint8=255):
+        self.Error_Flag = True
+        self.Output("RUN_ABORT mission_code={}".format(int(mission_code)), ERROR)
         error_mission_code=np.uint8(mission_code)
         if(error_mission_code!=255):
             error_mission=self.Mission_List[error_mission_code]
