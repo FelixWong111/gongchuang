@@ -1,3 +1,12 @@
+from logging import DEBUG
+from mission.Run_Logging import New_Run_Code, Logger_Setup, Install_Exception_Hook
+
+# Initialize logging before imports that open hardware devices.
+Mission_Code = New_Run_Code()
+Public_Logger = Logger_Setup(Mission_Code, [DEBUG, DEBUG, DEBUG])
+Install_Exception_Hook(Public_Logger)
+Public_Logger.info("Run started: %s", Mission_Code)
+
 import cv2 as cv
 import numpy as np
 import os
@@ -128,12 +137,6 @@ Partial_MIssion_Test=MissionManager([Rawmaterial_Go_Home],[[0,0,0]],True,0)
 
 #####################################################################################
 
-# 任务代号
-Mission_Code="debug_0716_1611"
-
-# 创建公共日志记录器
-Public_Logger=Setup.Logger_Setup(Mission_Code,[DEBUG,DEBUG,DEBUG])
-
 #####################################################################################
 
 # 是否显示任务码
@@ -256,7 +259,7 @@ def main():
     while(True):
         end_flag=mission_manager.Run()
         if(end_flag==True):
-            print("End of All Missions")
+            Public_Logger.info("End of All Missions")
             break
 
 
