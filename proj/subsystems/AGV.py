@@ -26,8 +26,16 @@ class myAGV:
     def __init__(self,device_id:np.uint8,uart_port:str,baud_rate:int):
         # 指定设备ID
         self.device_id=device_id
+        self.Logger=None
         # 指定底盘指令串口，并进行相关配置
         self.uartPort=serial.Serial(uart_port,baud_rate,timeout=0.5)
+
+    def Set_Logger(self, logger):
+        self.Logger = logger
+
+    def _Log_Command(self, command, **params):
+        if self.Logger is not None:
+            self.Logger.debug("AGV_CMD command=%s params=%s", command, params)
 
 
     def __str__(self):
@@ -51,6 +59,8 @@ class myAGV:
         Vx_mm_s=np.int16(Velo_List[0])
         Vy_mm_s=np.int16(Velo_List[1])
         Omege_deg_s=np.int16(Velo_List[2])
+        self._Log_Command("velocity", vx=int(Vx_mm_s), vy=int(Vy_mm_s),
+                          omega=int(Omege_deg_s))
 
         # 设置广义速度方向标志位
         sign_flag=np.uint8(0x00)
@@ -102,6 +112,8 @@ class myAGV:
         direction:MOVJ_Drection = param_list[0]
         rou_mm = np.uint16(param_list[1])
         omega_deg_s = np.uint16(param_list[2])
+        self._Log_Command("movj", direction=direction.name, radius=int(rou_mm),
+                          omega=int(omega_deg_s))
 
         # 装载命令声明
         AGV_Data_Frame[0]=AGVCommand.MOVJ_CONTROL.value
@@ -141,6 +153,7 @@ class myAGV:
         y_mm=np.int16(pos_param_list[1])
         # 参数theta_degx10为转动角度值*10,目的是实现小角度转动(分辨率0.1度)
         theta_degx10=np.int16(pos_param_list[2])
+        self._Log_Command("position", x=int(x_mm), y=int(y_mm), theta_x10=int(theta_degx10))
 
         # 设置广义速度方向标志位
         sign_flag=np.uint8(0x00)
@@ -183,6 +196,7 @@ class myAGV:
         # 校验目标角度值
         if(target_angle_deg<=-180 or target_angle_deg>180):
             raise ValueError("角度值必须在(-180,180]范围内")
+        self._Log_Command("angle_correction", target_angle=int(target_angle_deg))
         # 装载命令声明
         AGV_Data_Frame[0]=AGVCommand.ANGLE_CORRECTION.value
         minus_flag=np.uint8(0x00)
