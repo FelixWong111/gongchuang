@@ -1,6 +1,7 @@
 from logging import DEBUG
 from mission.Run_Logging import (New_Run_Code, Logger_Setup, Create_Manifest,
                                  Install_Runtime_Handlers, Add_Cleanup, Finish_Run)
+from mission.Run_Logging import Check_Disk_Space
 
 # Initialize logging before imports that open hardware devices.
 Mission_Code = New_Run_Code()
@@ -8,6 +9,7 @@ Public_Logger = Logger_Setup(Mission_Code, [DEBUG, DEBUG, DEBUG])
 Create_Manifest(Mission_Code, "proj/assets/videos_temp/{}.avi".format(Mission_Code))
 Install_Runtime_Handlers(Public_Logger, Mission_Code)
 Public_Logger.info("Run started: %s", Mission_Code)
+Check_Disk_Space(logger=Public_Logger)
 
 import cv2 as cv
 import numpy as np
