@@ -187,9 +187,9 @@ yaw_compensation=-5             # 全局yaw轴误差补偿<舵机微分值>
 MF.RM.ProcessPutFetch_Yaw_Comp=2  # 加工区放置/回收专用的yaw轴误差补偿<deg>(在全局补偿的基础上)
 MF.RM.StuffPlatePutFetch_Yaw_Comp=2
 MF.arm=myManipulator([(65,130,130),(71,-20-1.12,0)],Public_Logger,MF.myServo)
-MF.arm.Set_Joint_to_Actuator_Matrix([[[90,430],[90-16.8,500]],
-                                    [[(180-90),420],[180-(90+19.2),500]],
-                                    [[0,750+yaw_compensation],[60,1000+yaw_compensation]]])
+MF.arm.Set_Joint_to_Actuator_Matrix([[[92,549],[72.5,448]],
+                                    [[-3,440],[15,500]],
+                                    [[26.9,610+yaw_compensation],[47.7,700+yaw_compensation]]])
 MF.arm.Set_YawAccRatio(0.2,0.25)
 MF.arm.Set_Claw_Angles((800,980))
 MF.arm.Set_Radial_Offset(50)
